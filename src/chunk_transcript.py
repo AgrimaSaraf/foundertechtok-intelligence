@@ -1,18 +1,42 @@
 from pathlib import Path
+import re
 
+
+# Load the transcript
 transcript_path = Path("data/transcripts/episode_01.txt")
 
 with open(transcript_path, "r", encoding="utf-8") as file:
     transcript = file.read()
 
-chunk_size = 1000
+
+# Split the transcript into sentences
+sentences = re.split(r'(?<=[.!?])\s+', transcript)
+
+
+# Maximum size of each chunk
+max_chunk_size = 1000
 
 chunks = []
+current_chunk = ""
 
-for i in range(0, len(transcript), chunk_size):
-    chunk = transcript[i:i + chunk_size]
-    chunks.append(chunk)
 
+# Build chunks sentence by sentence
+for sentence in sentences:
+
+    if len(current_chunk) + len(sentence) <= max_chunk_size:
+        current_chunk += sentence + " "
+
+    else:
+        chunks.append(current_chunk.strip())
+        current_chunk = sentence + " "
+
+
+# Add the final chunk
+if current_chunk:
+    chunks.append(current_chunk.strip())
+
+
+# Show the results
 print("Number of chunks:", len(chunks))
 
 print("\nFIRST CHUNK:\n")
