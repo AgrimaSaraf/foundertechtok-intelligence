@@ -44,3 +44,6 @@ print(chunks[0])
 
 print("\nSECOND CHUNK:\n")
 print(chunks[1])
+
+print("\nSECOND CHUNK:\n")
+print(chunks[1])
