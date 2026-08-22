@@ -1,1 +1,997 @@
+Episode 01: FounderTechTok with Khushy Aggarwal
+Guest Name: Khushy Aggarwal 
 
+0:17
+Yeah. Hi everyone. So, welcome to Founder Tech Talk podcast, a space where
+0:23
+we sit with founders and decode their journeys. So today's episode is all
+0:28
+about insight is something that uh every sales team secretly obsesses over and
+0:34
+not the corporate spreadsheet kind but the one that makes everyone go like okay
+0:40
+how much am I making and how do I make more kind and the person who turned this
+0:45
+universal confusion into a clean modern SAS product is my guest today Kushi
+0:50
+Agarwal and what I love about her journey is that it comes strong real
+0:56
+legacy and the courage to turn a traditional business into a modern SAS.
+1:01
+Hi Kushi, welcome to founder tech talk. Hi everyone,
+1:07
+thank you for having me. I'm so excited about this. Thank you. Uh thank you for being here
+1:13
+being my first guest. So I'll just like dive right into questions so that we get to know more about you and what you're
+1:19
+building. Um so yeah my first question is if uh you had to explain what your
+1:25
+business does to a 15year-old how would you explain it without any business?
+1:32
+Sure. So um I'll I'll talk to you as if you're the 15year-old if that's okay
+1:38
+though I'm sure much older and wiser than that. Um, okay. So, I would start by just
+1:46
+asking um have you been to a watch store? Have I been to
+1:51
+a a store that sells watches? Like, could you give me an example of a couple of stores that sell watches that you've
+1:57
+been to in India or outside India? Yeah, like Titan, Kissio.
+2:04
+Um, yeah, couple of like Yeah. Awesome. Cool. So yeah, I think
+2:10
+explaining maybe I mean Titan's our customer, Casio or any other sort of
+2:17
+watch store, right? Explaining it from that perspective. Um so let's say I go
+2:22
+to a watch store and I have an idea of I want to buy something but I'm not 100%
+2:28
+sure about it. Um I think that's when retail salespeople really drive value
+2:35
+because they would help sort of discuss with me and consult me as to like what
+2:42
+kind of watch to buy. So my software incentivizes those retail salespeople.
+2:49
+So, some sales people are just really good at what they do because they know how to understand uh the person that
+2:56
+they're selling to and they know how to help them in a way that feels authentic and not pushy. So, I don't know if
+3:04
+you've had this experience, but sometimes I go into a clothing store and I don't want to talk to a man and then
+3:10
+somehow the saleserson realizes it and they like come to me when I do need help. So that's actually what the art of
+3:18
+retail selling is to be able to help the customer in a way that feels authentic
+3:24
+to them. Um, and that's what my software enables. So basically for the saleserson
+3:32
+at a watch store, my software would tell them what their monthly target is and
+3:38
+how they're performing against their target. And it would also gify this
+3:43
+process. So um you know there's some watches that would uh be more expensive
+3:50
+or be newer products which the brand would probably want to sell more of. So
+3:57
+Microsoftware would nudge the saleserson as to these new product offerings and
+4:02
+encourage them to sell more of those SKUs. Um and then at the end of the
+4:07
+month my software also pays this incentive to them. So you know um we do
+4:14
+everything from showing them how they are performing to actually then rewarding them. May it be in cash or may
+4:20
+it be in um Amazon gift vouchers or may it be in um gold or any sort of exciting
+4:28
+reward uh based on the audience. Okay, that's an example. Can you also
+4:33
+like simplify what cases means for the audience if that's
+4:39
+Yeah. Yeah. I actually don't know what it stands for, but yeah, like just the specific product that's being sold. So,
+4:46
+an orange watch would have a different SKU than a green watch, I think. Yeah. Got it. Nice. Okay. So, like what
+4:53
+frustration or like the gap in market did you feel like when you know you had
+4:59
+to build this? Yeah, sure. So I think uh to answer that
+5:04
+Agria I might have to like take one step back because um my incentive as a
+5:11
+product has a little bit of a different journey than maybe like a startup that's
+5:16
+VC funded. Um, so to give you some context, I know we spoke about this
+5:22
+offline, but um, I built my incentives as a SAS or software product within my
+5:30
+mom's larger customer and channel loyalty company. So, um, just like let's
+5:37
+say we rewind actually almost a little less than four years from now. Um, it
+5:43
+was 2021. Um it was CO and I mean it was I think the second wave of CO um in
+5:51
+India um and it was November and my mom and I both got CO together at the same
+5:58
+time. Um and we at that point I lived
+6:04
+with my parents and my grandparents lived in the house. So the two of us isolated to her room so that we uh could
+6:11
+create sort of a safer spot for the rest of the family. And I remember just being
+6:18
+kind of bored. I had just left my gig as chief of staff in a software company and
+6:25
+was figuring out what to do next. and mom had been running and is like running
+6:32
+this channel and customer loyalty business and she was telling me about it. Um and she was telling me about the
+6:39
+kind of customer she has and she was talking about how um she built software
+6:47
+for customer loyalty. So let's say if you fly Air India you'd see the loyalty
+6:54
+platform Maharaja loyalty I think that's what it's called and she was talking
+6:59
+about how many of these big businesses um work with companies like hers to
+7:06
+build customer or channel loyalty products but each time these businesses
+7:12
+would build a new product or software that's bespoke are
+7:18
+unique to their company, right? And my mom's company would build it for them and then manage it for them. Hence, a
+7:26
+combination of IT services and loyalty. But um I think that really frustrated me
+7:32
+cuz I thought that look the the like problem of um having um like a group of
+7:41
+people that needs to be rewarded for a certain behavior and gamification are
+7:47
+actually like human problems. They're not company specific problems. So
+7:54
+instead of building new software each time in which budgets are limited and
+7:59
+companies don't really want to pay as much for improving the technology, why
+8:05
+not build one SAS product that can solve these problems in a flexible and dynamic
+8:12
+and tech first format? So should I move on to the next?
+8:19
+Yeah. So like and building on that like you told me about your mom and how like
+8:25
+you were uh isolated and how it generated your ideas. So like how did
+8:30
+your like your early environment like the family business or the values that you get from your family like influence
+8:37
+your you know the risk takingaking appetite that entrepreneur should have or like the creation.
+8:45
+Yeah for sure. So, um, you know, I probably didn't know it at the time
+8:51
+because I was a kid, but now reflecting back, um, I grew up in a family of
+8:56
+entrepreneurs. So, my dad, um, had a business that manufactured electrical
+9:01
+spare parts. Um, and my mom, um, she came from sort of like her her parents
+9:08
+also had family businesses, um, back in Roak in Hana. So I think growing up
+9:16
+seeing my mom and dad be entrepreneurs probably I guess like influenced me to
+9:22
+just like think of interesting problems from first principles and then think about like innovative ways to solve it.
+9:30
+Um, I don't want to get into like a ton of detail, but basically like my mom's
+9:35
+my role model, right? I think that at each stage of my life, I've seen like the way in which she's done stuff and
+9:43
+been really inspired by it. Um so mom actually like she grew up in the small
+9:50
+town in Rodak Hana came from business families so she had exposure but she
+9:56
+actually got married to my dad when she was 20 right so like very different from
+10:02
+um millennials or genz's right like just very big generational
+10:08
+uh she then had my brother when she was 21 she had me when she was 25 and Um
+10:15
+around that time she knew that she wanted to do something work-wise but um
+10:21
+she kind of picked to prioritize family in her 20ies and when she was like 25 um
+10:28
+she decided to take a computer coding course. So this is like rewind back
+10:35
+right I'm like this was in 1995 and at that point like um I don't know
+10:43
+Java C++ and like all of these languages were like quite new
+10:49
+right uh so she took this course in Mumbai and uh she liked it she was good
+10:55
+at it but she said hey you know I honestly don't like the technical aspect
+11:00
+as much as I like thinking about the design and the business. So she launched
+11:06
+like an e-commerce company in India back in like 1997
+11:12
+which is like I think like it was one of the first e-commerce companies that were in India at the point and I obviously
+11:20
+didn't realize it but she was partnering with like technology partners like um
+11:25
+Anupa Mittal who I think in today's day everyone knows about but back then they
+11:32
+were all just figuring it out right So I think that um just like she's done such
+11:38
+cool stuff and she doesn't like the spotlight so she kind of just does the work and builds the businesses. She's a
+11:45
+social serial entrepreneur. Um but I think like just sort of probably like
+11:51
+seeing that growing up seeing how both my mom and my dad just ran businesses
+11:57
+that were profitable. They thought about hiring the right people and then thought
+12:02
+about like empowering them to do their best work and they did it in like a very
+12:07
+organic way. There wasn't any business school or like you know coaching etc
+12:12
+involved at that time but I think that probably did influence both my brother and me because even he's a entrepreneur.
+12:20
+Yeah that's nice. I mean I feel like they were very early in the game of software. I think 1990s
+12:27
+if you are building a e-commerce website that's like a way ahead of his time anyways.
+12:34
+Yeah, it was they were the first Indian company to use the ICICI payment
+12:40
+gateway. So yeah, there were a lot of firsts at that point. I mean she built the business bootstrap and she sold it
+12:47
+within three years. So um yeah that's another story to tell but um yeah she's
+12:53
+done it's inspiring to have it like in your mother you know uh in your mother's
+12:58
+story so like I feel like you might have inherited that those jeans anyways it's in your DNA.
+13:06
+Yeah. Yeah. I mean I think there are all these like stories about our moms or
+13:11
+ouris doing like really cool stuff that like kind of like untold stories, right?
+13:16
+I think just generally people tend to cast a spotlight on like these million
+13:22
+dollar exits etc. So I think that's something I feel very like personally passionate with as well.
+13:30
+I feel like yeah I think so many of my moms and like my aunts who built
+13:36
+businesses but I feel like even though they might not have seen like my they
+13:41
+might not see million or billion dollar exits but they're still like so inspiring because they are the
+13:47
+foundation on what we build on and what we learn from. So I feel like that's really important. I'm so happy to like
+13:53
+learn that your parents are like so successful like on your voice and that you are like you know building on top of
+14:00
+that. That's really Yeah, thank you. I think it definitely
+14:05
+like made me get to know mom in a new way over the last four years because I
+14:11
+got to know her as an adult, right? and as a CEO. When I was a kid and when I was in college and when I was working at
+14:17
+Bane, it was still like mom as my mom and now it's like mom as the CEO. So,
+14:24
+it's just like it's it's interesting. Seeing her from a different lens.
+14:29
+Yeah. Yeah. For sure. Seeing her as an adult.
+14:34
+Okay. So, what was the hardest decision that you made by building? I think this is more like operational some but like
+14:43
+what like what in a big picture would you say was like one of the hardest decisions I made?
+14:50
+Yeah, it's a great question. So honestly like I just said earlier the decision to
+14:57
+start my incentives was spontaneous. Like it was just like huh this is
+15:02
+interesting. Why are all of these big companies not um using good quality
+15:08
+scalable tech first software? Right? So
+15:13
+now when I think back I'm like wow that was like a really big decision I made but at the time it didn't feel like
+15:18
+that. I think maybe this is not the hardest but like honestly what I've struggled with the most is um dealing
+15:27
+with rejection. I know this is like kind of a cliche answer, but um
+15:33
+growing up like I've had like a very like almost like Taipei personality, right? Like did really well in school,
+15:40
+got like um got into a great college, played squash there competitively,
+15:48
+um got this like fancy job at Bay. So it
+15:53
+was almost like everything around me like the way the validation and
+15:59
+incentives were lined up um I was used to getting um accepted or praised etc.
+16:07
+And I think that um the last four years like one of the most difficult things is
+16:13
+just being a saleserson. So, um I've
+16:19
+like I remember back in 2021, we had a few um pilot customers who the
+16:26
+product worked well with and I was trying to expand um our customer base to
+16:33
+more customers, right? And we had like um maybe a 50% built product that was
+16:39
+working well with these pilot customers. And um I pitched to 80 companies and 80
+16:46
+people said no to me. Um which is like fine. Sure if like the product doesn't
+16:52
+have good product market fit. I think that's every that's something founders should expect. But what was really hard
+16:59
+was that I was using my BA skill set. So I was basically giving a lot of these
+17:05
+companies free consulting and these are huge companies. These are like uh top
+17:10
+five market leaders in auto and tractors and spare parts etc. Right? So I would
+17:17
+be talking to like these really senior executives at these companies and spend one or two months basically doing like
+17:25
+free consulting work for them helping them think through their incentive plans and the pain points and their like the
+17:32
+way incentives are calculated. helping them like find sometimes like errors in their incentive calculation that led to
+17:40
+like lacks and cores of mismatches from an accounting perspective but after
+17:45
+doing all of that they would just be like hey I I don't want to buy your software so I think that was like brutal
+17:54
+um and I think yeah like personally for me too it's been ups and downs with learning how to deal with that how to be
+18:03
+a saleserson in a way that's authentic to me but at the same time I'm not getting taken advantage of by like
+18:09
+giving a lot of free work in the form of my time which like for my product is one
+18:14
+of our most valuable assets right
+18:21
+okay very uh okay quite a bit of learning there yeah what about you I'm curious to you I
+18:28
+mean you know I know that you are working in analytics and strategy and
+18:34
+business. But I think like it's been so cool to like hear about your sort of um
+18:40
+journey studying in the US, working there, moving back to India. So like what's been the hardest for you? I'm
+18:47
+just curious. I think um personally the hardest thing was working the university
+18:54
+um because I did not get that was like my first job
+19:02
+and like see you know the job that I worked with right how you know things
+19:10
+but like I didn't get a chance to that I think that was personally very difficult
+19:15
+and obviously co was very isolating I without my family. I was living alone in an apartment. So you can know how
+19:22
+isolating that life can be um in the US especially when you're like no one
+19:29
+like that. But yeah personally that but I think I've had like I have faced a lot
+19:35
+of rejections. And I've been type A like you like I've always been studious and I love to study things from ground up like
+19:42
+I have never shied away from you know be engineering entrance examinations or
+19:47
+like you know studying for nurses and language or anything. So I never shied
+19:52
+away from studying things from up and doing all of the hard work that is required. Uh but
+20:00
+I've had a lot of rejections and I try a lot like I just like that's my way of
+20:06
+like uh uh venting out but like yeah I've had a lot
+20:12
+of rejections but I think that is me I think my greatest inspiration she's
+20:19
+always been like you know don't shy away from work and like always you know keep going I think yeah I think it's just an
+20:26
+ongoing process I'm still learning how to deal with it. Even like when applying for jobs these days in such a
+20:34
+uh you know not so good economy and trying to like find a good job which is
+20:40
+a good fit for you is also very difficult. So I think yeah it's like an
+20:45
+ongoing process like I still apply for jobs where I think I'll be a good fit.
+20:53
+Just curious one one more question. Um are you millennial or gen Z? because I
+20:59
+think we both are like kind of on the cusp, right? Yeah. So, I think I'm 95 born. How does
+21:04
+that make me? What would you call yourself? I don't like these labels to be honest.
+21:10
+I'm like, it just makes me sound like what if like I tax myself something and
+21:15
+like other person is like, "Oh, that's so cool. Like, you're an aunt now." Like, I'm like, "I don't want any labels
+21:21
+now." I'm like, "My age is a strain now." Like, [laughter] fair enough. So we're around the same
+21:28
+name, right? Uh the reason I asked not was not not to put you on the spot.
+21:34
+It was more because um so I'm I'm quite millennial, right? I've uh grown up in
+21:41
+this whole millennium and um I think that something that I've experienced
+21:48
+over the last two three years is that I've hired a lot of Gen Z team members
+21:53
+uh to work with me because being a bootstrapped uh company um my preference
+22:00
+is always just try to hire folks who are high energy and willing to learn and then teach them what they need to know.
+22:07
+Um, and I think something I've learned from some of my Gen Z colleagues is to
+22:14
+work smarter, not longer, right? And I think it's been a lot of unlearning for
+22:19
+me. Uh I think someone described this to me like how do you be like lazy smart
+22:25
+not um like hardworking smart and obviously I don't know throwing hours at
+22:31
+the problem comes very naturally to me like from I guess my millennial
+22:37
+um like characteristics but I think like like you said um hard work is so
+22:45
+ingrained but I think it's something I have to almost unlearn as an entrepreneur Right? It's like, how can I
+22:50
+be lazy smart? Because out of the 10 or 15 things that I'm going to try or my
+22:56
+team's going to try, 14 of them are probably not going to work out. So, how do we continue to try many many
+23:03
+different things and be as smart about it as we can, but at the same time not
+23:08
+get married to like one idea, you know? Yeah. Yeah. I think Yeah. I think the
+23:14
+gen Z definitely started in a way that they have so many tools at their
+23:21
+disposal like uh you know that also I think helps which wasn't there like when
+23:27
+we go at least like you know so it always sort of like brings into perspective what sort of
+23:33
+work you want to do like how much work you want to put in into something is always decided by the resources and the
+23:40
+tools and your you know so I feel like when they have so many things available
+23:46
+be it like through internet or like all of these tools AI tools I feel like if I
+23:53
+were to do the same thing like 10 years ago or like 5 years ago I would have like dug up like the history and the
+23:59
+geography and like the you know math and science of everything but now it's more
+24:04
+like how it works. I feel like obviously there's a shift um uh a huge shift and I
+24:11
+think people growing up with all of this have a different mindset and they like
+24:17
+they they work tomorrow. I feel like they get themselves. Yeah, honestly that's a great point. Um
+24:23
+also I guess the reason I've been able to be quote unquote like lazy smart over
+24:29
+the last two years is because of AI, right? So the tools and the resources at
+24:35
+our disposal now has shifted significantly to the tools and resources we had at our disposal when we were
+24:42
+teenagers or in our 20ies. So I think that makes a big difference. Yeah. So there's yeah you're right like
+24:48
+there's a lot of unlearning that I had to do as well because like every time I get a problem I like get into the root
+24:56
+cause of it but now people are more like you know how do we think big picture and they drill it down to like the smaller
+25:02
+parts of it. Yeah. Okay. So I think yeah that brings
+25:08
+me to my next question. So like how does technology fit into your philosophy?
+25:13
+like is it I know it's a SAS product so it's like tech first uh so yeah so what
+25:20
+sort of tech do you can you just briefly like tell everyone like what sort of
+25:25
+tech sure so I'm going to answer your question in two parts so firstly in
+25:31
+terms of the tech you know what we built is a really really flexible um incentive
+25:37
+calculation engine um at the back end and that really powers us to calculate
+25:44
+incentives real time. It powers us to nudge sales reps on like even like an
+25:50
+hourly basis based in when high volumes are expected in the store or based in
+25:56
+sort of like this is October, November festival season, right? So based in like
+26:02
+uh festivals etc. It allows us to nudge them in a very smart way. Um, so that's
+26:07
+one key part of the tech just like a flexible incentive mechanism that allows
+26:14
+us to automate incentives that used to take um sort of or like sales teams
+26:21
+maybe three or four days to calculate at the end of the month, right? or it would
+26:26
+span across um like 20 different Excel tabs um that we can sort of calculate
+26:35
+that um in real time. So that's one piece and then the second piece is
+26:40
+sophisticated technology around payouts. So like I mentioned, this is actually
+26:46
+strongly linked to the company mom built back in 1997 because she was the first
+26:53
+company to use ICICI as a payment gateway. So I think that she sold her business
+27:00
+businesses three or four times. So it's evolved but the the like core like
+27:08
+reward fulfillment engine I'm using jargon but I guess like the core engine
+27:14
+to actually pay out the sales people right may it be in terms of cash or may it be in terms of gift vouchers or may
+27:21
+it be in terms of um like gifts like gold or jew um that's another key part
+27:29
+of the innovation right um So my product is not only like SAS or software but
+27:35
+it's also like a financial product that has um that powers more than 200 koroes
+27:42
+um incentive payments in India. Interesting very important like [snorts]
+27:49
+yeah to come back to the second way I wanted to answer that question. I guess
+27:56
+honestly when you like have mentioned this question the first thing that came
+28:01
+to me was technology is an enabler it's not the philosophy itself because I
+28:07
+think that honestly even now the philosophy is trust like this is the
+28:13
+philosophy mom built the business on right like how do I find the right partners find the right employees find
+28:19
+the right customers and really build a trusting relationship with them so that
+28:25
+even if we don't get it right immediately in a month, we will eventually get it right. And I think
+28:32
+that is still the core philosophy in my team and my product because I've also
+28:38
+been like so inspired by Norman like learned so much from them. So I think as much as I can like I'll try to be as
+28:46
+like vulnerable and raw as I can with my team because I'd want to like try to
+28:52
+hire the right people and then empower them to do as well as they can and also
+28:57
+trying to be authentic with my customers which is always a tricky balance but like trying to like be open with them if
+29:04
+we mess up or like you know um be open with them to be like hey we get that the
+29:10
+product might have this problem area and we will use tech to solve it but it's
+29:16
+going to take us some time and like building that relationship of trust over time so that they are okay with an
+29:23
+answer. Yeah. Yeah. I think in the business of trust like you need to like build trust
+29:28
+that we are going to solve like you know when you go to a doctor it's more about like everything's going to be okay no
+29:35
+matter what tech they use I think which is I think a really good analogy
+29:41
+to think of in this age of chat GPT you can trust the doctor like stop
+29:47
+trusting chat GPT for medical advice oh yeah that's true
+29:53
+like initially there was Google and now it's like tragedy between people like used to diagnose self diagnoses.
+30:01
+I know my doctor friends are like it's it's good but it's really irritating
+30:06
+because patients just feel like they know what's wrong with them which is [clears throat] not always right. Right.
+30:14
+Okay. So like okay what like moment in your journey changed you as a person
+30:20
+like as a founder? I think you mentioned rejections and you know building trust.
+30:27
+How how how has it changed you and what crowds?
+30:32
+Yeah, I think honestly the biggest um thing that changed me was just being
+30:38
+rejected so many times and having to be a bit more juggernaut or creative in how
+30:44
+to get move towards the business objectives and also humility. I feel like so many
+30:51
+rejections in life like really humbles you. Don't you think it's like oh it
+30:58
+always like with me it's always like okay I'm I'm so well prepared now I'm just going to kick ass like and whenever
+31:05
+I get like rejections I'm like oh you know this has really humbled me like
+31:11
+really for sure I think humility is a call engine I mean so my like software
+31:16
+incentivizes sales people right and the whole premise is these are not your fancy software sales people these are
+31:24
+mechanic mechanics. These are retailers selling uh auto spare parts. These are retailers selling oil lubricants. These
+31:30
+are um yeah, of course, we also work in the luxury segment. So sales reps who are selling jewelry or watches, right?
+31:38
+But ultimately, I've learned so much about sales from them like you know like
+31:44
+they know how to read the customer. They know how to build trust as well. So I I
+31:50
+mean I think sales is sales, right? You can put different wrappers around it, but ultimately if you're selling
+31:55
+software or if you're selling spare parts, you need to sort of drive value for the
+32:01
+customer and then they will purchase your product. Okay. So like Okay. So how do like what
+32:09
+what do you do to like ground yourself? So whenever you feel like you have
+32:14
+rejections and like yeah dealing with any sort of uncertaint
+32:20
+Yeah it's a good question. Sorry I didn't answer the question the first time. Um I think that and I've learned
+32:27
+this the hard way because I've also like gone through a bunch of anxiety of the last year or two being a founder and
+32:34
+it's something that now I'm getting more comfortable with actually sharing more openly.
+32:40
+But um I think like trying to sort of like draw my
+32:47
+boundaries is like an easy way to say it. But for example, you texted me or I
+32:53
+think maybe sent me an email later last night, right? And I like set settings on
+32:59
+my phone so that 7:00 p.m. at night to 7:00 a.m. in the morning, I can't access
+33:05
+any. So, like I guess I think that
+33:11
+this is a little bit of a circular answer, but um just learning how to draw my boundaries and say that look, I'm an
+33:18
+entrepreneur, so I might actually work seven days a week, right? But I'm okay with that because
+33:25
+I would have more flexibility as to how I want to achieve what I want to achieve. And I want to have my best self
+33:31
+show up to work each day. May it be physically in the office or may it be trying to solve a the complex business
+33:38
+equivalent. So to directly answer your question, I think yoga, pranayam, more
+33:44
+recently like ayurveetic practices have really helped ground me. And then I've
+33:50
+always been like an like a sports person growing up like I always played some sort of sport when I was a kid and I
+33:56
+still do play squash. So like squash as well. I think all these things around me
+34:02
+and then also like I'm married and my husband and I uh both live in Mumbai.
+34:08
+We're both from Mumbai. So like spending time in his family and then my parents I
+34:14
+think is also just like really really nice to have like to live 10 minutes away from him.
+34:20
+Oh, you live 10 minutes away. That's so sweet. That's so nice. I feel really lucky. It's like
+34:25
+um I think it's the exception. Yeah, it's it's definitely an exception.
+34:31
+It's definitely nice. I think being uh the one thing that I can relate to uh my
+34:37
+mom does a lot of yoga and like I am very close to her. So I think being with
+34:42
+her um really grounds me as well like and also like the mandala part like the
+34:48
+things that we bonded over like Instagram. Yeah, I've started doing that
+34:54
+and it feels like really helps me calm my anxiety every time like I have a new
+34:59
+job interview or like I'm doing stuff in my podcast. I feel like uh it really like drowns me. I'm not
+35:06
+into sports yet. I just started playing pickle ball but not [laughter]
+35:12
+I mean I think it's like the biggest thing that yoga taught me is like once
+35:17
+I'm on the mat it's just me on the mat and like I'm competing against myself.
+35:22
+So I feel like that should just to say that like pick whatever feels authentic
+35:28
+to you, right? Okay. So, so building on top of like the
+35:37
+uh you know what rounds you and what like has shaped you, what kind of people do you hire? Like I we mentioned that
+35:43
+you hired a lot of sexy folks, right? Yeah. So, what kind of energy do you
+35:50
+look for while hiring and Yeah. Honestly, what I love about like our
+35:56
+product and our team is that it's actually a big diversity of different age groups. I think that, you know,
+36:04
+having worked at a VC funded startup um
+36:10
+in strategy before this um for the most part folks tended tend tended to be in
+36:16
+their 20s and 50s um because you need to bring a lot of energy to a startup, right? Um but with my incentives because
+36:27
+um mom's company has helped incubate the product um like our CFO and our finance
+36:34
+team or even like some members of our like customer success team are actually
+36:39
+like 20 years older than me. So, I think that's like it's a pretty cool mix of
+36:45
+ages um of like experienced f experienced folks who might be a lot
+36:50
+more calm and grounded and then uh millennials and gen z's with a lot more
+36:55
+energy but you'll probably make a lot of gym mistakes. So
+37:01
+um but to answer your question directly um I mean I think that like core values
+37:09
+for me personally a lot of them I've picked up from mom are um au
+37:15
+authenticity. Sorry. [clears throat] Sorry. Just come in.
+37:27
+Nice. Is that That's like super like trending right now, right? Is that
+37:38
+Um, okay. So, your question was, "What energy do you matter?" Um so yeah like I
+37:46
+mentioned in terms of the energy that we hire it's a mix in terms of ages. Um we
+37:52
+have folks and diversity when it comes to um folks from different ages. 60% of
+37:59
+our team is actually women. uh which is like something I'm really proud of because our team is 60 people and out of
+38:05
+that like more than 35 uh of our team members are women and not
+38:11
+only at the junior levels but at the senior levels and of course that's also driven by mom um but to answer your
+38:18
+question um I think authenticity so like
+38:24
+I actually I couldn't verbalize this maybe two or three years ago it was just like this
+38:30
+gut feeling that sometimes when I would hire candidates, I'd really just want to
+38:35
+go like if I had to pick between me and two people and one person felt more qualified. He felt like he had more
+38:41
+direct um more of his closer skill set match with what we were looking for and then
+38:48
+the other one was a little less qualified but seemed just excited to learn and sincere and maybe less of a
+38:55
+great communicator too. Something about my butt feeling 3 years ago told me go
+39:01
+with the second person. And I think now I can articulate it. It has to do with like authenticity and being open and
+39:08
+honest. But I think that's a curve for us. Um also being hardworking, right?
+39:15
+Like sure like some of our Gen Z team members might uh take some shortcuts but
+39:21
+ultimately they are they're accountable for their business priorities right so
+39:27
+as long as they get the outcomes of what they're working towards I'm okay if the output is a little different so um I
+39:36
+think yeah like being hardworking or being like just very accountable or proactive to this is what my role is
+39:43
+this is what I really want I achieve and am I doing my best to achieve that?
+39:48
+So I think yeah those are like some of the needs that
+39:57
+and so that brings me to my next question is what is the next frontier? The idea that
+40:06
+things exciting. So like okay what what makes you excited about like the next decade or the next five or
+40:16
+Yeah, Jenz, do you like Okay, that's the first question. Do you think like the Jenzie
+40:21
+like do they uh change the trend of like where you're going? Do they come up with
+40:27
+criteras of like where the company should go? Because I feel like the Gen Z
+40:32
+always like thinks big picture like they're not afraid to dream big these days because of so many powerful tools
+40:38
+at their disposal. they they come back like confidence of like you know how
+40:44
+things should be like I feel my I feel like you're like remaining with ideas of
+40:52
+the company wishing for action. Yeah for sure. I think that um you know
+41:00
+like for example um the marketing manager I had last year was very
+41:06
+generally um is very gen he's moved on to another company uh West and I
+41:14
+remember like you know I would be like hey can you do these five things right
+41:20
+and we'd have our weekly meeting and I'd be like let's do these five things and he would do three he wouldn't tell me he
+41:27
+wouldn't do the other two but he wouldn't and it was secretly cuz he didn't think it was a good idea but
+41:34
+I would just be like where are the other two and then nearly a month later I was like he was right like that was not
+41:40
+a good idea so yes I think you know to
+41:45
+answer your question like I feel like for example from my marketing manager right um I was able to learn so much
+41:53
+more of like the power of personal branding and like putting myself out there to help unionize our product and
+42:01
+that's something that like we got to together. I didn't like I think he helped push me towards it. Um so yeah
+42:09
+like for sure I mean I think that like different folks in our team will
+42:15
+help bring out like bigger ideas.
+42:20
+That's exciting. And I feel like uh you never know all of these things when you apply, right? But along the way, you
+42:27
+sort of learn that so much you can learn from your Yeah. And I think it goes back to the
+42:33
+point that you said of like the humility to be like, hey, look, I don't have the answers. I'm really not a marketing
+42:40
+expert. I'm hiring you because you know more about marketing than I do and we'll figure it out together. So I think like
+42:48
+that's probably another like hiring philosophy as well.
+42:54
+So me the next question. Okay. Have you ever faced a where you were conflicted
+43:01
+between what's right and what's efficient? I feel like this is again an operational
+43:08
+question but I feel like it should be fun. Yeah, it's a great question. I think
+43:14
+that given that we've spoken so much about team building, I'll stick to that theme. Um I think that you know um like
+43:23
+I mentioned, we care a lot about accountability, right? So unfortunately sometimes we hire someone and 3 to 6
+43:31
+months down the line they're not actually accountable enough because of whatever reason to get their work done.
+43:38
+Right? So I think for example um most recently
+43:45
+maybe a year ago actually there was a sales rep on our team and he was really sweet but he wasn't being able to close
+43:52
+sales and I think that like I coached him for 3 months I coached him for 6 months and then eventually I was like
+43:59
+hey look I just need to lock him like this is not working well and I think the
+44:05
+efficient thing would have been to let him go 2 months tough time with him cuz my gut feeling was like look this is not
+44:12
+making sense but because I was like no I've hired him and you know we've made
+44:19
+this commitment to make this work we kept coaching him and kept giving him
+44:24
+feedback. Um so yeah I think like hiring and firing positions are like a good
+44:31
+example of like that trade-off between efficiency and ethics. Um, and it's
+44:37
+always so scary. Like I remember the first time I hired someone like they started crying and they were like, you
+44:44
+know, like we'll try harder and like we'll do better and we'll make this work. And it was heartbreaking for me. I
+44:50
+was just like, you know, I feel for you. Like this sucks, but unfortunately I
+44:58
+need to like prioritize what the business needs. Yeah. So yeah, it's it's hard
+45:04
+because they're not just resources, you know. Yeah. Yeah. They're my friends, right?
+45:12
+Yeah. Okay. So like uh beyond revenue that your company generates, like you said,
+45:19
+it's business, but like what human change do you hope like your book creates?
+45:25
+Anything you represses humanity? as they say I feel like all businesses are sort of brutal.
+45:34
+[laughter] Let's just humanize all of the businesses like yeah
+45:40
+I think few different things and I've touched upon these themes in the earlier questions but firstly just like showing
+45:47
+or proving out that a software business can be bootstrapped and can be successful. I think secondly
+45:55
+um we're a 60 person team but it is like a very sort of like family first friends
+46:02
+first kind of environment. So I think just through like my own like the way I
+46:08
+try to show up at work just try to be vulnerable and authentic and make that okay. I think the third is um like just
+46:16
+trying to make it as outcome oriented not output oriented so that people from
+46:22
+different like working styles can succeed right like both of our tech leads are women and they are both
+46:28
+mentors and they're awesome but one of them works from home like full-time and
+46:34
+she's been with us for two years so obviously she worked to build that trust up but um I think if she couldn't work
+46:41
+from home we probably wouldn't have been able to have her as a part of the team because she's balancing these two
+46:47
+different things. So, I think like trying to like focus a lot on accountability and getting your task
+46:53
+done and then giving folks flexibility to like pick how they choose to get their work done. Um, I think that's
+47:00
+another thing that I don't know like mom's been able to do that over the last 30 years. So obviously it's true and
+47:06
+it's possible and it's doable even for an Indian software business that's
+47:12
+threat. So I think like just continuing to like uh build this culture
+47:22
+and the fact that you follow as friends I feel like that's
+47:27
+I don't know if they all call me their friend. I think I call them friendly and approachable. I'm sure like
+47:34
+they call you a cat. [laughter] But I like the strong American culture.
+47:39
+I feel like that wasn't there in India like for right
+47:44
+like for sure. Okay. So which brings me to my last
+47:50
+question for the day which is like if founder tech talk podcast had a time capsule for like a decade from now like
+47:58
+2035 what message from you like your journey would like you like to leave inside like
+48:05
+what uh which means that which what sort of you know eternal message would you
+48:12
+want? Yeah, it's a good question. I think um okay, I'll start off with what
+48:19
+the message is, which is not original, and then I'll let you know why I think the message is true for me, which will
+48:26
+be like based on actual examples that I've gone through. So I think um Naval
+48:32
+Radiant who I guess most people if they're listening to this podcast would have definitely heard of him um he like
+48:40
+one of the things that he says and I'm paraphrasing here is in order to like
+48:45
+solve old problems look at old ways of thinking and in order to solve new problems think of new ways of thinking
+48:52
+right and I think I've learned that the hard way over the last five years so for
+48:59
+example An old problem is something like how do
+49:04
+I live my life in a healthy way, right? I mean this is something that humans
+49:10
+have been thinking about for hundreds of years, right? Hence old ways of thinking
+49:16
+which is like yoga and eyelid um and coloring for example really helps
+49:23
+it and that's what I try to do like these are old problems like so you know
+49:29
+any philosophy or any practice that has survived hundreds of years probably has
+49:35
+some bad things right. Um and then in terms of the new new problems and new
+49:40
+ways of thinking um obviously like I run a software product in 2025 in which like
+49:48
+AI has significantly changed every part of business right so how do I use um
+49:55
+like different AI tools may it be for like voice to text enscription or may it
+50:01
+be NLM or may it be image generation in different teams in my company, may it be
+50:08
+tech, may it be customer success, may it be design, um to really sort of position
+50:15
+us well for the future.
+50:20
+That's great. I think that's a very good message. I really look up to Mel myself.
+50:26
+I think I read about him and his tweets are really good. Yeah. Yeah.
+50:32
+Yeah. And do you like read anything? like how do you um so I was just
+50:37
+wondering if like I could also start like a book club with this podcast because I love to like read sometimes
+50:43
+whenever so what sort of books do you read like in terms of
+50:50
+sound mindset okay it's I'm not going to directly
+50:55
+answer your question again to be honest like if my friends see this
+51:00
+podcast they will make fun of like fully make fun of me Because I think the
+51:06
+biggest things with my friends remind me of is not to take life so too seriously.
+51:12
+So they'd be like, "Huh, 7:00, no devices." Yes, we know. You sleep at
+51:17
+10:00 p.m. every night. It's really annoying. So I think honestly like a lot of the
+51:23
+books that I read are just like fun books because I have a hard enough day job. So I just like reading fiction. Um,
+51:33
+in terms of philosophy, David Foster Wallace taught at Amos, which is the
+51:38
+college that I went to, and I love his stuff. He actually has this amazing uh
+51:44
+graduation speech called This is Moto that I highly recommend. And then in
+51:51
+terms of business books, I don't really read like entrepreneurship or business books to be honest. It's more like
+51:58
+podcasts or like um articles. Um but um
+52:03
+yeah like I write some of the stuff that Excel the BC in India puts some work um
+52:10
+on AI and on like just good like high quality entrepreneurs. Um I think they
+52:18
+do a good job with content. Um Naval Rab
+52:23
+and then my Instagram is mainly just like brands. So
+52:29
+not that much difference. Okay. Nice. Yeah.
+52:35
+So I think you learn more on the job and from your parents. I think uh for sure. Yeah, I guess one more thing
+52:42
+is I started my career at Bane and I feel really lucky because I think I got trained in how to be an adult and how to
+52:48
+be a professional, right? Like I think Bane's really really good at teaching you how do you be professional, how do
+52:56
+you pitch yourself in enterprises, how do you like, you know, communicate well.
+53:02
+So I think going back to some of my main mentors as well is is super helpful.
+53:09
+Yes. I think that's good. That's all of my questions uh for today's
+53:16
+episode. So, thank you so much Pusheen for being here.
+53:22
+So grateful that you could call our client from your busy schedule today.
+53:28
+And yeah, that's it. I think uh for the audiences like whoever's listening, if this conversation like sparks something
+53:35
+in you, we like please share it with a friend. and everything.
+53:41
+Thanks. Thank you.
