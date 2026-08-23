@@ -18,6 +18,20 @@ max_chunk_size = 1000
 overlap_sentences = 2
 
 chunks = []
+episode_number = 1
+guest_name = "Khushy Aggarwal"
+
+chunks_with_metadata = []
+
+for index, chunk in enumerate(chunks):
+    chunk_data = {
+        "chunk_id": index + 1,
+        "episode": episode_number,
+        "guest": guest_name,
+        "text": chunk
+    }
+
+    chunks_with_metadata.append(chunk_data)
 current_sentences = []
 current_length = 0
 
@@ -70,8 +84,3 @@ print(chunks[1])
 
 print("\nTHIRD CHUNK:\n")
 print(chunks[2])
-
-print("Number of chunks:", len(chunks_with_metadata))
-
-print("\nFIRST CHUNK WITH METADATA:\n")
-print(chunks_with_metadata[0])
