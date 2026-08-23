@@ -23,7 +23,7 @@ chunk_embeddings = model.encode(texts)
 
 
 # 4. Ask a question
-question = "What did Khushy say about helping customers?"
+question = input("\nAsk FounderTechTok Intelligence a question: ")
 
 
 # 5. Convert question into an embedding
