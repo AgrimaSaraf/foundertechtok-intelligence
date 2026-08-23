@@ -1,0 +1,366 @@
+[
+  {
+    "chunk_id": 1,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "0:17",
+    "text": "Yeah. Hi everyone. So, welcome to Founder Tech Talk podcast, a space where we sit with founders and decode their journeys. So today's episode is all about insight is something that uh every sales team secretly obsesses over and not the corporate spreadsheet kind but the one that makes everyone go like okay how much am I making and how do I make more kind and the person who turned this universal confusion into a clean modern SAS product is my guest today Kushi Agarwal and what I love about her journey is that it comes strong real legacy and the courage to turn a traditional business into a modern SAS. Hi Kushi, welcome to founder tech talk. Hi everyone, thank you for having me. I'm so excited about this. Thank you. Uh thank you for being here being my first guest. So I'll just like dive right into questions so that we get to know more about you and what you're building. Um so yeah my first question is if uh you had to explain what your"
+  },
+  {
+    "chunk_id": 2,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "1:13",
+    "text": "being my first guest. So I'll just like dive right into questions so that we get to know more about you and what you're building. Um so yeah my first question is if uh you had to explain what your business does to a 15year-old how would you explain it without any business? Sure. So um I'll I'll talk to you as if you're the 15year-old if that's okay though I'm sure much older and wiser than that. Um, okay. So, I would start by just asking um have you been to a watch store? Have I been to a a store that sells watches? Like, could you give me an example of a couple of stores that sell watches that you've been to in India or outside India? Yeah, like Titan, Kissio. Um, yeah, couple of like Yeah. Awesome. Cool. So yeah, I think explaining maybe I mean Titan's our customer, Casio or any other sort of watch store, right? Explaining it from that perspective. Um so let's say I go to a watch store and I have an idea of I want to buy something but I'm not 100%"
+  },
+  {
+    "chunk_id": 3,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "2:17",
+    "text": "watch store, right? Explaining it from that perspective. Um so let's say I go to a watch store and I have an idea of I want to buy something but I'm not 100% sure about it. Um I think that's when retail salespeople really drive value because they would help sort of discuss with me and consult me as to like what kind of watch to buy. So my software incentivizes those retail salespeople. So, some sales people are just really good at what they do because they know how to understand uh the person that they're selling to and they know how to help them in a way that feels authentic and not pushy. So, I don't know if you've had this experience, but sometimes I go into a clothing store and I don't want to talk to a man and then somehow the saleserson realizes it and they like come to me when I do need help. So that's actually what the art of retail selling is to be able to help the customer in a way that feels authentic to them. Um, and that's what my software enables. So basically for the saleserson"
+  },
+  {
+    "chunk_id": 4,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "3:18",
+    "text": "retail selling is to be able to help the customer in a way that feels authentic to them. Um, and that's what my software enables. So basically for the saleserson at a watch store, my software would tell them what their monthly target is and how they're performing against their target. And it would also gify this process. So um you know there's some watches that would uh be more expensive or be newer products which the brand would probably want to sell more of. So Microsoftware would nudge the saleserson as to these new product offerings and encourage them to sell more of those SKUs. Um and then at the end of the month my software also pays this incentive to them. So you know um we do everything from showing them how they are performing to actually then rewarding them. May it be in cash or may it be in um Amazon gift vouchers or may it be in um gold or any sort of exciting reward uh based on the audience. Okay, that's an example. Can you also"
+  },
+  {
+    "chunk_id": 5,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "4:20",
+    "text": "it be in um Amazon gift vouchers or may it be in um gold or any sort of exciting reward uh based on the audience. Okay, that's an example. Can you also like simplify what cases means for the audience if that's Yeah. Yeah. I actually don't know what it stands for, but yeah, like just the specific product that's being sold. So, an orange watch would have a different SKU than a green watch, I think. Yeah. Got it. Nice. Okay. So, like what frustration or like the gap in market did you feel like when you know you had to build this? Yeah, sure. So I think uh to answer that Agria I might have to like take one step back because um my incentive as a product has a little bit of a different journey than maybe like a startup that's VC funded. Um, so to give you some context, I know we spoke about this offline, but um, I built my incentives as a SAS or software product within my mom's larger customer and channel loyalty company. So, um, just like let's"
+  },
+  {
+    "chunk_id": 6,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "5:22",
+    "text": "offline, but um, I built my incentives as a SAS or software product within my mom's larger customer and channel loyalty company. So, um, just like let's say we rewind actually almost a little less than four years from now. Um, it was 2021. Um it was CO and I mean it was I think the second wave of CO um in India um and it was November and my mom and I both got CO together at the same time. Um and we at that point I lived with my parents and my grandparents lived in the house. So the two of us isolated to her room so that we uh could create sort of a safer spot for the rest of the family. And I remember just being kind of bored. I had just left my gig as chief of staff in a software company and was figuring out what to do next. and mom had been running and is like running this channel and customer loyalty business and she was telling me about it. Um and she was telling me about the kind of customer she has and she was talking about how um she built software"
+  },
+  {
+    "chunk_id": 7,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "6:32",
+    "text": "this channel and customer loyalty business and she was telling me about it. Um and she was telling me about the kind of customer she has and she was talking about how um she built software for customer loyalty. So let's say if you fly Air India you'd see the loyalty platform Maharaja loyalty I think that's what it's called and she was talking about how many of these big businesses um work with companies like hers to build customer or channel loyalty products but each time these businesses would build a new product or software that's bespoke are unique to their company, right? And my mom's company would build it for them and then manage it for them. Hence, a combination of IT services and loyalty. But um I think that really frustrated me cuz I thought that look the the like problem of um having um like a group of people that needs to be rewarded for a certain behavior and gamification are actually like human problems. They're not company specific problems. So"
+  },
+  {
+    "chunk_id": 8,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "7:41",
+    "text": "people that needs to be rewarded for a certain behavior and gamification are actually like human problems. They're not company specific problems. So instead of building new software each time in which budgets are limited and companies don't really want to pay as much for improving the technology, why not build one SAS product that can solve these problems in a flexible and dynamic and tech first format? So should I move on to the next? Yeah. So like and building on that like you told me about your mom and how like you were uh isolated and how it generated your ideas. So like how did your like your early environment like the family business or the values that you get from your family like influence your you know the risk takingaking appetite that entrepreneur should have or like the creation. Yeah for sure. So, um, you know, I probably didn't know it at the time because I was a kid, but now reflecting back, um, I grew up in a family of"
+  },
+  {
+    "chunk_id": 9,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "8:45",
+    "text": "Yeah for sure. So, um, you know, I probably didn't know it at the time because I was a kid, but now reflecting back, um, I grew up in a family of entrepreneurs. So, my dad, um, had a business that manufactured electrical spare parts. Um, and my mom, um, she came from sort of like her her parents also had family businesses, um, back in Roak in Hana. So I think growing up seeing my mom and dad be entrepreneurs probably I guess like influenced me to just like think of interesting problems from first principles and then think about like innovative ways to solve it. Um, I don't want to get into like a ton of detail, but basically like my mom's my role model, right? I think that at each stage of my life, I've seen like the way in which she's done stuff and been really inspired by it. Um so mom actually like she grew up in the small town in Rodak Hana came from business families so she had exposure but she actually got married to my dad when she was 20 right so like very different from"
+  },
+  {
+    "chunk_id": 10,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "9:50",
+    "text": "town in Rodak Hana came from business families so she had exposure but she actually got married to my dad when she was 20 right so like very different from um millennials or genz's right like just very big generational uh she then had my brother when she was 21 she had me when she was 25 and Um around that time she knew that she wanted to do something work-wise but um she kind of picked to prioritize family in her 20ies and when she was like 25 um she decided to take a computer coding course. So this is like rewind back right I'm like this was in 1995 and at that point like um I don't know Java C++ and like all of these languages were like quite new right uh so she took this course in Mumbai and uh she liked it she was good at it but she said hey you know I honestly don't like the technical aspect as much as I like thinking about the design and the business. So she launched like an e-commerce company in India back in like 1997"
+  },
+  {
+    "chunk_id": 11,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "11:00",
+    "text": "as much as I like thinking about the design and the business. So she launched like an e-commerce company in India back in like 1997 which is like I think like it was one of the first e-commerce companies that were in India at the point and I obviously didn't realize it but she was partnering with like technology partners like um Anupa Mittal who I think in today's day everyone knows about but back then they were all just figuring it out right So I think that um just like she's done such cool stuff and she doesn't like the spotlight so she kind of just does the work and builds the businesses. She's a social serial entrepreneur. Um but I think like just sort of probably like seeing that growing up seeing how both my mom and my dad just ran businesses that were profitable. They thought about hiring the right people and then thought about like empowering them to do their best work and they did it in like a very organic way. There wasn't any business school or like you know coaching etc"
+  },
+  {
+    "chunk_id": 12,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "12:02",
+    "text": "about like empowering them to do their best work and they did it in like a very organic way. There wasn't any business school or like you know coaching etc involved at that time but I think that probably did influence both my brother and me because even he's a entrepreneur. Yeah that's nice. I mean I feel like they were very early in the game of software. I think 1990s if you are building a e-commerce website that's like a way ahead of his time anyways. Yeah, it was they were the first Indian company to use the ICICI payment gateway. So yeah, there were a lot of firsts at that point. I mean she built the business bootstrap and she sold it within three years. So um yeah that's another story to tell but um yeah she's done it's inspiring to have it like in your mother you know uh in your mother's story so like I feel like you might have inherited that those jeans anyways it's in your DNA. Yeah. Yeah. I mean I think there are all these like stories about our moms or"
+  },
+  {
+    "chunk_id": 13,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "12:58",
+    "text": "story so like I feel like you might have inherited that those jeans anyways it's in your DNA. Yeah. Yeah. I mean I think there are all these like stories about our moms or ouris doing like really cool stuff that like kind of like untold stories, right? I think just generally people tend to cast a spotlight on like these million dollar exits etc. So I think that's something I feel very like personally passionate with as well. I feel like yeah I think so many of my moms and like my aunts who built businesses but I feel like even though they might not have seen like my they might not see million or billion dollar exits but they're still like so inspiring because they are the foundation on what we build on and what we learn from. So I feel like that's really important. I'm so happy to like learn that your parents are like so successful like on your voice and that you are like you know building on top of that. That's really Yeah, thank you. I think it definitely"
+  },
+  {
+    "chunk_id": 14,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "13:53",
+    "text": "learn that your parents are like so successful like on your voice and that you are like you know building on top of that. That's really Yeah, thank you. I think it definitely like made me get to know mom in a new way over the last four years because I got to know her as an adult, right? and as a CEO. When I was a kid and when I was in college and when I was working at Bane, it was still like mom as my mom and now it's like mom as the CEO. So, it's just like it's it's interesting. Seeing her from a different lens. Yeah. Yeah. For sure. Seeing her as an adult. Okay. So, what was the hardest decision that you made by building? I think this is more like operational some but like what like what in a big picture would you say was like one of the hardest decisions I made? Yeah, it's a great question. So honestly like I just said earlier the decision to start my incentives was spontaneous. Like it was just like huh this is interesting. Why are all of these big companies not um using good quality"
+  },
+  {
+    "chunk_id": 15,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "14:57",
+    "text": "start my incentives was spontaneous. Like it was just like huh this is interesting. Why are all of these big companies not um using good quality scalable tech first software? Right? So now when I think back I'm like wow that was like a really big decision I made but at the time it didn't feel like that. I think maybe this is not the hardest but like honestly what I've struggled with the most is um dealing with rejection. I know this is like kind of a cliche answer, but um growing up like I've had like a very like almost like Taipei personality, right? Like did really well in school, got like um got into a great college, played squash there competitively, um got this like fancy job at Bay. So it was almost like everything around me like the way the validation and incentives were lined up um I was used to getting um accepted or praised etc. And I think that um the last four years like one of the most difficult things is just being a saleserson. So, um I've"
+  },
+  {
+    "chunk_id": 16,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "16:07",
+    "text": "And I think that um the last four years like one of the most difficult things is just being a saleserson. So, um I've like I remember back in 2021, we had a few um pilot customers who the product worked well with and I was trying to expand um our customer base to more customers, right? And we had like um maybe a 50% built product that was working well with these pilot customers. And um I pitched to 80 companies and 80 people said no to me. Um which is like fine. Sure if like the product doesn't have good product market fit. I think that's every that's something founders should expect. But what was really hard was that I was using my BA skill set. So I was basically giving a lot of these companies free consulting and these are huge companies. These are like uh top five market leaders in auto and tractors and spare parts etc. Right? So I would be talking to like these really senior executives at these companies and spend one or two months basically doing like"
+  },
+  {
+    "chunk_id": 17,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "17:10",
+    "text": "five market leaders in auto and tractors and spare parts etc. Right? So I would be talking to like these really senior executives at these companies and spend one or two months basically doing like free consulting work for them helping them think through their incentive plans and the pain points and their like the way incentives are calculated. helping them like find sometimes like errors in their incentive calculation that led to like lacks and cores of mismatches from an accounting perspective but after doing all of that they would just be like hey I I don't want to buy your software so I think that was like brutal um and I think yeah like personally for me too it's been ups and downs with learning how to deal with that how to be a saleserson in a way that's authentic to me but at the same time I'm not getting taken advantage of by like giving a lot of free work in the form of my time which like for my product is one of our most valuable assets right"
+  },
+  {
+    "chunk_id": 18,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "18:09",
+    "text": "giving a lot of free work in the form of my time which like for my product is one of our most valuable assets right okay very uh okay quite a bit of learning there yeah what about you I'm curious to you I mean you know I know that you are working in analytics and strategy and business. But I think like it's been so cool to like hear about your sort of um journey studying in the US, working there, moving back to India. So like what's been the hardest for you? I'm just curious. I think um personally the hardest thing was working the university um because I did not get that was like my first job and like see you know the job that I worked with right how you know things but like I didn't get a chance to that I think that was personally very difficult and obviously co was very isolating I without my family. I was living alone in an apartment. So you can know how isolating that life can be um in the US especially when you're like no one"
+  },
+  {
+    "chunk_id": 19,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "19:15",
+    "text": "and obviously co was very isolating I without my family. I was living alone in an apartment. So you can know how isolating that life can be um in the US especially when you're like no one like that. But yeah personally that but I think I've had like I have faced a lot of rejections. And I've been type A like you like I've always been studious and I love to study things from ground up like I have never shied away from you know be engineering entrance examinations or like you know studying for nurses and language or anything. So I never shied away from studying things from up and doing all of the hard work that is required. Uh but I've had a lot of rejections and I try a lot like I just like that's my way of like uh uh venting out but like yeah I've had a lot of rejections but I think that is me I think my greatest inspiration she's always been like you know don't shy away from work and like always you know keep going I think yeah I think it's just an"
+  },
+  {
+    "chunk_id": 20,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "20:12",
+    "text": "of rejections but I think that is me I think my greatest inspiration she's always been like you know don't shy away from work and like always you know keep going I think yeah I think it's just an ongoing process I'm still learning how to deal with it. Even like when applying for jobs these days in such a uh you know not so good economy and trying to like find a good job which is a good fit for you is also very difficult. So I think yeah it's like an ongoing process like I still apply for jobs where I think I'll be a good fit. Just curious one one more question. Um are you millennial or gen Z? because I think we both are like kind of on the cusp, right? Yeah. So, I think I'm 95 born. How does that make me? What would you call yourself? I don't like these labels to be honest. I'm like, it just makes me sound like what if like I tax myself something and like other person is like, \"Oh, that's so cool. Like, you're an aunt now.\" Like, I'm like, \"I don't want any labels"
+  },
+  {
+    "chunk_id": 21,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "21:10",
+    "text": "I'm like, it just makes me sound like what if like I tax myself something and like other person is like, \"Oh, that's so cool. Like, you're an aunt now.\" Like, I'm like, \"I don't want any labels now.\" I'm like, \"My age is a strain now.\" Like, [laughter] fair enough. So we're around the same name, right? Uh the reason I asked not was not not to put you on the spot. It was more because um so I'm I'm quite millennial, right? I've uh grown up in this whole millennium and um I think that something that I've experienced over the last two three years is that I've hired a lot of Gen Z team members uh to work with me because being a bootstrapped uh company um my preference is always just try to hire folks who are high energy and willing to learn and then teach them what they need to know. Um, and I think something I've learned from some of my Gen Z colleagues is to work smarter, not longer, right? And I think it's been a lot of unlearning for"
+  },
+  {
+    "chunk_id": 22,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "22:07",
+    "text": "Um, and I think something I've learned from some of my Gen Z colleagues is to work smarter, not longer, right? And I think it's been a lot of unlearning for me. Uh I think someone described this to me like how do you be like lazy smart not um like hardworking smart and obviously I don't know throwing hours at the problem comes very naturally to me like from I guess my millennial um like characteristics but I think like like you said um hard work is so ingrained but I think it's something I have to almost unlearn as an entrepreneur Right? It's like, how can I be lazy smart? Because out of the 10 or 15 things that I'm going to try or my team's going to try, 14 of them are probably not going to work out. So, how do we continue to try many many different things and be as smart about it as we can, but at the same time not get married to like one idea, you know? Yeah. Yeah. I think Yeah. I think the gen Z definitely started in a way that they have so many tools at their"
+  },
+  {
+    "chunk_id": 23,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "23:08",
+    "text": "get married to like one idea, you know? Yeah. Yeah. I think Yeah. I think the gen Z definitely started in a way that they have so many tools at their disposal like uh you know that also I think helps which wasn't there like when we go at least like you know so it always sort of like brings into perspective what sort of work you want to do like how much work you want to put in into something is always decided by the resources and the tools and your you know so I feel like when they have so many things available be it like through internet or like all of these tools AI tools I feel like if I were to do the same thing like 10 years ago or like 5 years ago I would have like dug up like the history and the geography and like the you know math and science of everything but now it's more like how it works. I feel like obviously there's a shift um uh a huge shift and I think people growing up with all of this have a different mindset and they like"
+  },
+  {
+    "chunk_id": 24,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "24:04",
+    "text": "like how it works. I feel like obviously there's a shift um uh a huge shift and I think people growing up with all of this have a different mindset and they like they they work tomorrow. I feel like they get themselves. Yeah, honestly that's a great point. Um also I guess the reason I've been able to be quote unquote like lazy smart over the last two years is because of AI, right? So the tools and the resources at our disposal now has shifted significantly to the tools and resources we had at our disposal when we were teenagers or in our 20ies. So I think that makes a big difference. Yeah. So there's yeah you're right like there's a lot of unlearning that I had to do as well because like every time I get a problem I like get into the root cause of it but now people are more like you know how do we think big picture and they drill it down to like the smaller parts of it. Yeah. Okay. So I think yeah that brings me to my next question. So like how does technology fit into your philosophy?"
+  },
+  {
+    "chunk_id": 25,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "25:02",
+    "text": "parts of it. Yeah. Okay. So I think yeah that brings me to my next question. So like how does technology fit into your philosophy? like is it I know it's a SAS product so it's like tech first uh so yeah so what sort of tech do you can you just briefly like tell everyone like what sort of tech sure so I'm going to answer your question in two parts so firstly in terms of the tech you know what we built is a really really flexible um incentive calculation engine um at the back end and that really powers us to calculate incentives real time. It powers us to nudge sales reps on like even like an hourly basis based in when high volumes are expected in the store or based in sort of like this is October, November festival season, right? So based in like uh festivals etc. It allows us to nudge them in a very smart way. Um, so that's one key part of the tech just like a flexible incentive mechanism that allows us to automate incentives that used to take um sort of or like sales teams"
+  },
+  {
+    "chunk_id": 26,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "26:07",
+    "text": "one key part of the tech just like a flexible incentive mechanism that allows us to automate incentives that used to take um sort of or like sales teams maybe three or four days to calculate at the end of the month, right? or it would span across um like 20 different Excel tabs um that we can sort of calculate that um in real time. So that's one piece and then the second piece is sophisticated technology around payouts. So like I mentioned, this is actually strongly linked to the company mom built back in 1997 because she was the first company to use ICICI as a payment gateway. So I think that she sold her business businesses three or four times. So it's evolved but the the like core like reward fulfillment engine I'm using jargon but I guess like the core engine to actually pay out the sales people right may it be in terms of cash or may it be in terms of gift vouchers or may it be in terms of um like gifts like gold or jew um that's another key part"
+  },
+  {
+    "chunk_id": 27,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "27:14",
+    "text": "to actually pay out the sales people right may it be in terms of cash or may it be in terms of gift vouchers or may it be in terms of um like gifts like gold or jew um that's another key part of the innovation right um So my product is not only like SAS or software but it's also like a financial product that has um that powers more than 200 koroes um incentive payments in India. Interesting very important like [snorts] yeah to come back to the second way I wanted to answer that question. I guess honestly when you like have mentioned this question the first thing that came to me was technology is an enabler it's not the philosophy itself because I think that honestly even now the philosophy is trust like this is the philosophy mom built the business on right like how do I find the right partners find the right employees find the right customers and really build a trusting relationship with them so that"
+  },
+  {
+    "chunk_id": 28,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "28:13",
+    "text": "philosophy mom built the business on right like how do I find the right partners find the right employees find the right customers and really build a trusting relationship with them so that even if we don't get it right immediately in a month, we will eventually get it right. And I think that is still the core philosophy in my team and my product because I've also been like so inspired by Norman like learned so much from them. So I think as much as I can like I'll try to be as like vulnerable and raw as I can with my team because I'd want to like try to hire the right people and then empower them to do as well as they can and also trying to be authentic with my customers which is always a tricky balance but like trying to like be open with them if we mess up or like you know um be open with them to be like hey we get that the product might have this problem area and we will use tech to solve it but it's"
+  },
+  {
+    "chunk_id": 29,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "29:04",
+    "text": "we mess up or like you know um be open with them to be like hey we get that the product might have this problem area and we will use tech to solve it but it's going to take us some time and like building that relationship of trust over time so that they are okay with an answer. Yeah. Yeah. I think in the business of trust like you need to like build trust that we are going to solve like you know when you go to a doctor it's more about like everything's going to be okay no matter what tech they use I think which is I think a really good analogy to think of in this age of chat GPT you can trust the doctor like stop trusting chat GPT for medical advice oh yeah that's true like initially there was Google and now it's like tragedy between people like used to diagnose self diagnoses. I know my doctor friends are like it's it's good but it's really irritating because patients just feel like they know what's wrong with them which is [clears throat] not always right. Right."
+  },
+  {
+    "chunk_id": 30,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "30:01",
+    "text": "I know my doctor friends are like it's it's good but it's really irritating because patients just feel like they know what's wrong with them which is [clears throat] not always right. Right. Okay. So like okay what like moment in your journey changed you as a person like as a founder? I think you mentioned rejections and you know building trust. How how how has it changed you and what crowds? Yeah, I think honestly the biggest um thing that changed me was just being rejected so many times and having to be a bit more juggernaut or creative in how to get move towards the business objectives and also humility. I feel like so many rejections in life like really humbles you. Don't you think it's like oh it always like with me it's always like okay I'm I'm so well prepared now I'm just going to kick ass like and whenever I get like rejections I'm like oh you know this has really humbled me like really for sure I think humility is a call engine I mean so my like software"
+  },
+  {
+    "chunk_id": 31,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "31:05",
+    "text": "I get like rejections I'm like oh you know this has really humbled me like really for sure I think humility is a call engine I mean so my like software incentivizes sales people right and the whole premise is these are not your fancy software sales people these are mechanic mechanics. These are retailers selling uh auto spare parts. These are retailers selling oil lubricants. These are um yeah, of course, we also work in the luxury segment. So sales reps who are selling jewelry or watches, right? But ultimately, I've learned so much about sales from them like you know like they know how to read the customer. They know how to build trust as well. So I I mean I think sales is sales, right? You can put different wrappers around it, but ultimately if you're selling software or if you're selling spare parts, you need to sort of drive value for the customer and then they will purchase your product. Okay. So like Okay. So how do like what"
+  },
+  {
+    "chunk_id": 32,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "31:55",
+    "text": "software or if you're selling spare parts, you need to sort of drive value for the customer and then they will purchase your product. Okay. So like Okay. So how do like what what do you do to like ground yourself? So whenever you feel like you have rejections and like yeah dealing with any sort of uncertaint Yeah it's a good question. Sorry I didn't answer the question the first time. Um I think that and I've learned this the hard way because I've also like gone through a bunch of anxiety of the last year or two being a founder and it's something that now I'm getting more comfortable with actually sharing more openly. But um I think like trying to sort of like draw my boundaries is like an easy way to say it. But for example, you texted me or I think maybe sent me an email later last night, right? And I like set settings on my phone so that 7:00 p.m. at night to 7:00 a.m. in the morning, I can't access any. So, like I guess I think that"
+  },
+  {
+    "chunk_id": 33,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "32:59",
+    "text": "my phone so that 7:00 p.m. at night to 7:00 a.m. in the morning, I can't access any. So, like I guess I think that this is a little bit of a circular answer, but um just learning how to draw my boundaries and say that look, I'm an entrepreneur, so I might actually work seven days a week, right? But I'm okay with that because I would have more flexibility as to how I want to achieve what I want to achieve. And I want to have my best self show up to work each day. May it be physically in the office or may it be trying to solve a the complex business equivalent. So to directly answer your question, I think yoga, pranayam, more recently like ayurveetic practices have really helped ground me. And then I've always been like an like a sports person growing up like I always played some sort of sport when I was a kid and I still do play squash. So like squash as well. I think all these things around me and then also like I'm married and my husband and I uh both live in Mumbai."
+  },
+  {
+    "chunk_id": 34,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "33:56",
+    "text": "still do play squash. So like squash as well. I think all these things around me and then also like I'm married and my husband and I uh both live in Mumbai. We're both from Mumbai. So like spending time in his family and then my parents I think is also just like really really nice to have like to live 10 minutes away from him. Oh, you live 10 minutes away. That's so sweet. That's so nice. I feel really lucky. It's like um I think it's the exception. Yeah, it's it's definitely an exception. It's definitely nice. I think being uh the one thing that I can relate to uh my mom does a lot of yoga and like I am very close to her. So I think being with her um really grounds me as well like and also like the mandala part like the things that we bonded over like Instagram. Yeah, I've started doing that and it feels like really helps me calm my anxiety every time like I have a new job interview or like I'm doing stuff in my podcast. I feel like uh it really like drowns me. I'm not"
+  },
+  {
+    "chunk_id": 35,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "34:54",
+    "text": "and it feels like really helps me calm my anxiety every time like I have a new job interview or like I'm doing stuff in my podcast. I feel like uh it really like drowns me. I'm not into sports yet. I just started playing pickle ball but not [laughter] I mean I think it's like the biggest thing that yoga taught me is like once I'm on the mat it's just me on the mat and like I'm competing against myself. So I feel like that should just to say that like pick whatever feels authentic to you, right? Okay. So, so building on top of like the uh you know what rounds you and what like has shaped you, what kind of people do you hire? Like I we mentioned that you hired a lot of sexy folks, right? Yeah. So, what kind of energy do you look for while hiring and Yeah. Honestly, what I love about like our product and our team is that it's actually a big diversity of different age groups. I think that, you know, having worked at a VC funded startup um"
+  },
+  {
+    "chunk_id": 36,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "35:56",
+    "text": "product and our team is that it's actually a big diversity of different age groups. I think that, you know, having worked at a VC funded startup um in strategy before this um for the most part folks tended tend tended to be in their 20s and 50s um because you need to bring a lot of energy to a startup, right? Um but with my incentives because um mom's company has helped incubate the product um like our CFO and our finance team or even like some members of our like customer success team are actually like 20 years older than me. So, I think that's like it's a pretty cool mix of ages um of like experienced f experienced folks who might be a lot more calm and grounded and then uh millennials and gen z's with a lot more energy but you'll probably make a lot of gym mistakes. So um but to answer your question directly um I mean I think that like core values for me personally a lot of them I've picked up from mom are um au authenticity. Sorry. [clears throat] Sorry. Just come in."
+  },
+  {
+    "chunk_id": 37,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "37:09",
+    "text": "for me personally a lot of them I've picked up from mom are um au authenticity. Sorry. [clears throat] Sorry. Just come in. Nice. Is that That's like super like trending right now, right? Is that Um, okay. So, your question was, \"What energy do you matter?\" Um so yeah like I mentioned in terms of the energy that we hire it's a mix in terms of ages. Um we have folks and diversity when it comes to um folks from different ages. 60% of our team is actually women. uh which is like something I'm really proud of because our team is 60 people and out of that like more than 35 uh of our team members are women and not only at the junior levels but at the senior levels and of course that's also driven by mom um but to answer your question um I think authenticity so like I actually I couldn't verbalize this maybe two or three years ago it was just like this gut feeling that sometimes when I would hire candidates, I'd really just want to"
+  },
+  {
+    "chunk_id": 38,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "38:24",
+    "text": "I actually I couldn't verbalize this maybe two or three years ago it was just like this gut feeling that sometimes when I would hire candidates, I'd really just want to go like if I had to pick between me and two people and one person felt more qualified. He felt like he had more direct um more of his closer skill set match with what we were looking for and then the other one was a little less qualified but seemed just excited to learn and sincere and maybe less of a great communicator too. Something about my butt feeling 3 years ago told me go with the second person. And I think now I can articulate it. It has to do with like authenticity and being open and honest. But I think that's a curve for us. Um also being hardworking, right? Like sure like some of our Gen Z team members might uh take some shortcuts but ultimately they are they're accountable for their business priorities right so"
+  },
+  {
+    "chunk_id": 39,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "39:15",
+    "text": "Like sure like some of our Gen Z team members might uh take some shortcuts but ultimately they are they're accountable for their business priorities right so as long as they get the outcomes of what they're working towards I'm okay if the output is a little different so um I think yeah like being hardworking or being like just very accountable or proactive to this is what my role is this is what I really want I achieve and am I doing my best to achieve that? So I think yeah those are like some of the needs that and so that brings me to my next question is what is the next frontier? The idea that things exciting. So like okay what what makes you excited about like the next decade or the next five or Yeah, Jenz, do you like Okay, that's the first question. Do you think like the Jenzie like do they uh change the trend of like where you're going? Do they come up with criteras of like where the company should go? Because I feel like the Gen Z"
+  },
+  {
+    "chunk_id": 40,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "40:21",
+    "text": "like do they uh change the trend of like where you're going? Do they come up with criteras of like where the company should go? Because I feel like the Gen Z always like thinks big picture like they're not afraid to dream big these days because of so many powerful tools at their disposal. they they come back like confidence of like you know how things should be like I feel my I feel like you're like remaining with ideas of the company wishing for action. Yeah for sure. I think that um you know like for example um the marketing manager I had last year was very generally um is very gen he's moved on to another company uh West and I remember like you know I would be like hey can you do these five things right and we'd have our weekly meeting and I'd be like let's do these five things and he would do three he wouldn't tell me he wouldn't do the other two but he wouldn't and it was secretly cuz he didn't think it was a good idea but"
+  },
+  {
+    "chunk_id": 41,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "41:20",
+    "text": "and we'd have our weekly meeting and I'd be like let's do these five things and he would do three he wouldn't tell me he wouldn't do the other two but he wouldn't and it was secretly cuz he didn't think it was a good idea but I would just be like where are the other two and then nearly a month later I was like he was right like that was not a good idea so yes I think you know to answer your question like I feel like for example from my marketing manager right um I was able to learn so much more of like the power of personal branding and like putting myself out there to help unionize our product and that's something that like we got to together. I didn't like I think he helped push me towards it. Um so yeah like for sure I mean I think that like different folks in our team will help bring out like bigger ideas. That's exciting. And I feel like uh you never know all of these things when you apply, right? But along the way, you"
+  },
+  {
+    "chunk_id": 42,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "42:15",
+    "text": "help bring out like bigger ideas. That's exciting. And I feel like uh you never know all of these things when you apply, right? But along the way, you sort of learn that so much you can learn from your Yeah. And I think it goes back to the point that you said of like the humility to be like, hey, look, I don't have the answers. I'm really not a marketing expert. I'm hiring you because you know more about marketing than I do and we'll figure it out together. So I think like that's probably another like hiring philosophy as well. So me the next question. Okay. Have you ever faced a where you were conflicted between what's right and what's efficient? I feel like this is again an operational question but I feel like it should be fun. Yeah, it's a great question. I think that given that we've spoken so much about team building, I'll stick to that theme. Um I think that you know um like I mentioned, we care a lot about accountability, right? So unfortunately sometimes we hire someone and 3 to 6"
+  },
+  {
+    "chunk_id": 43,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "43:14",
+    "text": "that given that we've spoken so much about team building, I'll stick to that theme. Um I think that you know um like I mentioned, we care a lot about accountability, right? So unfortunately sometimes we hire someone and 3 to 6 months down the line they're not actually accountable enough because of whatever reason to get their work done. Right? So I think for example um most recently maybe a year ago actually there was a sales rep on our team and he was really sweet but he wasn't being able to close sales and I think that like I coached him for 3 months I coached him for 6 months and then eventually I was like hey look I just need to lock him like this is not working well and I think the efficient thing would have been to let him go 2 months tough time with him cuz my gut feeling was like look this is not making sense but because I was like no I've hired him and you know we've made this commitment to make this work we kept coaching him and kept giving him"
+  },
+  {
+    "chunk_id": 44,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "44:12",
+    "text": "making sense but because I was like no I've hired him and you know we've made this commitment to make this work we kept coaching him and kept giving him feedback. Um so yeah I think like hiring and firing positions are like a good example of like that trade-off between efficiency and ethics. Um, and it's always so scary. Like I remember the first time I hired someone like they started crying and they were like, you know, like we'll try harder and like we'll do better and we'll make this work. And it was heartbreaking for me. I was just like, you know, I feel for you. Like this sucks, but unfortunately I need to like prioritize what the business needs. Yeah. So yeah, it's it's hard because they're not just resources, you know. Yeah. Yeah. They're my friends, right? Yeah. Okay. So like uh beyond revenue that your company generates, like you said, it's business, but like what human change do you hope like your book creates?"
+  },
+  {
+    "chunk_id": 45,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "45:12",
+    "text": "Yeah. Okay. So like uh beyond revenue that your company generates, like you said, it's business, but like what human change do you hope like your book creates? Anything you represses humanity? as they say I feel like all businesses are sort of brutal. [laughter] Let's just humanize all of the businesses like yeah I think few different things and I've touched upon these themes in the earlier questions but firstly just like showing or proving out that a software business can be bootstrapped and can be successful. I think secondly um we're a 60 person team but it is like a very sort of like family first friends first kind of environment. So I think just through like my own like the way I try to show up at work just try to be vulnerable and authentic and make that okay. I think the third is um like just trying to make it as outcome oriented not output oriented so that people from different like working styles can succeed right like both of our tech leads are women and they are both"
+  },
+  {
+    "chunk_id": 46,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "46:16",
+    "text": "trying to make it as outcome oriented not output oriented so that people from different like working styles can succeed right like both of our tech leads are women and they are both mentors and they're awesome but one of them works from home like full-time and she's been with us for two years so obviously she worked to build that trust up but um I think if she couldn't work from home we probably wouldn't have been able to have her as a part of the team because she's balancing these two different things. So, I think like trying to like focus a lot on accountability and getting your task done and then giving folks flexibility to like pick how they choose to get their work done. Um, I think that's another thing that I don't know like mom's been able to do that over the last 30 years. So obviously it's true and it's possible and it's doable even for an Indian software business that's threat. So I think like just continuing to like uh build this culture"
+  },
+  {
+    "chunk_id": 47,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "47:06",
+    "text": "it's possible and it's doable even for an Indian software business that's threat. So I think like just continuing to like uh build this culture and the fact that you follow as friends I feel like that's I don't know if they all call me their friend. I think I call them friendly and approachable. I'm sure like they call you a cat. [laughter] But I like the strong American culture. I feel like that wasn't there in India like for right like for sure. Okay. So which brings me to my last question for the day which is like if founder tech talk podcast had a time capsule for like a decade from now like 2035 what message from you like your journey would like you like to leave inside like what uh which means that which what sort of you know eternal message would you want? Yeah, it's a good question. I think um okay, I'll start off with what the message is, which is not original, and then I'll let you know why I think the message is true for me, which will"
+  },
+  {
+    "chunk_id": 48,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "48:12",
+    "text": "want? Yeah, it's a good question. I think um okay, I'll start off with what the message is, which is not original, and then I'll let you know why I think the message is true for me, which will be like based on actual examples that I've gone through. So I think um Naval Radiant who I guess most people if they're listening to this podcast would have definitely heard of him um he like one of the things that he says and I'm paraphrasing here is in order to like solve old problems look at old ways of thinking and in order to solve new problems think of new ways of thinking right and I think I've learned that the hard way over the last five years so for example An old problem is something like how do I live my life in a healthy way, right? I mean this is something that humans have been thinking about for hundreds of years, right? Hence old ways of thinking which is like yoga and eyelid um and coloring for example really helps it and that's what I try to do like these are old problems like so you know"
+  },
+  {
+    "chunk_id": 49,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "49:16",
+    "text": "which is like yoga and eyelid um and coloring for example really helps it and that's what I try to do like these are old problems like so you know any philosophy or any practice that has survived hundreds of years probably has some bad things right. Um and then in terms of the new new problems and new ways of thinking um obviously like I run a software product in 2025 in which like AI has significantly changed every part of business right so how do I use um like different AI tools may it be for like voice to text enscription or may it be NLM or may it be image generation in different teams in my company, may it be tech, may it be customer success, may it be design, um to really sort of position us well for the future. That's great. I think that's a very good message. I really look up to Mel myself. I think I read about him and his tweets are really good. Yeah. Yeah. Yeah. And do you like read anything? like how do you um so I was just"
+  },
+  {
+    "chunk_id": 50,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "50:26",
+    "text": "I think I read about him and his tweets are really good. Yeah. Yeah. Yeah. And do you like read anything? like how do you um so I was just wondering if like I could also start like a book club with this podcast because I love to like read sometimes whenever so what sort of books do you read like in terms of sound mindset okay it's I'm not going to directly answer your question again to be honest like if my friends see this podcast they will make fun of like fully make fun of me Because I think the biggest things with my friends remind me of is not to take life so too seriously. So they'd be like, \"Huh, 7:00, no devices.\" Yes, we know. You sleep at 10:00 p.m. every night. It's really annoying. So I think honestly like a lot of the books that I read are just like fun books because I have a hard enough day job. So I just like reading fiction. Um, in terms of philosophy, David Foster Wallace taught at Amos, which is the college that I went to, and I love his stuff. He actually has this amazing uh"
+  },
+  {
+    "chunk_id": 51,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "51:33",
+    "text": "in terms of philosophy, David Foster Wallace taught at Amos, which is the college that I went to, and I love his stuff. He actually has this amazing uh graduation speech called This is Moto that I highly recommend. And then in terms of business books, I don't really read like entrepreneurship or business books to be honest. It's more like podcasts or like um articles. Um but um yeah like I write some of the stuff that Excel the BC in India puts some work um on AI and on like just good like high quality entrepreneurs. Um I think they do a good job with content. Um Naval Rab and then my Instagram is mainly just like brands. So not that much difference. Okay. Nice. Yeah. So I think you learn more on the job and from your parents. I think uh for sure. Yeah, I guess one more thing is I started my career at Bane and I feel really lucky because I think I got trained in how to be an adult and how to"
+  },
+  {
+    "chunk_id": 52,
+    "episode": 1,
+    "guest": "Khushy Aggarwal",
+    "start_time": "52:35",
+    "text": "So I think you learn more on the job and from your parents. I think uh for sure. Yeah, I guess one more thing is I started my career at Bane and I feel really lucky because I think I got trained in how to be an adult and how to be a professional, right? Like I think Bane's really really good at teaching you how do you be professional, how do you pitch yourself in enterprises, how do you like, you know, communicate well. So I think going back to some of my main mentors as well is is super helpful. Yes. I think that's good. That's all of my questions uh for today's episode. So, thank you so much Pusheen for being here. So grateful that you could call our client from your busy schedule today. And yeah, that's it. I think uh for the audiences like whoever's listening, if this conversation like sparks something in you, we like please share it with a friend. and everything. Thanks. Thank you."
+  }
+]

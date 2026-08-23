@@ -18,20 +18,6 @@ max_chunk_size = 1000
 overlap_sentences = 2
 
 chunks = []
-episode_number = 1
-guest_name = "Khushy Aggarwal"
-
-chunks_with_metadata = []
-
-for index, chunk in enumerate(chunks):
-    chunk_data = {
-        "chunk_id": index + 1,
-        "episode": episode_number,
-        "guest": guest_name,
-        "text": chunk
-    }
-
-    chunks_with_metadata.append(chunk_data)
 current_sentences = []
 current_length = 0
 
