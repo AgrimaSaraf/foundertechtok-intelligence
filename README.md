@@ -29,6 +29,36 @@ Podcast Episodes
 → Grounded Citations
 → Evaluation
 
+🎙️ FounderTechTok transcript
+          ↓
+     Chunking + overlap
+          ↓
+ Metadata + timestamps
+          ↓
+       Embeddings
+          ↓
+        ChromaDB
+          ↓
+    ┌─────┴─────┐
+    ↓           ↓
+  BM25        Vector
+ keywords     semantics
+    ↓           ↓
+    └─────┬─────┘
+          ↓
+      RRF fusion
+          ↓
+    Hybrid Top 5
+          ↓
+ Cross-Encoder Reranker
+          ↓
+ Best 3 evidence chunks
+          ↓
+        Gemini
+          ↓
+ Grounded answer + citations
+
+
 ## Status
 
 🚧 Currently under development.
