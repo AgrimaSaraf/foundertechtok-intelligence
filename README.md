@@ -29,35 +29,6 @@ Podcast Episodes
 → Grounded Citations
 → Evaluation
 
-🎙️ FounderTechTok transcript
-          ↓
-     Chunking + overlap
-          ↓
- Metadata + timestamps
-          ↓
-       Embeddings
-          ↓
-        ChromaDB
-          ↓
-    ┌─────┴─────┐
-    ↓           ↓
-  BM25        Vector
- keywords     semantics
-    ↓           ↓
-    └─────┬─────┘
-          ↓
-      RRF fusion
-          ↓
-    Hybrid Top 5
-          ↓
- Cross-Encoder Reranker
-          ↓
- Best 3 evidence chunks
-          ↓
-        Gemini
-          ↓
- Grounded answer + citations
-
 
 ## Status
 
@@ -629,3 +600,31 @@ Hit@3: 1.0
 ```
 
 Final generation metrics will be recorded after completing the cached generation, abstention, citation, and groundedness evaluation run.
+
+
+**v2 — Archive intelligence**
+
+Add all ~10 FounderTechTok episodes, automated ingestion/transcription, episode/guest/topic metadata, multi-episode search, better evaluation dataset, citations with episode + timestamp + supporting quote, latency/cost measurements.
+
+**v3 — Actual product**
+
+                 FounderTechTok episodes
+                          ↓
+                ingestion pipeline
+                          ↓
+               knowledge/index layer
+                          ↓
+                 retrieval engine
+                          ↓
+                 FastAPI service
+                    ↙           ↘
+               Web UI           API
+                 ↓
+       "What did founders say
+        about customer acquisition?"
+                 ↓
+       Answer + guest + episode
+       + timestamp + evidence
+
+
+
