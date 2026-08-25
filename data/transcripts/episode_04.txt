@@ -1,0 +1,106 @@
+Episode 04: FounderTechTok with Ayushi Sinha
+Guest Name: Ayushi Sinha
+
+Everyone, this is founder tech talk, a space where we decode founder journeys and learn about the art and science of building the future. Our guest today
+0:2727 secondsAayushi Singha works at the intersection of tech uh and healthcare and also venture capital I believe right
+0:3535 secondsyep and as the founder and CEO of turmeric she's solving critical industry
+0:4242 secondsproblems ensuring that AI models are trained on diverse and inclusive data from Princeton to Harvard Business
+0:4949 secondsSchool join me as I explore her entrepreneurial journey hi Aishi welcome to founder techn thank you so much for having me.
+1:001 minuteYeah. Uh so let's start from the beginning. I love the name turmeric. Why did you choose such a name?
+1:091 minute, 9 secondsWell, turmeric gets its origins from hali which is a south Asian spice really signifying health and well-being. And so
+1:171 minute, 17 secondsI wanted to really pick a name that not just signified health and wellbeing, but really, you know, paid ode to my own
+1:251 minute, 25 secondsroots. So that's kind of where the name came from.
+1:281 minute, 28 secondsAnd like a follow-up question that I always ask all of my guests is, how did your roots really shape you? Like what
+1:371 minute, 37 secondswas the biggest influence? I think the better question to ask would be what was the biggest influence for your entrepreneurial journey? what shape your risk and creation out there.
+1:481 minute, 48 secondsYeah, that's a great question and I hope my my answer is a little maybe nonobvious. So, my parents were definitely my biggest sort of
+1:561 minute, 56 secondsinspiration and that how they raised me really has informed my obsession with scaling access to healthcare but also
+2:032 minutes, 3 secondsrisk ironically. So, my parents actually immigrated from India to work in rural Tennessee and federally qualified healthcare centers. And so on one hand,
+2:122 minutes, 12 secondsI grew up with like conversations at the dinner table being around questions of how do you actually bring real access to
+2:202 minutes, 20 secondsrural communities when it comes to healthcare. And so I realized at an early age that technology was kind of the how, right? Without technology, it's
+2:282 minutes, 28 secondsreally tough to make sure like everyone has universal healthcare coverage and access. On the flip side though, when it comes to risk, you know, a lot of people
+2:362 minutes, 36 secondsare very surprised. They asked me, "Didn't your parents like force you to go to med school?" And actually, it was a total opposite. Um, obviously my
+2:442 minutes, 44 secondsparents love what they do, but something we talk about all the time growing up is they love healthcare, but like for example, my dad really wanted to go be a
+2:522 minutes, 52 secondsphysics professor. And at that time and place in India, physics professors didn't really make that much money. So, he chose to be a doctor as a golden
+3:003 minutesticket financially. And so, I think I've been very privileged. one, grow up with
+3:083 minutes, 8 secondspeople who really are servants in their community and bring health care to people who really need it. But also, I
+3:153 minutes, 15 secondshave the privilege of my parents tell me all the time, they say, "We did not sacrifice our professional careers, dreams, and ambitions for you to not
+3:243 minutes, 24 secondsreally live your dreams." So, my parents were 100% get all the credit for kind of where I'm here right now, but really
+3:323 minutes, 32 secondsbecause they kind of showed me this insight um and showed me how powerful really healthcare access can be, but also, you know, I feel very privileged
+3:423 minutes, 42 secondsto actually get to go chase my dreams realizing that most in the world don't actually have that privilege. Yeah. Yeah. That's quite exceptional.
+3:503 minutes, 50 secondsAnd I think that's very rare as well, right? Um, super rare. I mean, it's funny. I feel like all my cousins are
+3:573 minutes, 57 secondsall doctors. They're so smart. But I do think like there is a trope, right? Like ABCD becomes a doctor. And so, I feel
+4:054 minutes, 5 secondslike it was actually like I kind of felt like a black sheep in a lot of ways.
+4:094 minutes, 9 secondsGrowing up in a doctor family and not going to med school, I felt like, oh my god, is there something wrong with me?
+4:144 minutes, 14 secondsand then realizing that no actually I do have this passion that you know makes me kind of a little different than everybody else but it's one that I'm
+4:234 minutes, 23 secondsvery thankful that I've been able to carve this path and been supported throughout.
+4:274 minutes, 27 secondsYeah. I'm sure your parents are also proud of the path that you're taking.
+4:324 minutes, 32 secondsYeah. So which brings me to a more operational question regarding your company which is what was the real clinical problem in healthcare that made you start turb?
+4:424 minutes, 42 secondsYeah. Um, you know, I wish it was just one day I woke up and it was like a magical realization or like classic like Isaac Newton style and apple fell on my
+4:514 minutes, 51 secondshead. Um, it was neither. It was really through many conversations over a long period of time. So, first again having
+5:005 minutesjust like going to family Thanksgiving and all my cousins, my aunts and uncles, my parents, their friends saying like we
+5:075 minutes, 7 secondsdon't like that Epic was built for other people, for insurance companies, for hospitals, for administration,
+5:145 minutes, 14 secondsnot for doctors. And so one just like listening to the people around me and what they were complaining about that didn't like again immediately give me
+5:225 minutes, 22 secondsthe idea for turmeric but I was like okay there's definitely interest from doctors to shape the future of AI. I'm like great that's on the supply side.
+5:305 minutes, 30 secondsNow on the demand side right I actually worked at nines a computer vision company before going to business school and that's where I had firsthand
+5:385 minutes, 38 secondsexperience working with machine learning researchers to understand wow acquiring healthcare data is non-trivial structuring it is very hard it's very
+5:475 minutes, 47 secondsnondiscreet data um there's a lot of clinical interpretation that goes into it and so through that job I actually
+5:545 minutes, 54 secondsfigured out the pain points on the machine learning side and then it was really kind of taking both of those experiences and then having the time and space at business school to really think
+6:036 minutes, 3 secondsthrough them. Um because there a lot of problems, not every problem is worth building a business around. Um
+6:106 minutes, 10 secondsall of this you know hype about healthcare AI and so many buzzwords which one from your vantage point what's
+6:186 minutes, 18 secondsone misconception that actually shows real slows real progress?
+6:256 minutes, 25 secondsI think right now a lot of ML folk and investors people in the apps there they think that healthcare data can be
+6:326 minutes, 32 secondstreated like other forms of data but healthcare data is nondiscreet what I mean by that is think about all these AI
+6:406 minutes, 40 secondscode gen tools at the end of the day they either compile or they don't compile right you either like you either
+6:476 minutes, 47 secondsthrow an error right it's very discreet but in healthcare actually two doctors that are trained from the best universities would disagree. That's why
+6:556 minutes, 55 secondswe literally have second opinions. And so I think what people really just these misconceptions arise from health care
+7:037 minutes, 3 secondsboth clinical judgment as well as data is non-disagree. It's non-deterministic.
+7:087 minutes, 8 secondsAnd if real humans disagree on what kind of cancer someone has or the staging or what treatment like how can we design AI
+7:177 minutes, 17 secondsto be deterministic and to be like correct all the time. I think it's just a completely different ballgame. doesn't mean we shouldn't be building healthcare
+7:247 minutes, 24 secondsAI, but I think we should have proper, you know, biases detection in place, explainability, transparency. It's just way more complicated technically.
+7:347 minutes, 34 secondsInteresting. I had like so many follow-up questions to that, but I think I'm going to finish all of my questions.
+7:397 minutes, 39 seconds[laughter]
+7:417 minutes, 41 secondsUm, yeah. So, okay, my next question is medical data is sensitive and labeling it is even more sensitive. So, who do you think should own the process of
+7:507 minutes, 50 secondslabeling? uh physicians or the AI teams or the industry and why so when you say own that's a unique
+7:587 minutes, 58 secondschoice of word because in some ways someone like us turmeric right are like the best fit because we see labeling across many different customers so we
+8:068 minutes, 6 secondsactually know what best practices are so when it comes from a process point of view I think we should own it obviously I'm biased that's what our company does
+8:148 minutes, 14 secondsbut I think structurally it's important that someone like Turmeric sees across the board what is best practices and helps the whole industry be better. Now,
+8:248 minutes, 24 secondswhen it comes to IP and ownership, that's quite tricky, right? Because if you think about it, a lot of data right now, patients own their data, right? But when you think about labor laws, right?
+8:358 minutes, 35 secondsIf there is an act of labor done, then typically we put, you know, some sort of ownership such as, let's go back to
+8:428 minutes, 42 secondsbasics. An apple in the wild is no one's property. But if a farmer plucks an apple off a tree then we from labor laws
+8:508 minutes, 50 secondswould consider the apple to be the property of the farmer. And so similarly when it comes to actually labeling again underlying raw data I think always
+8:588 minutes, 58 secondsbelongs to the actual patient but then hospitals often times make the case that any tests that are done should be the
+9:079 minutes, 7 secondsproperty or at least licensing right of the hospital cuz look we put an effort in labor to actually take this urine
+9:159 minutes, 15 secondssample. Again that's I think so makes sense. I don't think there's necessarily a hard and fast rule, but that's like a tension, right? Like because also put in
+9:229 minutes, 22 secondslabor, do they own the lab results or does the patient still own the lab results or do they just un own the underlying samples? That's like part one. Part two in terms of the actual
+9:309 minutes, 30 secondslabeling. What we think is important is we think it's important for the structured data to be with the companies who we work with, the raw data to be
+9:389 minutes, 38 secondsthat of our patients, but the actual labels we technically own and we basically license out. We think that's important because that's the only way that we can improve our own processes.
+9:489 minutes, 48 secondsIf the actual labels are the property of someone else, then we actually don't have the rights to actually learn from it. So maybe that's getting a little too
+9:559 minutes, 55 secondstechnical deep in the weeds, but we've been incredibly thoughtful around every step of this process.
+10:0310 minutes, 3 secondsAs a founder, you look at metrics every day and what KPI tells you that Turmeric is truly improving healthcare and not just shipping model.
+10:1310 minutes, 13 secondsSo we don't ship models, we help our customers ship bottles.
+10:1710 minutes, 17 secondsYeah, shipping models is one metric that matters to our customers. So therefore, it matters to us. Obviously revenue matters as well, right? But also you can think about like there's some really
+10:2510 minutes, 25 secondsinteresting questions around quality of data. Is that increasing? our processes increasing and doing better, right?
+10:3210 minutes, 32 secondsBecause we're in the business of very high touch, high data quality. Of course, revenue matters, unit economic matters, but really quality [snorts] is not metric.
+10:4010 minutes, 40 secondsSo quality of data, what do you mean by quality of data? Like accuracy of how accurate they are.
+10:4610 minutes, 46 secondsYeah. So data is not accurate. When you talk about accuracy, that's actually the model, right? And so how you test model accuracy you do through evaluations. So
+10:5510 minutes, 55 secondsthat's like a whole separate thing. 100% we care about that. When I talk about data quality, you can think of
+11:0211 minutes, 2 secondscompleteness, you can think about um how telling is it, right? Like for one of our projects, we only had textual data that corresponded to imaging. We didn't
+11:1111 minutes, 11 secondshave the whole record. We didn't have the imaging. We just had the textual data, right? So technic quality perspective, you can think of completeness like that. You can also
+11:1911 minutes, 19 secondsthink of like, okay, is it actually representative of the question you're trying to solve? If you're trying to figure out if someone has lung cancer,
+11:2611 minutes, 26 secondsyou know, not all pieces of data are going to show that. So, it's pretty complicated, but that's sort of how we think it through. Okay. And are doctors skeptical of tech?
+11:3511 minutes, 35 secondsLike the tech that they're using, are they skeptical or are they all for it?
+11:4011 minutes, 40 secondsLike what's the hardest barrier that you had to cover?
+11:4411 minutes, 44 secondsFor sure. I I think doctors are very skeptical of technology. But we started with our early adopters, people who did research already, people who were excited about AI. We had a whole
+11:5311 minutes, 53 secondsfellowship, right? So I think it's important to start where you have a lot of good support. Yeah. You have a fellowship program.
+12:0012 minutesSo that's what on this doctor side, right? We have like a huge fellowship program where we actually educate doctors about AI because we want to make sure they're part of our community.
+12:1112 minutes, 11 secondsThat's really nice. I didn't know if that existed. I think um you speak a lot about the philosophy.
+12:2112 minutes, 21 secondsWhat is safe scaling actually into real environments?
+12:2712 minutes, 27 secondsSo first safe scaling thing is related to do you have a human in the loop right? I think you're very nent and AI we need to have humans in the loop that
+12:3612 minutes, 36 secondsmight change over time but right now is there a human in the loop two actually what does the entrance look like so if
+12:4312 minutes, 43 secondssomething happens who gets sued is it the doctor is it AI company right like having very prop right like having very
+12:5012 minutes, 50 secondsproper legal boundaries in place is very important and then also making sure that we have correct like boundaries right like I should be able to do things they
+12:5912 minutes, 59 secondsshould not when you think of finance right you should not be able to necessarily write to certain APIs to withdraw or send money yet. Should have
+13:0713 minutes, 7 secondsa lot of hoops that they should go through and similarly with AI as well when it comes to healthcare.
+13:1413 minutes, 14 secondsThat was my last question, but I have so many follow-up questions based on what you said. Actually, I think we need to schedule one more. [laughter] Sounds good.
+13:2513 minutes, 25 secondsOkay. Well, it was so nice to chat and excited to see um the results of this. Thank you for inviting me. Yes, thank you.
+13:3313 minutes, 33 secondsOkay, bye. See you.

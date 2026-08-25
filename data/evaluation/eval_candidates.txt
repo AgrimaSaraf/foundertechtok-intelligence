@@ -1,0 +1,269 @@
+======================================================================
+FOUNDERTECHTOK EVALUATION DATASET BUILDER
+======================================================================
+
+
+======================================================================
+episode_01
+Guest: Khushy Aggarwal
+Title: 
+Segments: 497
+======================================================================
+
+[00:17] Yeah. Hi everyone. So, welcome to Founder Tech Talk podcast, a space where
+
+[05:22] offline, but um, I built my incentives as a SAS or software product within my
+
+[10:49] right uh so she took this course in Mumbai and uh she liked it she was good
+
+[15:53] was almost like everything around me like the way the validation and
+
+[21:15] like other person is like, "Oh, that's so cool. Like, you're an aunt now." Like, I'm like, "I don't want any labels
+
+[26:21] maybe three or four days to calculate at the end of the month, right? or it would
+
+[31:38] But ultimately, I've learned so much about sales from them like you know like
+
+[36:45] ages um of like experienced f experienced folks who might be a lot
+
+[42:20] That's exciting. And I feel like uh you never know all of these things when you apply, right? But along the way, you
+
+[47:50] question for the day which is like if founder tech talk podcast had a time capsule for like a decade from now like
+
+[53:02] So I think going back to some of my main mentors as well is is super helpful.
+
+
+======================================================================
+episode_02
+Guest: Ananya Jain
+Title: 
+Segments: 242
+======================================================================
+
+[00:24] of Full Circle, a company that uh helps American brands make life easier to their customers,
+
+[03:43] run a business is mostly around how you make people feel. So I you know my father had a business that he ran with my mother and I think one of the things
+
+[06:52] recently talking to my co-founder and he said, "How do you feel? You just closed another six-figure deal, which is, you know, great." I said, "It feels like it's inevitable now because we've seen
+
+[09:28] change you. I think for me the smaller smaller changes probably have been more impactful than the bigger
+
+[12:36] Okay. Okay. So like what what's the difference? Can you like explain me a little?
+
+[15:44] So like, okay, that's I didn't know that you like um you know couch surfed like
+
+[18:40] Yeah. Which brings in like to my very nice next question, which is like okay, what is the next uh what is the next
+
+[21:37] know, wearing a white t-shirt, sleeping on the floor. I love sleeping on a Japanese futon. I I love a very simple life. I'll probably be making all my
+
+[24:33] Yeah, there's a state of paranoia that's been constant and consistent throughout my time. So,
+
+[27:28] changed as much because uh that um energy and like that desire to like start something of my own
+
+[30:33] successful but like the early wins are like oh my god someone believed in me you know when that sort of response
+
+
+======================================================================
+episode_03
+Guest: Vedant Nair
+Title: 
+Segments: 750
+======================================================================
+
+[00:20] welcome to Founder Tech Talk, a space
+
+[03:35] parts of the robotics kind of software
+
+[06:36] the other end was the YC partner who
+
+[09:21] ecosystem. There were really successful
+
+[12:11] like um very often a lot of parts are
+
+[15:06] grow up they they'd tell my mom like
+
+[17:57] in every single way possible. They were
+
+[20:53] put on a pedestal, right? Like oh, how
+
+[23:45] But I think like I said, I grew up
+
+[26:46] sense. Uh, I love the name. It just
+
+
+======================================================================
+episode_04
+Guest: Ayushi Sinha
+Title: 
+Segments: 98
+======================================================================
+
+[00:27] Aayushi Singha works at the intersection of tech uh and healthcare and also venture capital I believe right
+
+[01:48] Yeah, that's a great question and I hope my my answer is a little maybe nonobvious. So, my parents were definitely my biggest sort of
+
+[03:08] people who really are servants in their community and bring health care to people who really need it. But also, I
+
+[04:14] and then realizing that no actually I do have this passion that you know makes me kind of a little different than everybody else but it's one that I'm
+
+[05:30] Now on the demand side right I actually worked at nines a computer vision company before going to business school and that's where I had firsthand
+
+[06:40] code gen tools at the end of the day they either compile or they don't compile right you either like you either
+
+[07:41] Um, yeah. So, okay, my next question is medical data is sensitive and labeling it is even more sensitive. So, who do you think should own the process of
+
+[08:58] belongs to the actual patient but then hospitals often times make the case that any tests that are done should be the
+
+[10:13] So we don't ship models, we help our customers ship bottles.
+
+[11:19] think of like, okay, is it actually representative of the question you're trying to solve? If you're trying to figure out if someone has lung cancer,
+
+[12:36] might change over time but right now is there a human in the loop two actually what does the entrance look like so if
+
+
+======================================================================
+episode_05
+Guest: Alisha Gupta
+Title: 
+Segments: 207
+======================================================================
+
+[00:26] with me Alicia Gupta um from the US. She is a keynote speaker, creator, professional dancer and also the founder
+
+[02:57] out a little bit more. But let's take a networking event that I went to a couple
+
+[05:35] And so it was all of those questions that were still unanswered uh as to why I started Beauty and Balance to begin with.
+
+[08:18] years. Then when I was 18, what I like to call like my first big initiative, which was a podcast called What Cause
+
+[10:54] was a very danceheavy community. I think after that what had people stick was our in-person events and the unique aspect
+
+[13:31] passions do like people do are they misunderstood like are they trying to switch careers or like I just they're
+
+[16:11] like do you have any rituals or uh for yourself personally?
+
+[18:57] engagement per month right now. So it has increased dramatically. And to me engagement is like the biggest
+
+[21:33] but it has come with like an influx of requests. And so now what we've done is we've put together kind of a rubric of
+
+[24:10] creator I think that was really very useful. Okay. So my which brings me to my last question which is um in the next
+
+[26:48] We kind of span it all. Um, beautybalance.co co or beautybalancollective.com
+
+
+======================================================================
+episode_06
+Guest: Aashna Mehta
+Title: 
+Segments: 187
+======================================================================
+
+[00:24] of building the future. Today I have with me Ashamea. She's a software engineer and a fashion designer uh
+
+[02:43] need to be dressed up too, you know. Um, and so I would take some of like my old clothes, like old scarves, Chicago's cold. I take my old scarves and all of
+
+[05:05] people are excited about. But I know that at least for me, I wanted it to still relate back to my culture and a lot of the values that I had growing up.
+
+[07:24] how do you correct it? Like I'm I'm just like curious of like founders never talk about the mistakes that they're making. Yes.
+
+[09:43] Um, so I was a little bit like worried about things like that. Um and I mean like in that case if there was a mistake I wouldn't know until it's maybe too
+
+[12:07] of a profit. The goal for a lot of fashion brands is to eventually get to like a 1.5 to two um, sorry, 150 to 200%
+
+[14:24] myself is that I'm making work wear that you can actually wear like daily to to the office, right? Where it's not like maybe more of like an occasion piece,
+
+[16:46] other. And I think that's sort of is more of an edge than any sort of actual design ever will be. Cuz like even if you're looking at like the design, like
+
+[19:07] Um would do you plan to do any of that in India as well or just the US?
+
+[21:19] was great, but it did feel very like I was paying a lot of money and like while I did get results, it was kind of like okay, you know, I paid a lot, but like I
+
+[23:47] It's fine.
+
+
+======================================================================
+episode_07
+Guest: Rucha Dave
+Title: 
+Segments: 410
+======================================================================
+
+[00:16] Yeah. Hi everyone. Welcome to Founder
+
+[01:57] so much more than that. It's about, you
+
+[03:24] responded to that and they were like,
+
+[04:56] transparency and making sure that the
+
+[06:35] her realize like what habits she was
+
+[08:04] routine. And if you don't have that,
+
+[09:26] regarding the company. Sure. what you
+
+[10:55] wish more people understood because when
+
+[12:20] and habits around skincare, which no one
+
+[13:53] positivity. I want having acne and
+
+
+======================================================================
+episode_08
+Guest: Natalie Beaulieu
+Title: 
+Segments: 231
+======================================================================
+
+[00:17] Okay. Hi everyone. Welcome to Founder Tech Talk podcast, a space where we decode founder journeys and learn the art and science of building the future.
+
+[03:27] capture a photo so they don't need to rely on editing apps afterwards.
+
+[06:32] capture moment. So I've been thinking a lot about the onboarding. And so, um, right now I'm testing a hypothesis
+
+[09:36] um, basically my core app experience, um, is that I provide these photo templates that users
+
+[12:44] then I had um the beta version of Strika on a trip. I was in Spain for a friend's
+
+[15:59] to improve dating app profile photos would be a core user category of mine.
+
+[19:04] That's pretty cool. So what like can can you briefly tell us about the dexang that you've been using?
+
+[22:05] person taking the photo can place the subject like right in that outline. And I think of it like scanning a check, you
+
+[24:51] um with high intent customers that hopefully like they will be more incentivized to stick
+
+[27:54] so I hope that strike just helps people
+
+[30:58] Bye everyone. Thanks for your time. Yeah.
+
+
+======================================================================
+episode_09
+Guest: Shania Jain
+Title: 
+Segments: 157
+======================================================================
+
+[00:16] Yeah. Hi everyone. Welcome to Founder Tech Talk podcast, a space where we decode founder journeys and learn the art and science of building the future.
+
+[02:20] and like meet people. So that's kind of why I kind of had the idea of building more of a community around the fitness space, especially for people who love
+
+[04:31] Nice. So like I think the lack of community was what made you start this app, right? Like around fitness.
+
+[06:12] So like people come back for the community because they have instructors that they like you know going to. So like we have instructors that host like monthly classes. We have instructors
+
+[08:22] that are looking to meet new people and are in that phase of life. So I think that's why New York's like a perfect place. But that being said, I do post a
+
+[10:18] experience for their resumes for teaching at studios eventually. Um, so I was working with them a lot and we were basically chatting through like ideas
+
+[12:20] do like it's kind of like them running their own business and then fit in being like a platform for them to like we help them out with the marketing and help them out with providing the space now.
+
+[14:29] immediately fix it and push that out. Or if it's like a feature that I wanted to try out, I'm like, "Okay, might as well like it doesn't cost me anything to do
+
+[16:26] have our weekly newsletters that we send out to our community. So that's a way we engage with our current community. But in terms of growth channels, I would say
+
+[18:21] you know personalized workouts like that. But I think at the end of the day a lot of people that are in the fitness world they crave community. They crave
+
+[20:10] that you can things. Um, right now the studio is just in New York, but if we can kind of replicate that kind of model and have things grow everywhere, kind of

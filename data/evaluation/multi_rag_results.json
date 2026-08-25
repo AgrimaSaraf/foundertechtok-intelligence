@@ -1,0 +1,2511 @@
+{
+  "summary": {
+    "benchmark_questions": 30,
+    "questions_selected": 30,
+    "positive_questions": 25,
+    "negative_questions": 5,
+    "retrieval": {
+      "hit_at_1": 0.52,
+      "hit_at_3": 0.84,
+      "hit_at_5": 0.88,
+      "mrr": 0.67
+    },
+    "generation": {
+      "successfully_evaluated": 22,
+      "positive_evaluated": 22,
+      "negative_evaluated": 0,
+      "coverage": 0.7333,
+      "answerability_accuracy": 1.0,
+      "abstention_accuracy": null,
+      "citation_accuracy": 1.0
+    },
+    "reliability": {
+      "cache_hits": 1,
+      "live_generation_calls": 22,
+      "api_errors": 8,
+      "generation_errors": 0,
+      "quota_skipped_questions": 7,
+      "quota_circuit_opened": true,
+      "api_success_rate": 0.9545
+    },
+    "latency_successful_live_calls": {
+      "count": 21,
+      "average_sec": 13.26,
+      "median_sec": 8.949
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "question": "How do salespeople build trust with customers?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Salespeople build trust by reading and understanding the person they are selling to, helping them in a way that feels authentic rather than pushy, and driving value for the customer.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_01_chunk_060",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "31:44",
+          "end_time": "32:09",
+          "reranker_score": 5.45320987701416
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_01_chunk_053",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "28:01",
+          "end_time": "28:25",
+          "reranker_score": 0.8307915329933167
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_006",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "02:49",
+          "end_time": "03:18",
+          "reranker_score": -2.2535107135772705
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_07_chunk_024",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "04:35",
+          "end_time": "04:46",
+          "reranker_score": -2.2698817253112793
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_07_chunk_028",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "05:25",
+          "end_time": "05:34",
+          "reranker_score": -2.376943588256836
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S2",
+          "episode_id": "episode_01",
+          "episode_title": "Episode 01: FounderTechTok with Khushy Aggarwal",
+          "guest": "Khushy Aggarwal",
+          "start_time": "02:49",
+          "end_time": "03:18",
+          "chunk_id": "episode_01_chunk_006",
+          "quote": "they know how to understand uh the person that they're selling to and they know how to help them in a way that feels authentic and not pushy."
+        },
+        {
+          "source_id": "S8",
+          "episode_id": "episode_01",
+          "episode_title": "Episode 01: FounderTechTok with Khushy Aggarwal",
+          "guest": "Khushy Aggarwal",
+          "start_time": "31:44",
+          "end_time": "32:09",
+          "chunk_id": "episode_01_chunk_060",
+          "quote": "they know how to read the customer. They know how to build trust as well."
+        },
+        {
+          "source_id": "S8",
+          "episode_id": "episode_01",
+          "episode_title": "Episode 01: FounderTechTok with Khushy Aggarwal",
+          "guest": "Khushy Aggarwal",
+          "start_time": "31:44",
+          "end_time": "32:09",
+          "chunk_id": "episode_01_chunk_060",
+          "quote": "drive value for the customer"
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.28,
+      "generation_latency_sec": 9.571,
+      "total_latency_sec": 10.851
+    },
+    {
+      "id": "q002",
+      "question": "How long did incentive calculations take before Khushy's system automated them?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Before Khushy's system automated them, incentive calculations used to take sales teams three or four days to calculate at the end of the month.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 3,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_01_chunk_033",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "17:17",
+          "end_time": "17:45",
+          "reranker_score": -7.38429069519043
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_01_chunk_048",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "25:20",
+          "end_time": "25:44",
+          "reranker_score": -9.089338302612305
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_050",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "26:21",
+          "end_time": "26:46",
+          "reranker_score": -9.325166702270508
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_01_chunk_049",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "25:50",
+          "end_time": "26:14",
+          "reranker_score": -10.943270683288574
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_01_chunk_028",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "14:34",
+          "end_time": "15:02",
+          "reranker_score": -11.09197998046875
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S12",
+          "episode_id": "episode_01",
+          "episode_title": "Episode 01: FounderTechTok with Khushy Aggarwal",
+          "guest": "Khushy Aggarwal",
+          "start_time": "26:21",
+          "end_time": "26:46",
+          "chunk_id": "episode_01_chunk_050",
+          "quote": "maybe three or four days to calculate at the end of the month"
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.211,
+      "generation_latency_sec": 24.251,
+      "total_latency_sec": 25.462
+    },
+    {
+      "id": "q003",
+      "question": "What inefficient tools were sales teams using to calculate incentives?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Sales teams were using Excel to calculate incentives, which required navigating across around 20 different Excel tabs and taking three to four days at the end of the month.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": null,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_01_chunk_048",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "25:20",
+          "end_time": "25:44",
+          "reranker_score": 0.625733494758606
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_01_chunk_033",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "17:17",
+          "end_time": "17:45",
+          "reranker_score": -3.4752607345581055
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_049",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "25:50",
+          "end_time": "26:14",
+          "reranker_score": -4.055207252502441
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_01_chunk_008",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "03:57",
+          "end_time": "04:20",
+          "reranker_score": -8.366175651550293
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_01_chunk_028",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "14:34",
+          "end_time": "15:02",
+          "reranker_score": -8.463180541992188
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S15",
+          "episode_id": "episode_01",
+          "episode_title": "Episode 01: FounderTechTok with Khushy Aggarwal",
+          "guest": "Khushy Aggarwal",
+          "start_time": "26:21",
+          "end_time": "26:46",
+          "chunk_id": "episode_01_chunk_050",
+          "quote": "it would span across um like 20 different Excel tabs"
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 0.881,
+      "generation_latency_sec": 5.289,
+      "total_latency_sec": 6.171
+    },
+    {
+      "id": "q004",
+      "question": "What did Khushy learn about sales from frontline salespeople?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Khushy learned from frontline sales reps that they know how to read the customer and build trust. She realized that regardless of whether one is selling software or spare parts, sales fundamentally comes down to driving value for the customer so they will purchase the product.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 2,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_01_chunk_006",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "02:49",
+          "end_time": "03:18",
+          "reranker_score": -6.120985984802246
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_01_chunk_059",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "31:11",
+          "end_time": "31:38",
+          "reranker_score": -6.382641792297363
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_034",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "17:54",
+          "end_time": "18:21",
+          "reranker_score": -7.978282451629639
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_01_chunk_060",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "31:44",
+          "end_time": "32:09",
+          "reranker_score": -8.25635814666748
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_01_chunk_001",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "00:17",
+          "end_time": "00:40",
+          "reranker_score": -9.782463073730469
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S13",
+          "episode_id": "episode_01",
+          "episode_title": "Episode 01: FounderTechTok with Khushy Aggarwal",
+          "guest": "Khushy Aggarwal",
+          "start_time": "31:44",
+          "end_time": "32:09",
+          "chunk_id": "episode_01_chunk_060",
+          "quote": "they know how to read the customer. They know how to build trust as well."
+        },
+        {
+          "source_id": "S13",
+          "episode_id": "episode_01",
+          "episode_title": "Episode 01: FounderTechTok with Khushy Aggarwal",
+          "guest": "Khushy Aggarwal",
+          "start_time": "31:44",
+          "end_time": "32:09",
+          "chunk_id": "episode_01_chunk_060",
+          "quote": "you need to sort of drive value for the customer and then they will purchase your product."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.046,
+      "generation_latency_sec": 6.461,
+      "total_latency_sec": 7.507
+    },
+    {
+      "id": "q005",
+      "question": "According to Ananya, what is business fundamentally about?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "According to Ananya, business is fundamentally an exchange of value that comes from providing value to someone, making their life easier, and making them feel good about themselves. She also notes that running a business is mostly centered on how you make people feel.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 2,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_01_chunk_084",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "44:58",
+          "end_time": "45:25",
+          "reranker_score": -9.280858993530273
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_02_chunk_006",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "03:51",
+          "end_time": "04:33",
+          "reranker_score": -9.742067337036133
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_085",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "45:34",
+          "end_time": "46:02",
+          "reranker_score": -9.801423072814941
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_07_chunk_050",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "09:24",
+          "end_time": "09:33",
+          "reranker_score": -10.032209396362305
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_03_chunk_073",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "14:30",
+          "end_time": "14:37",
+          "reranker_score": -10.097618103027344
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S5",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "03:09",
+          "end_time": "03:43",
+          "chunk_id": "episode_02_chunk_005",
+          "quote": "how to run a business is mostly around how you make people feel."
+        },
+        {
+          "source_id": "S6",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "03:51",
+          "end_time": "04:33",
+          "chunk_id": "episode_02_chunk_006",
+          "quote": "If you know how to make someone feel good about themselves and if you make their life easier and and if you provide value to someone, that's basically what business is. It's an exchange of value."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.349,
+      "generation_latency_sec": 4.9,
+      "total_latency_sec": 6.25
+    },
+    {
+      "id": "q006",
+      "question": "Why did closing another six-figure deal feel inevitable to Ananya?",
+      "category": "hard",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Closing another six-figure deal felt inevitable to Ananya because they had gone through so many repetitions, and enduring continuous hard challenges created a level of preparation that rendered the next milestone predictable.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_02_chunk_010",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "06:30",
+          "end_time": "07:01",
+          "reranker_score": 2.332139015197754
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_02_chunk_019",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "11:48",
+          "end_time": "12:22",
+          "reranker_score": -5.709724426269531
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_06_chunk_033",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "21:04",
+          "end_time": "21:37",
+          "reranker_score": -10.442461013793945
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_03_chunk_052",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "10:29",
+          "end_time": "10:38",
+          "reranker_score": -11.115182876586914
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_03_chunk_031",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "06:36",
+          "end_time": "06:44",
+          "reranker_score": -11.162025451660156
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S2",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "06:30",
+          "end_time": "07:01",
+          "chunk_id": "episode_02_chunk_010",
+          "quote": "It feels like it's inevitable now because we've seen o many repetitions."
+        },
+        {
+          "source_id": "S3",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "07:09",
+          "end_time": "07:37",
+          "chunk_id": "episode_02_chunk_011",
+          "quote": "that level of preparation just prepares you for the next step."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.422,
+      "generation_latency_sec": 26.062,
+      "total_latency_sec": 27.484
+    },
+    {
+      "id": "q007",
+      "question": "What kind of life does Ananya hope to live in ten years?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "In ten years, Ananya hopes to live a very simple, calm, and quiet life offline and without doing podcasts. She envisions living on a farm in the middle of nowhere with kids and no people around, wearing a white t-shirt, sleeping on a Japanese futon on the floor, making bread at home, and cooking three meals a day. However, she admits it is also likely she would lose her mind not working and return to her desk because she has \"no chill.\"",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_02_chunk_034",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "21:12",
+          "end_time": "21:44",
+          "reranker_score": -6.192023277282715
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_03_chunk_148",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "29:05",
+          "end_time": "29:13",
+          "reranker_score": -7.283114433288574
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_03_chunk_146",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "28:43",
+          "end_time": "28:51",
+          "reranker_score": -7.371332168579102
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_03_chunk_141",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "27:48",
+          "end_time": "27:55",
+          "reranker_score": -7.983763694763184
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_03_chunk_143",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "28:09",
+          "end_time": "28:16",
+          "reranker_score": -9.208483695983887
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S2",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "21:12",
+          "end_time": "21:44",
+          "chunk_id": "episode_02_chunk_034",
+          "quote": "In 10 years hopefully, I will not be online. I will not be doing any podcasts. I will be happily um, you know, wearing a white t-shirt, sleeping on the floor. I love sleeping on a Japanese futon. I I love a very simple life. I'll probably be making all my bread at home. Um, I'll be cooking three meals a day. Um, I'll be living on a farm."
+        },
+        {
+          "source_id": "S3",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "21:52",
+          "end_time": "22:24",
+          "chunk_id": "episode_02_chunk_035",
+          "quote": "I'll just be living very simple, calm, quiet life in the middle of nowhere with no people around me."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.188,
+      "generation_latency_sec": 11.081,
+      "total_latency_sec": 12.269
+    },
+    {
+      "id": "q008",
+      "question": "Why does Ananya believe paranoia is useful for founders?",
+      "category": "hard",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Ananya believes paranoia is essential because she feels \"only the paranoid succeed.\" For her, being paranoid means staying constantly on the lookout in the market to see what customers could be getting that is better than her company's current offerings. She notes that because new companies appear every day, founders will go out of business if they do not want success as much as competing founders.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_02_chunk_039",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "24:13",
+          "end_time": "24:46",
+          "reranker_score": -0.963334321975708
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_03_chunk_030",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "06:23",
+          "end_time": "06:33",
+          "reranker_score": -7.457275867462158
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_02_chunk_001",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "00:24",
+          "end_time": "00:56",
+          "reranker_score": -8.175525665283203
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_03_chunk_023",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "05:01",
+          "end_time": "05:11",
+          "reranker_score": -9.020977973937988
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_03_chunk_039",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "08:07",
+          "end_time": "08:16",
+          "reranker_score": -9.686602592468262
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S3",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "23:31",
+          "end_time": "24:05",
+          "chunk_id": "episode_02_chunk_038",
+          "quote": "only the paranoid succeed, which is I am constantly on the lookout in the market"
+        },
+        {
+          "source_id": "S4",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "24:13",
+          "end_time": "24:46",
+          "chunk_id": "episode_02_chunk_039",
+          "quote": "for what my customers could be getting better than what we are giving them right now."
+        },
+        {
+          "source_id": "S4",
+          "episode_id": "episode_02",
+          "episode_title": "Episode 02: FounderTechTok with Ananya Jain",
+          "guest": "Ananya Jain",
+          "start_time": "24:13",
+          "end_time": "24:46",
+          "chunk_id": "episode_02_chunk_039",
+          "quote": "New companies pop up every single day and if you don't want it as much as the next founder does, you are going to go out of business."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.231,
+      "generation_latency_sec": 6.562,
+      "total_latency_sec": 7.794
+    },
+    {
+      "id": "q009",
+      "question": "What product was Vedant's team building for the robotics industry?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Vedant's team was building a product called Miru, which provides configuration management for the robotics industry.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_03_chunk_086",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "16:53",
+          "end_time": "17:02",
+          "reranker_score": 0.19268903136253357
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_03_chunk_095",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "18:39",
+          "end_time": "18:50",
+          "reranker_score": -0.678992748260498
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_03_chunk_129",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "25:28",
+          "end_time": "25:37",
+          "reranker_score": -5.7363080978393555
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_03_chunk_131",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "25:51",
+          "end_time": "25:59",
+          "reranker_score": -6.186102867126465
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_03_chunk_094",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "18:30",
+          "end_time": "18:37",
+          "reranker_score": -6.502058982849121
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S2",
+          "episode_id": "episode_03",
+          "episode_title": "Episode 03: FounderTechTok with Vedant Nair",
+          "guest": "Vedant Nair",
+          "start_time": "16:53",
+          "end_time": "17:02",
+          "chunk_id": "episode_03_chunk_086",
+          "quote": "building this product, Miru, uh, configuration management for robotics."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.04,
+      "generation_latency_sec": 22.47,
+      "total_latency_sec": 23.51
+    },
+    {
+      "id": "q010",
+      "question": "What mindset does Vedant's team use when approaching their work?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Vedant's team approaches their work with an athletic mindset, treating their craft and lives like Olympians. They aim to train hard, eat clean, and prepare thoroughly so they can perform at their best and produce high-quality work.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 2,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_03_chunk_141",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "27:48",
+          "end_time": "27:55",
+          "reranker_score": -6.857633113861084
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_03_chunk_109",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "21:28",
+          "end_time": "21:37",
+          "reranker_score": -8.96843147277832
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_074",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "39:15",
+          "end_time": "39:43",
+          "reranker_score": -9.038451194763184
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_01_chunk_041",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "21:41",
+          "end_time": "22:07",
+          "reranker_score": -9.852510452270508
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_01_chunk_081",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "43:14",
+          "end_time": "43:45",
+          "reranker_score": -10.240013122558594
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S11",
+          "episode_id": "episode_03",
+          "episode_title": "Episode 03: FounderTechTok with Vedant Nair",
+          "guest": "Vedant Nair",
+          "start_time": "21:28",
+          "end_time": "21:37",
+          "chunk_id": "episode_03_chunk_109",
+          "quote": "keep that same kind of athletic mindset where we want to treat our craft and treat our lives like Olympians."
+        },
+        {
+          "source_id": "S12",
+          "episode_id": "episode_03",
+          "episode_title": "Episode 03: FounderTechTok with Vedant Nair",
+          "guest": "Vedant Nair",
+          "start_time": "21:40",
+          "end_time": "21:50",
+          "chunk_id": "episode_03_chunk_110",
+          "quote": "eat very clean, we want to prepare very well so we can do our best and produce the best work."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.21,
+      "generation_latency_sec": 8.723,
+      "total_latency_sec": 9.933
+    },
+    {
+      "id": "q011",
+      "question": "How did Ayushi's parents influence her interest in healthcare access?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Ayushi's parents immigrated from India to work in rural Tennessee at federally qualified healthcare centers. Growing up, dinner table conversations focused on how to bring healthcare access to rural communities, showing her how impactful healthcare access can be and leading her to realize that technology was necessary for universal healthcare access.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_04_chunk_003",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "01:56",
+          "end_time": "02:28",
+          "reranker_score": -3.79125714302063
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_04_chunk_005",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "03:24",
+          "end_time": "03:57",
+          "reranker_score": -4.793618202209473
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_04_chunk_001",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "00:27",
+          "end_time": "01:09",
+          "reranker_score": -5.075746059417725
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_04_chunk_004",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "02:36",
+          "end_time": "03:15",
+          "reranker_score": -8.741362571716309
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_01_chunk_017",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "08:51",
+          "end_time": "09:16",
+          "reranker_score": -9.191824913024902
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S6",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "01:56",
+          "end_time": "02:28",
+          "chunk_id": "episode_04_chunk_003",
+          "quote": "my parents actually immigrated from India to work in rural Tennessee and federally qualified healthcare centers."
+        },
+        {
+          "source_id": "S6",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "01:56",
+          "end_time": "02:28",
+          "chunk_id": "episode_04_chunk_003",
+          "quote": "I grew up with like conversations at the dinner table being around questions of how do you actually bring real access to rural communities when it comes to healthcare."
+        },
+        {
+          "source_id": "S8",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "03:24",
+          "end_time": "03:57",
+          "chunk_id": "episode_04_chunk_005",
+          "quote": "showed me how powerful really healthcare access can be"
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.401,
+      "generation_latency_sec": 10.554,
+      "total_latency_sec": 11.956
+    },
+    {
+      "id": "q012",
+      "question": "What misconception about healthcare data does Ayushi think slows AI progress?",
+      "category": "hard",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Ayushi states that the main misconception slowing progress is the belief among ML researchers and investors that healthcare data can be treated like other forms of data. She explains that, unlike discreet or deterministic data, healthcare data and clinical judgment are non-discreet and non-deterministic, as doctors frequently disagree on diagnoses or treatment plans.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_04_chunk_009",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "06:03",
+          "end_time": "06:32",
+          "reranker_score": 4.860770225524902
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_04_chunk_010",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "06:40",
+          "end_time": "07:08",
+          "reranker_score": -2.199653148651123
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_04_chunk_001",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "00:27",
+          "end_time": "01:09",
+          "reranker_score": -2.590549945831299
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_04_chunk_011",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "07:17",
+          "end_time": "07:41",
+          "reranker_score": -4.426065921783447
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_04_chunk_008",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "05:22",
+          "end_time": "05:54",
+          "reranker_score": -5.538546562194824
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S5",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "06:03",
+          "end_time": "06:32",
+          "chunk_id": "episode_04_chunk_009",
+          "quote": "they think that healthcare data can be treated like other forms of data but healthcare data is nondiscreet"
+        },
+        {
+          "source_id": "S6",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "06:40",
+          "end_time": "07:08",
+          "chunk_id": "episode_04_chunk_010",
+          "quote": "both clinical judgment as well as data is non-disagree. It's non-deterministic."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.319,
+      "generation_latency_sec": 5.842,
+      "total_latency_sec": 7.161
+    },
+    {
+      "id": "q013",
+      "question": "Who does Ayushi think should manage the healthcare-data labeling process, and why?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Ayushi believes that a company like hers (Turmeric) should own the healthcare-data labeling process. She explains that because they observe labeling across many different customers, they know what best practices are and can help the entire industry improve.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 2,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_04_chunk_011",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "07:17",
+          "end_time": "07:41",
+          "reranker_score": -1.1867278814315796
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_04_chunk_012",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "07:50",
+          "end_time": "08:24",
+          "reranker_score": -2.7761406898498535
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_04_chunk_001",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "00:27",
+          "end_time": "01:09",
+          "reranker_score": -3.4145820140838623
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_04_chunk_014",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "09:15",
+          "end_time": "09:48",
+          "reranker_score": -4.264017581939697
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_04_chunk_009",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "06:03",
+          "end_time": "06:32",
+          "reranker_score": -6.857782363891602
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S7",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "07:50",
+          "end_time": "08:24",
+          "chunk_id": "episode_04_chunk_012",
+          "quote": "when it comes from a process point of view I think we should own it"
+        },
+        {
+          "source_id": "S7",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "07:50",
+          "end_time": "08:24",
+          "chunk_id": "episode_04_chunk_012",
+          "quote": "because we see labeling across many different customers so we actually know what best practices are"
+        },
+        {
+          "source_id": "S7",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "07:50",
+          "end_time": "08:24",
+          "chunk_id": "episode_04_chunk_012",
+          "quote": "helps the whole industry be better"
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.337,
+      "generation_latency_sec": 7.22,
+      "total_latency_sec": 8.558
+    },
+    {
+      "id": "q014",
+      "question": "How did Turmeric approach skeptical doctors when introducing AI?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Turmeric addressed skepticism by beginning with early adopters—specifically doctors who already conducted research and were excited about AI—and by running a fellowship program to educate doctors about AI so they could be included in the community.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 4,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_04_chunk_008",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "05:22",
+          "end_time": "05:54",
+          "reranker_score": 0.7718138694763184
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_04_chunk_012",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "07:50",
+          "end_time": "08:24",
+          "reranker_score": -2.4196763038635254
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_04_chunk_001",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "00:27",
+          "end_time": "01:09",
+          "reranker_score": -3.0963563919067383
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_04_chunk_018",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "11:44",
+          "end_time": "12:27",
+          "reranker_score": -3.295248031616211
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_04_chunk_015",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "09:55",
+          "end_time": "10:25",
+          "reranker_score": -7.168430328369141
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S14",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "11:44",
+          "end_time": "12:27",
+          "chunk_id": "episode_04_chunk_018",
+          "quote": "we started with our early adopters, people who did research already, people who were excited about AI."
+        },
+        {
+          "source_id": "S14",
+          "episode_id": "episode_04",
+          "episode_title": "Episode 04: FounderTechTok with Ayushi Sinha",
+          "guest": "Ayushi Sinha",
+          "start_time": "11:44",
+          "end_time": "12:27",
+          "chunk_id": "episode_04_chunk_018",
+          "quote": "We have like a huge fellowship program where we actually educate doctors about AI because we want to make sure they're part of our community."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.206,
+      "generation_latency_sec": 6.791,
+      "total_latency_sec": 7.997
+    },
+    {
+      "id": "q015",
+      "question": "What are Alisha's three major professional or personal identities?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Alisha describes her three major identities (\"big three buckets\") as being a founder, being a dancer, and being a strategy consultant.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 2,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_05_chunk_001",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "00:26",
+          "end_time": "00:58",
+          "reranker_score": -9.548710823059082
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_05_chunk_005",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "02:57",
+          "end_time": "03:28",
+          "reranker_score": -10.091436386108398
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_086",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "46:08",
+          "end_time": "46:34",
+          "reranker_score": -10.788812637329102
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_03_chunk_097",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "19:02",
+          "end_time": "19:10",
+          "reranker_score": -10.89582633972168
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_05_chunk_034",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "22:13",
+          "end_time": "22:46",
+          "reranker_score": -11.009517669677734
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S11",
+          "episode_id": "episode_05",
+          "episode_title": "Episode 05: FounderTechTok with Alisha Gupta",
+          "guest": "Alisha Gupta",
+          "start_time": "02:57",
+          "end_time": "03:28",
+          "chunk_id": "episode_05_chunk_005",
+          "quote": "my big three buckets are being a founder, being a dancer, and being a strategy consultant."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.259,
+      "generation_latency_sec": 4.601,
+      "total_latency_sec": 5.861
+    },
+    {
+      "id": "q016",
+      "question": "How did Alisha create loyalty within the Beauty and Balance community?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Alisha kept the Beauty and Balance community together and made people stick by hosting intentional, curated, and personalized in-person events designed like influencer events. To make attendees feel empowered and important, she secured sponsorships and provided goodie bags.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 3,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_05_chunk_001",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "00:26",
+          "end_time": "00:58",
+          "reranker_score": -1.6427000761032104
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_05_chunk_015",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "09:30",
+          "end_time": "10:01",
+          "reranker_score": -2.7058920860290527
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_05_chunk_018",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "11:33",
+          "end_time": "12:05",
+          "reranker_score": -2.900291919708252
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_05_chunk_039",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "25:28",
+          "end_time": "25:57",
+          "reranker_score": -4.952000617980957
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_05_chunk_037",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "24:10",
+          "end_time": "24:43",
+          "reranker_score": -5.093928337097168
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S6",
+          "episode_id": "episode_05",
+          "episode_title": "Episode 05: FounderTechTok with Alisha Gupta",
+          "guest": "Alisha Gupta",
+          "start_time": "10:54",
+          "end_time": "11:25",
+          "chunk_id": "episode_05_chunk_017",
+          "quote": "what had people stick was our in-person events and the unique aspect that we took for these events."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.184,
+      "generation_latency_sec": 24.596,
+      "total_latency_sec": 25.78
+    },
+    {
+      "id": "q017",
+      "question": "What does Alisha mean by realistically balancing different parts of life?",
+      "category": "hard",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "According to Alisha, realistically balancing life does not mean trying to balance everything all at once. Instead, it involves understanding what to prioritize and adjusting the levels of specific activities at different times.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_05_chunk_023",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "14:41",
+          "end_time": "15:14",
+          "reranker_score": -3.4522705078125
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_01_chunk_087",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "46:41",
+          "end_time": "47:06",
+          "reranker_score": -6.536419868469238
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_02_chunk_023",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "14:24",
+          "end_time": "14:59",
+          "reranker_score": -9.254203796386719
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_05_chunk_024",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "15:25",
+          "end_time": "16:01",
+          "reranker_score": -9.506824493408203
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_05_chunk_008",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "04:54",
+          "end_time": "05:26",
+          "reranker_score": -9.649711608886719
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S11",
+          "episode_id": "episode_05",
+          "episode_title": "Episode 05: FounderTechTok with Alisha Gupta",
+          "guest": "Alisha Gupta",
+          "start_time": "14:41",
+          "end_time": "15:14",
+          "chunk_id": "episode_05_chunk_023",
+          "quote": "you're not balancing everything all at once. You're understanding what to prioritize in your life to make balance realistic for you."
+        },
+        {
+          "source_id": "S12",
+          "episode_id": "episode_05",
+          "episode_title": "Episode 05: FounderTechTok with Alisha Gupta",
+          "guest": "Alisha Gupta",
+          "start_time": "15:25",
+          "end_time": "16:01",
+          "chunk_id": "episode_05_chunk_024",
+          "quote": "And that means adjusting the levels of certain activities at certain times."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.322,
+      "generation_latency_sec": 7.628,
+      "total_latency_sec": 8.949
+    },
+    {
+      "id": "q018",
+      "question": "How does Aashna compare product iteration in software and fashion?",
+      "category": "cross_domain",
+      "should_answer": true,
+      "used_cache": true,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Aashna explains that iterating on a physical product like fashion is a lot harder and takes much longer compared to software iterations, where changes can be made quickly. However, she notes that the underlying principle is the same across both: you must go through multiple iterations and collect customer feedback.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_06_chunk_010",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "06:16",
+          "end_time": "06:46",
+          "reranker_score": 1.5921738147735596
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_06_chunk_009",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "05:36",
+          "end_time": "06:08",
+          "reranker_score": -1.8420743942260742
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_052",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "27:29",
+          "end_time": "27:56",
+          "reranker_score": -9.033395767211914
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_01_chunk_007",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "03:24",
+          "end_time": "03:50",
+          "reranker_score": -9.558961868286133
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_01_chunk_008",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "03:57",
+          "end_time": "04:20",
+          "reranker_score": -10.128547668457031
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S1",
+          "episode_id": "episode_06",
+          "episode_title": "Episode 06: FounderTechTok with Aashna Mehta",
+          "guest": "Aashna Mehta",
+          "start_time": "06:16",
+          "end_time": "06:46",
+          "chunk_id": "episode_06_chunk_010",
+          "quote": "where you're quickly able to change things and it's perfectly fine, with a physical product, it's a lot harder. takes a lot longer, but I, you know, the idea is still the same."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 0.638,
+      "generation_latency_sec": 9.582,
+      "total_latency_sec": 10.22
+    },
+    {
+      "id": "q019",
+      "question": "How does Aashna differentiate her clothing brand from other Indian-inspired brands?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Aashna differentiates her brand by creating minimalistic workwear that can be worn daily to the office or client meetings, rather than occasion pieces with heavy embroidery like other brands. Her designs feature subtle, less prominent cultural details that serve as conversation starters in the workplace.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 3,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_06_chunk_035",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "22:26",
+          "end_time": "22:58",
+          "reranker_score": -0.8507696986198425
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_06_chunk_024",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "15:20",
+          "end_time": "15:55",
+          "reranker_score": -1.1637446880340576
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_06_chunk_022",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "14:06",
+          "end_time": "14:33",
+          "reranker_score": -3.961693286895752
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_06_chunk_001",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "00:24",
+          "end_time": "00:56",
+          "reranker_score": -5.38021183013916
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_01_chunk_024",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "12:34",
+          "end_time": "12:58",
+          "reranker_score": -6.7091875076293945
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S7",
+          "episode_id": "episode_06",
+          "episode_title": "Episode 06: FounderTechTok with Aashna Mehta",
+          "guest": "Aashna Mehta",
+          "start_time": "14:06",
+          "end_time": "14:33",
+          "chunk_id": "episode_06_chunk_022",
+          "quote": "the differentiating factor that I see for myself is that I'm making work wear that you can actually wear like daily to to the office"
+        },
+        {
+          "source_id": "S8",
+          "episode_id": "episode_06",
+          "episode_title": "Episode 06: FounderTechTok with Aashna Mehta",
+          "guest": "Aashna Mehta",
+          "start_time": "14:42",
+          "end_time": "15:13",
+          "chunk_id": "episode_06_chunk_023",
+          "quote": "where it's maybe a little more minimalistic. Maybe that sort of cultural um little extra little cultural piece is maybe not as loud, maybe not as prominent"
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.252,
+      "generation_latency_sec": 6.381,
+      "total_latency_sec": 7.633
+    },
+    {
+      "id": "q020",
+      "question": "What would Aashna do differently if she restarted her production process?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "If Aashna had to start over, she would start the entire production process in India instead of starting with a US company. Starting in the US required paying significantly higher costs and led to redoing a lot of the sampling work after switching production companies.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_06_chunk_032",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "20:26",
+          "end_time": "20:54",
+          "reranker_score": -4.929811477661133
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_01_chunk_087",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "46:41",
+          "end_time": "47:06",
+          "reranker_score": -10.120813369750977
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_06_chunk_015",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "09:27",
+          "end_time": "09:58",
+          "reranker_score": -10.56089973449707
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_07_chunk_033",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "06:27",
+          "end_time": "06:35",
+          "reranker_score": -10.698448181152344
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_07_chunk_032",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "06:14",
+          "end_time": "06:23",
+          "reranker_score": -10.743545532226562
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S8",
+          "episode_id": "episode_06",
+          "episode_title": "Episode 06: FounderTechTok with Aashna Mehta",
+          "guest": "Aashna Mehta",
+          "start_time": "20:26",
+          "end_time": "20:54",
+          "chunk_id": "episode_06_chunk_032",
+          "quote": "I think I would start the whole process in India"
+        },
+        {
+          "source_id": "S9",
+          "episode_id": "episode_06",
+          "episode_title": "Episode 06: FounderTechTok with Aashna Mehta",
+          "guest": "Aashna Mehta",
+          "start_time": "21:04",
+          "end_time": "21:37",
+          "chunk_id": "episode_06_chunk_033",
+          "quote": "once you switch production companies, you have to do redo a lot of that work anyway"
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 1.028,
+      "generation_latency_sec": 6.552,
+      "total_latency_sec": 7.58
+    },
+    {
+      "id": "q021",
+      "question": "What skincare habits contributed to the breakout discussed by Rucha?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "In the breakout story shared by Rucha, the contributing habits included not drinking enough water and using a face wash that dried out the skin year-round rather than adjusting its use seasonally.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": null,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_07_chunk_066",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "12:13",
+          "end_time": "12:23",
+          "reranker_score": -7.996384143829346
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_07_chunk_009",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "01:55",
+          "end_time": "02:02",
+          "reranker_score": -8.487031936645508
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_07_chunk_033",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "06:27",
+          "end_time": "06:35",
+          "reranker_score": -9.424416542053223
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_07_chunk_041",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "07:52",
+          "end_time": "08:02",
+          "reranker_score": -9.618621826171875
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_07_chunk_064",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "11:52",
+          "end_time": "12:00",
+          "reranker_score": -10.750661849975586
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S7",
+          "episode_id": "episode_07",
+          "episode_title": "Episode 07: FounderTechTok with Rucha Dave",
+          "guest": "Rucha Dave",
+          "start_time": "06:45",
+          "end_time": "06:52",
+          "chunk_id": "episode_07_chunk_035",
+          "quote": "she wasn't drinking enough water. Her face wash was drying her face out"
+        },
+        {
+          "source_id": "S8",
+          "episode_id": "episode_07",
+          "episode_title": "Episode 07: FounderTechTok with Rucha Dave",
+          "guest": "Rucha Dave",
+          "start_time": "06:54",
+          "end_time": "07:02",
+          "chunk_id": "episode_07_chunk_036",
+          "quote": "was more drying all year instead of just using that maybe in the summer."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 0.784,
+      "generation_latency_sec": 33.703,
+      "total_latency_sec": 34.486
+    },
+    {
+      "id": "q022",
+      "question": "What did Natalie learn from testing Strika with users before launch?",
+      "category": "hard",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "ANSWER",
+      "system_answer": "Before launching Strika, Natalie learned several key insights from user research and testing the beta app:\n\n1. **Posing difficulty:** She validated her hypothesis that people were never taught how to pose for photos, with friends sharing that they typically had only one go-to pose and were otherwise winging it.\n2. **Emotional value of photos:** She confirmed that taking pictures is about more than just social media, as users value the nostalgia element of looking back at good photos of themselves.\n3. **Post-capture workflow:** While testing the beta version in Spain with a friend's family, she realized users were confused when photos automatically saved to their camera roll. This taught her that users needed to preview their shot, choose whether to save it to their camera roll, and have space within the Strika app to view their photos.",
+      "infrastructure_error": false,
+      "error": null,
+      "answerability_correct": true,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_08_chunk_006",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "03:40",
+          "end_time": "04:08",
+          "reranker_score": 0.33212536573410034
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_08_chunk_019",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "12:27",
+          "end_time": "12:59",
+          "reranker_score": -3.7869620323181152
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_08_chunk_018",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "11:48",
+          "end_time": "12:19",
+          "reranker_score": -5.13825798034668
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_08_chunk_028",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "18:42",
+          "end_time": "19:12",
+          "reranker_score": -6.062315940856934
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_08_chunk_036",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "23:40",
+          "end_time": "24:09",
+          "reranker_score": -6.1700005531311035
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "S2",
+          "episode_id": "episode_08",
+          "episode_title": "Episode 08: FounderTechTok with Natalie Beaulieu",
+          "guest": "Natalie Beaulieu",
+          "start_time": "03:40",
+          "end_time": "04:08",
+          "chunk_id": "episode_08_chunk_006",
+          "quote": "no one was really taught how to pose for photos and that was validated"
+        },
+        {
+          "source_id": "S3",
+          "episode_id": "episode_08",
+          "episode_title": "Episode 08: FounderTechTok with Natalie Beaulieu",
+          "guest": "Natalie Beaulieu",
+          "start_time": "04:17",
+          "end_time": "04:47",
+          "chunk_id": "episode_08_chunk_007",
+          "quote": "there is some kind of nostalgia element to it where you know people want to look back and have good photos of themselves."
+        },
+        {
+          "source_id": "S6",
+          "episode_id": "episode_08",
+          "episode_title": "Episode 08: FounderTechTok with Natalie Beaulieu",
+          "guest": "Natalie Beaulieu",
+          "start_time": "12:27",
+          "end_time": "12:59",
+          "chunk_id": "episode_08_chunk_019",
+          "quote": "they were so confused about what happened after the photo was taken."
+        },
+        {
+          "source_id": "S7",
+          "episode_id": "episode_08",
+          "episode_title": "Episode 08: FounderTechTok with Natalie Beaulieu",
+          "guest": "Natalie Beaulieu",
+          "start_time": "13:07",
+          "end_time": "13:42",
+          "chunk_id": "episode_08_chunk_020",
+          "quote": "have the user, you know, preview their shot."
+        }
+      ],
+      "citation_correct": true,
+      "retrieval_latency_sec": 0.872,
+      "generation_latency_sec": 14.401,
+      "total_latency_sec": 15.274
+    },
+    {
+      "id": "q023",
+      "question": "How did user feedback influence Strika's expansion beyond North America?",
+      "category": "paraphrased",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": false,
+      "system_status": "API_ERROR",
+      "system_answer": "",
+      "infrastructure_error": true,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 39.574949619s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '39s'}]}}",
+      "answerability_correct": null,
+      "abstention_correct": null,
+      "relevant_rank": null,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_08_chunk_019",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "12:27",
+          "end_time": "12:59",
+          "reranker_score": -3.0086357593536377
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_08_chunk_018",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "11:48",
+          "end_time": "12:19",
+          "reranker_score": -3.1341896057128906
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_08_chunk_028",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "18:42",
+          "end_time": "19:12",
+          "reranker_score": -3.9198641777038574
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_08_chunk_006",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "03:40",
+          "end_time": "04:08",
+          "reranker_score": -8.536474227905273
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_08_chunk_036",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "23:40",
+          "end_time": "24:09",
+          "reranker_score": -8.649812698364258
+        }
+      ],
+      "citations": [],
+      "citation_correct": null,
+      "retrieval_latency_sec": 0.899,
+      "generation_latency_sec": null,
+      "total_latency_sec": 33.938
+    },
+    {
+      "id": "q024",
+      "question": "How does Fitin's two-sided marketplace work?",
+      "category": "direct",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": true,
+      "system_status": "API_ERROR",
+      "system_answer": "",
+      "infrastructure_error": true,
+      "error": "Skipped because Gemini quota circuit breaker is open.",
+      "answerability_correct": null,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_09_chunk_009",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "05:39",
+          "end_time": "06:05",
+          "reranker_score": 0.5384579300880432
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_09_chunk_010",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "06:12",
+          "end_time": "06:43",
+          "reranker_score": -3.5236005783081055
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_09_chunk_006",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "03:47",
+          "end_time": "04:20",
+          "reranker_score": -6.999964714050293
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_02_chunk_018",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "11:02",
+          "end_time": "11:40",
+          "reranker_score": -8.216042518615723
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_09_chunk_014",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "09:02",
+          "end_time": "09:27",
+          "reranker_score": -9.73421859741211
+        }
+      ],
+      "citations": [],
+      "citation_correct": null,
+      "retrieval_latency_sec": null,
+      "generation_latency_sec": null,
+      "total_latency_sec": null
+    },
+    {
+      "id": "q025",
+      "question": "Why does Shania believe AI cannot fully replace in-person fitness experiences?",
+      "category": "hard",
+      "should_answer": true,
+      "used_cache": false,
+      "skipped_due_to_quota": true,
+      "system_status": "API_ERROR",
+      "system_answer": "",
+      "infrastructure_error": true,
+      "error": "Skipped because Gemini quota circuit breaker is open.",
+      "answerability_correct": null,
+      "abstention_correct": null,
+      "relevant_rank": 1,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_09_chunk_027",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "17:41",
+          "end_time": "18:13",
+          "reranker_score": -0.01990881934762001
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_09_chunk_028",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "18:21",
+          "end_time": "18:51",
+          "reranker_score": -2.481706142425537
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_09_chunk_026",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "17:12",
+          "end_time": "17:33",
+          "reranker_score": -6.34535551071167
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_04_chunk_009",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "06:03",
+          "end_time": "06:32",
+          "reranker_score": -9.367656707763672
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_09_chunk_002",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "00:59",
+          "end_time": "01:32",
+          "reranker_score": -9.368797302246094
+        }
+      ],
+      "citations": [],
+      "citation_correct": null,
+      "retrieval_latency_sec": null,
+      "generation_latency_sec": null,
+      "total_latency_sec": null
+    },
+    {
+      "id": "q026",
+      "question": "What did the guests say about nuclear fusion?",
+      "category": "unanswerable",
+      "should_answer": false,
+      "used_cache": false,
+      "skipped_due_to_quota": true,
+      "system_status": "API_ERROR",
+      "system_answer": "",
+      "infrastructure_error": true,
+      "error": "Skipped because Gemini quota circuit breaker is open.",
+      "answerability_correct": null,
+      "abstention_correct": null,
+      "relevant_rank": null,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_02_chunk_014",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "08:41",
+          "end_time": "09:02",
+          "reranker_score": -10.143333435058594
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_04_chunk_002",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "01:17",
+          "end_time": "01:48",
+          "reranker_score": -10.601900100708008
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_03_chunk_028",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "05:59",
+          "end_time": "06:10",
+          "reranker_score": -10.783573150634766
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_03_chunk_018",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "03:57",
+          "end_time": "04:07",
+          "reranker_score": -10.904712677001953
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_03_chunk_150",
+          "episode_id": "episode_03",
+          "guest": "Vedant Nair",
+          "start_time": "29:29",
+          "end_time": "29:39",
+          "reranker_score": -10.969405174255371
+        }
+      ],
+      "citations": [],
+      "citation_correct": null,
+      "retrieval_latency_sec": null,
+      "generation_latency_sec": null,
+      "total_latency_sec": null
+    },
+    {
+      "id": "q027",
+      "question": "What programming language did Khushy use to build My Incentives?",
+      "category": "unanswerable",
+      "should_answer": false,
+      "used_cache": false,
+      "skipped_due_to_quota": true,
+      "system_status": "API_ERROR",
+      "system_answer": "",
+      "infrastructure_error": true,
+      "error": "Skipped because Gemini quota circuit breaker is open.",
+      "answerability_correct": null,
+      "abstention_correct": null,
+      "relevant_rank": null,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_01_chunk_010",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "04:59",
+          "end_time": "05:22",
+          "reranker_score": -1.4629857540130615
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_01_chunk_048",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "25:20",
+          "end_time": "25:44",
+          "reranker_score": -5.852740287780762
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_08_chunk_030",
+          "episode_id": "episode_08",
+          "guest": "Natalie Beaulieu",
+          "start_time": "20:01",
+          "end_time": "20:32",
+          "reranker_score": -6.427891731262207
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_01_chunk_052",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "27:29",
+          "end_time": "27:56",
+          "reranker_score": -6.586001396179199
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_01_chunk_008",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "03:57",
+          "end_time": "04:20",
+          "reranker_score": -8.398441314697266
+        }
+      ],
+      "citations": [],
+      "citation_correct": null,
+      "retrieval_latency_sec": null,
+      "generation_latency_sec": null,
+      "total_latency_sec": null
+    },
+    {
+      "id": "q028",
+      "question": "How much venture capital did Ananya raise for Full Circle?",
+      "category": "unanswerable",
+      "should_answer": false,
+      "used_cache": false,
+      "skipped_due_to_quota": true,
+      "system_status": "API_ERROR",
+      "system_answer": "",
+      "infrastructure_error": true,
+      "error": "Skipped because Gemini quota circuit breaker is open.",
+      "answerability_correct": null,
+      "abstention_correct": null,
+      "relevant_rank": null,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_02_chunk_001",
+          "episode_id": "episode_02",
+          "guest": "Ananya Jain",
+          "start_time": "00:24",
+          "end_time": "00:56",
+          "reranker_score": -5.534441947937012
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_04_chunk_001",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "00:27",
+          "end_time": "01:09",
+          "reranker_score": -11.080211639404297
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_05_chunk_026",
+          "episode_id": "episode_05",
+          "guest": "Alisha Gupta",
+          "start_time": "16:50",
+          "end_time": "17:33",
+          "reranker_score": -11.231293678283691
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_01_chunk_021",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "11:00",
+          "end_time": "11:25",
+          "reranker_score": -11.411911010742188
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_07_chunk_062",
+          "episode_id": "episode_07",
+          "guest": "Rucha Dave",
+          "start_time": "11:28",
+          "end_time": "11:37",
+          "reranker_score": -11.415252685546875
+        }
+      ],
+      "citations": [],
+      "citation_correct": null,
+      "retrieval_latency_sec": null,
+      "generation_latency_sec": null,
+      "total_latency_sec": null
+    },
+    {
+      "id": "q029",
+      "question": "What database technology does Fitin use in production?",
+      "category": "unanswerable",
+      "should_answer": false,
+      "used_cache": false,
+      "skipped_due_to_quota": true,
+      "system_status": "API_ERROR",
+      "system_answer": "",
+      "infrastructure_error": true,
+      "error": "Skipped because Gemini quota circuit breaker is open.",
+      "answerability_correct": null,
+      "abstention_correct": null,
+      "relevant_rank": null,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_09_chunk_006",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "03:47",
+          "end_time": "04:20",
+          "reranker_score": -7.431528091430664
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_09_chunk_013",
+          "episode_id": "episode_09",
+          "guest": "Shania Jain",
+          "start_time": "08:22",
+          "end_time": "08:54",
+          "reranker_score": -9.355598449707031
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_01_chunk_047",
+          "episode_id": "episode_01",
+          "guest": "Khushy Aggarwal",
+          "start_time": "24:48",
+          "end_time": "25:13",
+          "reranker_score": -9.711315155029297
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_06_chunk_010",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "06:16",
+          "end_time": "06:46",
+          "reranker_score": -10.078519821166992
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_06_chunk_009",
+          "episode_id": "episode_06",
+          "guest": "Aashna Mehta",
+          "start_time": "05:36",
+          "end_time": "06:08",
+          "reranker_score": -10.165189743041992
+        }
+      ],
+      "citations": [],
+      "citation_correct": null,
+      "retrieval_latency_sec": null,
+      "generation_latency_sec": null,
+      "total_latency_sec": null
+    },
+    {
+      "id": "q030",
+      "question": "What accuracy benchmark did Turmeric's healthcare AI models achieve?",
+      "category": "unanswerable",
+      "should_answer": false,
+      "used_cache": false,
+      "skipped_due_to_quota": true,
+      "system_status": "API_ERROR",
+      "system_answer": "",
+      "infrastructure_error": true,
+      "error": "Skipped because Gemini quota circuit breaker is open.",
+      "answerability_correct": null,
+      "abstention_correct": null,
+      "relevant_rank": null,
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "episode_04_chunk_015",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "09:55",
+          "end_time": "10:25",
+          "reranker_score": -0.5211770534515381
+        },
+        {
+          "rank": 2,
+          "chunk_id": "episode_04_chunk_001",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "00:27",
+          "end_time": "01:09",
+          "reranker_score": -0.6320114135742188
+        },
+        {
+          "rank": 3,
+          "chunk_id": "episode_04_chunk_008",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "05:22",
+          "end_time": "05:54",
+          "reranker_score": -3.3029465675354004
+        },
+        {
+          "rank": 4,
+          "chunk_id": "episode_04_chunk_012",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "07:50",
+          "end_time": "08:24",
+          "reranker_score": -5.848163604736328
+        },
+        {
+          "rank": 5,
+          "chunk_id": "episode_04_chunk_009",
+          "episode_id": "episode_04",
+          "guest": "Ayushi Sinha",
+          "start_time": "06:03",
+          "end_time": "06:32",
+          "reranker_score": -9.032308578491211
+        }
+      ],
+      "citations": [],
+      "citation_correct": null,
+      "retrieval_latency_sec": null,
+      "generation_latency_sec": null,
+      "total_latency_sec": null
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+Episode 06: FounderTechTok with Aashna Mehta 
+Guest Name: Aashna Mehta 
+
+Hi everyone, welcome to founder tech talk a podcast where we decode founder journeys and learn the art and science
+0:2424 secondsof building the future. Today I have with me Ashamea. She's a software engineer and a fashion designer uh
+0:3232 secondsworking on devices by day and building her brand baby by AM in every free moment she can find. Her brand creates
+0:4141 secondsSouth Asian inspired work wear designed to empower women by allowing them to express their culturally culture
+0:4949 secondsconfidently in the workplace. Uh welcome Asha. Welcome to found a tech talk.
+0:5656 secondsThank you so much for having me. Yeah, I spe I love this episode because I love uh fashion in general.
+1:071 minute, 7 seconds[laughter]
+1:081 minute, 8 secondsI feel like how you dress really affects at least me, but I feel like girls as well, right? It really affects
+1:161 minute, 16 secondshow you project yourself and how your work is. So yeah, so I'll drive straight
+1:231 minute, 23 secondsstraight into the questions. Uh but my first question is uh I would love to know about your background. So if you
+1:311 minute, 31 secondscould like quickly tell us about where you were born and raised, what values you know you embody. Uh yeah.
+1:401 minute, 40 secondsYeah. So I was born and raised in the US uh specifically in Chicago. Um but I think like growing up I you know my
+1:481 minute, 48 secondsgrandparents lived with me. Um they pretty much raised me in addition to my parents. So I think a lot of the values,
+1:551 minute, 55 secondsa lot of the cultural um I guess same values just were instilled through them only. Um and so a lot of the things that
+2:032 minutes, 3 secondsI started appreciating about my culture came from what they were teaching me at when I was growing up. Um and not only that, but I think they also started
+2:102 minutes, 10 secondshelping me, you know, realize, you know, there's an artistic side to me that's perfectly okay. Whereas, you know, my parents are more like, oh, focus on studies, focus on like, you know, math
+2:192 minutes, 19 secondsand science and all of that. like keep doing doing more and more. Um, but my grandparents, specifically my grandma,
+2:262 minutes, 26 secondsum, she she taught me how to sew. She taught me how to like do like knit, crochet, and I think from from a very young age, I I really picked up on a lot
+2:352 minutes, 35 secondsof that. Um, and I would I still remember I would make little clothes for like all my little dolls and all of that cuz, you know, yeah, I was like, they
+2:432 minutes, 43 secondsneed to be dressed up too, you know. Um, and so I would take some of like my old clothes, like old scarves, Chicago's cold. I take my old scarves and all of
+2:522 minutes, 52 secondsthat and turn them into clothes for my dolls. Um, but yeah, so that's that kind of hobby sort of passion kind of stayed
+2:582 minutes, 58 secondswith me for I guess until now. It stays still with me. Um, even as I went through college and did computer science
+3:063 minutes, 6 secondsand did all of that sort of techreated, you know, heavy sort of lifting there, um, that sort of passion stayed with me and I ended up taking a few extra
+3:143 minutes, 14 secondsclasses in college also related to fashion design. Um, and then very recently actually ended up trying to start my own brand.
+3:233 minutes, 23 secondsYeah, that's so you're like I I feel like you're very privileged. Even growing up in India, I did not access to my grandparents a lot because like we
+3:323 minutes, 32 secondshave a lot of so they had they had to spend time with like a lot of Yeah. But you're so lucky like even even
+3:413 minutes, 41 secondsuh yeah very interesting and inspiring u childhood I would say like um because
+3:493 minutes, 49 secondspursuing both like an academic career as well as like a creative thing on the side uh is very challenging. So, so
+3:573 minutes, 57 secondsright now you're a software engineer at one of the biggest tech companies and Yes. [laughter] Yeah.
+4:074 minutes, 7 secondsfashion brand. That's very impressive.
+4:094 minutes, 9 secondsYeah. Okay. So, what made you start this company? I'm sure you've been thinking about something to do with but like what was that one moment which made you start it?
+4:194 minutes, 19 secondsYeah. Oh, that's a good question. I think so. Well, I mean, I knew that I wanted to start pursuing some of the my
+4:264 minutes, 26 secondsmore creative passions at some point in life. Um, and I think there's never going to be like a perfect time to start
+4:334 minutes, 33 secondsanything, right? And so, at some point, I realized that like I was already sewing as like a hobby. I would make things for myself. Um, and I was
+4:424 minutes, 42 secondsstarting to get like a lot of interest from other people. Um, whether that I wasn't posting as much at this point, but I would just be going out and people would ask me, "Hey, where did you get
+4:504 minutes, 50 secondsyour dress?" or where did you get this outfit? And I'm like maybe maybe there is something there, you know, maybe there's a way that I can monetize this.
+4:574 minutes, 57 secondsUm, but then again, that leads me back to the drawing board of okay, what if I'm mass-producing something, it has to be something that people want, that
+5:055 minutes, 5 secondspeople are excited about. But I know that at least for me, I wanted it to still relate back to my culture and a lot of the values that I had growing up.
+5:135 minutes, 13 secondsUm, and so I think um, I think honestly the main turning point was like sometime
+5:205 minutes, 20 secondsaround last year. Um, I think it was it was after my grandmother passed and I was like I wanted to do something to honor her and since she was the one who
+5:285 minutes, 28 secondstaught me to sew, I was like what better time than to to start a fashion brand right now. So yeah.
+5:365 minutes, 36 secondsVery nice. Okay. So which software engineering this is a very techy translate [laughter]
+5:445 minutes, 44 secondswhich software engineering principles directly influence how you build the brand like systems iteration dataation at the core uh did uh do you use tech?
+5:565 minutes, 56 secondsYes, I think okay there's no way that you cannot right cuz like that's just like the way that like after this many years you've been programmed to think in
+6:046 minutes, 4 secondsthat way right there's no way you can just not use any of these principles.
+6:086 minutes, 8 secondsUm, I think specifically probably this is this is hard to relate it back to fashion, but I think if you're trying
+6:166 minutes, 16 secondsto think of like say data or if you're doing iteration, right? Like even like the whole sampling process to create like the actual product that you're
+6:236 minutes, 23 secondsgoing to produce, there's a lot of iterations that go through. Um, and while the iterations may be very different from say like software
+6:316 minutes, 31 secondsiterations, right, where you're quickly able to change things and it's perfectly fine, with a physical product, it's a lot harder. takes a lot longer, but I, you know, the idea is still the same.
+6:406 minutes, 40 secondsYou need to go through it multiple times. Um, and then you need to gather data, which is essentially feedback from your customer. I think that's pretty
+6:466 minutes, 46 secondsuniversal, honestly. Um, for software, it might be just sending it out to a few clients to trust out. For fashion, it's
+6:546 minutes, 54 secondsmaybe posting online and like getting people's feedback to see if they like it. So, those kind of things, those principles are I I would say the same.
+7:037 minutes, 3 secondsyou know, maybe like the actual like methodology is a little bit different, but it's still there. Yeah.
+7:107 minutes, 10 secondsOkay. Uh, and yeah. So, did you ever make any mistakes? Like, do you make
+7:177 minutes, 17 secondsmistakes? I'm sure like there are a lot of steps and do you like ever make a mistake in like building what you do and
+7:247 minutes, 24 secondshow do you correct it? Like I'm I'm just like curious of like founders never talk about the mistakes that they're making. Yes.
+7:317 minutes, 31 secondsBut I'm sure like because like that that'll be inspired for people to know if you had Yeah.
+7:377 minutes, 37 secondsOh no. Absolut. I think there I can like list so many mistakes I've made. I think at least for me like this whole process
+7:457 minutes, 45 secondsis something so new, right? Like even if I was sewing things for myself, if I was making, you know, oneoff items, that's completely different than starting an
+7:547 minutes, 54 secondsentire brand where you're mass- prodducing something. And so I think the mistakes can be quite costly, especially
+8:018 minutes, 1 secondin fashion because everything is just so expensive. Material is expensive. Labor, especially if I'm doing it in the US, is
+8:088 minutes, 8 secondsvery expensive. Um, and I mean, I don't know if I'll really count anything as a mistake, but maybe more of like a
+8:158 minutes, 15 secondslearning opportunity because again, it is my first time going through this whole process, right? So everything I have to frame it as a learning
+8:238 minutes, 23 secondsopportunity, otherwise I feel like I'm just going to end up spiraling at some point. But um yeah, from from figuring
+8:308 minutes, 30 secondsout where I'm trying to get my samples made to is this the right fabric from for what I want to to create. A lot of these things may have been mistakes.
+8:418 minutes, 41 secondsThey might have been maybe not the right choice at the time. Um but then it's something that you do learn from, right?
+8:488 minutes, 48 secondswhere it's cuz I eventually decided um so initially I was going to do all my production in the US but labor costs in the US are insane
+8:578 minutes, 57 secondsand I think it would have resulted in a product that I would have to charge people a ridiculous amount of money to
+9:049 minutes, 4 secondsto purchase and so I spent so much money on just trying to get that set up and then I realized that I did not want that especially because I don't think I could
+9:129 minutes, 12 secondsstand by something like that right I can't in good conscience charge people $500 $100 for one item, right? That
+9:199 minutes, 19 secondsdoesn't make sense. So, I think that was that was probably like my biggest financial mistake. Um, and then once I
+9:279 minutes, 27 secondsshifted over to a production company in India, I think that's was significantly cheaper. So, you know,
+9:359 minutes, 35 secondsit's just all these sort of learning things because especially cuz like I didn't I personally don't have the time to keep flying back and forth from India to double check these sort of things.
+9:439 minutes, 43 secondsUm, so I was a little bit like worried about things like that. Um and I mean like in that case if there was a mistake I wouldn't know until it's maybe too
+9:519 minutes, 51 secondslate right so it's there are trade-offs to everything right so yeah I mean I know I didn't give you like a specific
+9:589 minutes, 58 secondsmistake but I think the entire this is quite tougher uh so where in India is your production
+10:0710 minutes, 7 secondsit's in Mumbai oh nice okay yeah yeah have you ever like been to Mumbai to actually check how things work on crowd
+10:1610 minutes, 16 secondsNot yet. So I have um a few like family members. I have a few like interns that I've been working with from like you
+10:2310 minutes, 23 secondsknow fashion schools in Mumbai who've kind of been doing a lot of that for me until at least I can get there you know.
+10:2910 minutes, 29 secondsSo I'm like there's people I trust who are able to do a lot of that until I myself can go. Um just because again it
+10:3710 minutes, 37 secondsis a little bit you know you got to take time off of work you got to figure it out. It's it's a lot of back and forth and it it does get a little bit complicated.
+10:4410 minutes, 44 secondsYeah. Yeah. Which brings me to my next question is how do you decide the price point for each piece?
+10:5310 minutes, 53 secondsLike is there Yeah. Could you just talk about like your thinking uh deciding the price points?
+11:0111 minutes, 1 secondYes. So I mean there is like a mathematical formula for this one, right? It's essentially you would take into account um all of the material
+11:1011 minutes, 10 secondscosts for one piece. So like even if I'm if I'm getting like 250 yards of one fabric, you're only going to take into account how much fabric is actually
+11:1811 minutes, 18 secondsbeing used in one piece. So for example, like one blazer might only use three yards of the fabric, right? So you would
+11:2511 minutes, 25 secondstake the price per yard, multiply by three, and that's how much for that specific material. So, you do this for basically everything that's involved,
+11:3311 minutes, 33 secondsincluding all the different clothing like buttons for a blazer, shoulder pads, like all these like sort of miniature things that you might not even
+11:4011 minutes, 40 secondsconsider. Um, you add all of that up and then you also include the labor cost.
+11:4411 minutes, 44 secondsSo, the cost it takes to actually make the product. This is why I was saying in the US if that labor cost is like $100 an hour and it takes three hours to make
+11:5311 minutes, 53 secondsone blazer. Yeah, that's that's an additional $300, [laughter] right? So, that that's already a little bit crazy.
+12:0012 minutesUm, but you take all this into account and then ideally you do want a profit, right? So, you usually work in some sort
+12:0712 minutes, 7 secondsof a profit. The goal for a lot of fashion brands is to eventually get to like a 1.5 to two um, sorry, 150 to 200%
+12:1512 minutes, 15 secondsprofit. For smaller brands, maybe when you're starting out, maybe that's not as possible. So, maybe you're going for more of like a 25 to 50% profit. So,
+12:2312 minutes, 23 secondsit's sort of all these sort of calculations that you kind of figure out beforehand. Um, and even when you're negotiating with your production companies, right, we're like you take
+12:3212 minutes, 32 secondsthat into account when you're actually figuring out the labor costs for them as well.
+12:3912 minutes, 39 secondsInteresting. So like okay, uh, India and can you like not give the exact numbers but can you tell me a range of how like
+12:4612 minutes, 46 secondswhat is the difference in the production cost in the US versus India? Like what is the difference? Is it like 1x, 2x, 10x?
+12:5612 minutes, 56 secondsYeah. Oh, that's that's it's hard to to give you. I think I think that the most
+13:0313 minutes, 3 secondsum or like the best comparison I can give you is even for just like so my fabric is printed,
+13:1013 minutes, 10 secondsright? Um and so if I'm looking at how much it costs to print it here in the US versus how much it costs to print it in
+13:1713 minutes, 17 secondsIndia and then get samples and everything made. So say like here it might have cost like for one piece
+13:2613 minutes, 26 secondsper I think it was like four 4,000 to $5,000 for that whole process in India
+13:3313 minutes, 33 secondsit cost 300 for all of my samples like USD oh USD USD USD sorry oh 300 rupees that would have been I
+13:4113 minutes, 41 secondswould have been like yes take my money actually [laughter] so if you're looking at that like I I don't know how many times That is, but
+13:5013 minutes, 50 secondslike if you're looking at $5,000 versus $300, right? That's already a massive difference. More than 10. Yeah.
+13:5813 minutes, 58 secondsYeah. Interesting uh to know. Uh but yeah. Okay. So, how do you deal with the competition? Are there other brands
+14:0614 minutes, 6 secondswhich are trying to achieve the same thing in the US?
+14:1014 minutes, 10 secondsThat's a good question. I honestly I have seen a lot of people who are trying to say make like Indian blazers with
+14:1714 minutes, 17 secondslike a lot of heavy embroidery things like that. Um, at least for me, the differentiating factor that I see for
+14:2414 minutes, 24 secondsmyself is that I'm making work wear that you can actually wear like daily to to the office, right? Where it's not like maybe more of like an occasion piece,
+14:3314 minutes, 33 secondswhich is how I view the other um other brands, which of course there's nothing wrong with that, right? Like I think they're still beautiful. There's still a time and place for them, but it's not
+14:4214 minutes, 42 secondsmaybe something that you can wear to an office, especially in the US or like a client meeting. And so that's something that I wanted people to be able to do where it's maybe a little more
+14:5014 minutes, 50 secondsminimalistic. Maybe that sort of cultural um little extra little cultural piece is maybe not as loud, maybe not as
+14:5914 minutes, 59 secondsprominent, but it's still there and it still can be like a conversation starter, right? So that's intense of
+15:0715 minutes, 7 secondscompetition. Maybe that's like the most I see. Um yeah. Yeah. This is nice. I'm
+15:1315 minutes, 13 secondsI'm like happy to know that there's like no other brand that has actually made places for work wear because I know a
+15:2015 minutes, 20 secondslot of like Indian brands try to enter the US market with like a western uh work wear inspired
+15:2915 minutes, 29 secondsbut I think none of them would have thought of like actually like making them for the offices. Yes. Yeah.
+15:3815 minutes, 38 secondsYeah. Okay. So cool. So my next question is if someone copied your designs perfectly tomorrow [laughter]
+15:4715 minutes, 47 secondswhat would they still do is like what edge would you want to preserve like you know like because I feel like in social media I feel like people are just you
+15:5515 minutes, 55 secondskind of like yeah it's everywhere you can't really control what who you show it to like if you want
+16:0216 minutes, 2 secondsto show it to like a certain like where you segment of the population where you want to market but you kind
+16:1016 minutes, 10 secondsUh it's public right? Um yes of course. So what edge are you trying to preserve?
+16:1516 minutes, 15 secondsLike are you consciously working towards like having like an edge which no one can uh copy?
+16:2316 minutes, 23 secondsI think honestly the the edge is never going to be in the design right like at the end of the day you're right like this is not like so extremely unique
+16:3116 minutes, 31 secondsthat someone can't recreate it. Um, I think what I want though is I want like to build that sort of community aspect
+16:3816 minutes, 38 secondsof it, right? Where it's not just at the end of the day fashion, but it's also like an actual community of people who support the brand, who support each
+16:4616 minutes, 46 secondsother. And I think that's sort of is more of an edge than any sort of actual design ever will be. Cuz like even if you're looking at like the design, like
+16:5516 minutes, 55 secondssay I hand drew this one specific design, that doesn't mean that someone can't also just copy that same drawing, right? But I think no one can just also
+17:0417 minutes, 4 secondsYeah. No one can recreate an entire community of people who support a brand or who support each other, right? So I think that's the edge that I'd want to preserve.
+17:1417 minutes, 14 secondsI think that's exactly the answer that I was looking for because even when I was thinking of like the brand that I'm trying to create, I think people love
+17:2217 minutes, 22 secondslike at least the intentional buyers and the they always look for a good brand story and once they're loyal to it, you
+17:3117 minutes, 31 secondsknow, they they talk about like, oh, do you remember like the blazer that I wore that time by and they start quoting you
+17:3817 minutes, 38 secondsand that's how you sort of build like the brand loyalty and like you know that that's replaceable even if you find a similar piece somewhere else.
+17:4717 minutes, 47 secondsSo, right, I think that's very difficult to build, but once you build it, I think it's like priceless. I think you can't really Yeah.
+17:5417 minutes, 54 secondsput a price on, you know, that kind of support from people.
+17:5917 minutes, 59 secondsUm, yes.
+18:0018 minutesYeah. Um, so, okay. So, how do you market and sell your pieces? Is it just online or word of mouth or how do you do it?
+18:0918 minutes, 9 secondsYeah. So right now it is primarily online. I think um a lot of the amazing marketing that I got last year was
+18:1718 minutes, 17 secondsthrough different fashion weeks. Um we did New York fashion week as well as Chicago fashion week last year. So I think that's it really did I think help
+18:2618 minutes, 26 secondsbring it to like a different audience, right? Cuz whatever happens online, it's sometimes being marketed to the same people. You never know. Um but at least if you go to these fashion weeks, it
+18:3518 minutes, 35 secondsmight hit a new audience that you never really expected it to hit before. Um, so that really helps. I think this year we have plans to do a lot of different type
+18:4318 minutes, 43 secondsof marketing because especially with this year I am planning a launch, right?
+18:4618 minutes, 46 secondsSo I do want to actually have more product where I can maybe host like popups or say like coffee meetups, things like that where I can actually
+18:5418 minutes, 54 secondsget involved with the community that I'm trying to build. Um, and then they can actually start touching and feeling the pieces as well. Um, rather than just
+19:0219 minutes, 2 secondsseeing them on like an Instagram reel, right?
+19:0719 minutes, 7 secondsUm would do you plan to do any of that in India as well or just the US?
+19:1219 minutes, 12 secondsI really want to. I really want to. I think that would be amazing to do some in India as well. I think like I definitely have a ton of support from
+19:2019 minutes, 20 secondsIndia at least on like you know Instagram. I don't know. I don't I'm not 100%. Is Tik Tok still banned in India? Yeah, it is.
+19:2619 minutes, 26 secondsYeah. Okay. So that's I'm like I'm pretty sure none of my Tik Tok audience is from India. So I don't know about that but I know a ton of my Instagram audience definitely is. And so I have a
+19:3419 minutes, 34 secondston of people who are like super excited about it and so I would love to do something in India. I think that would be so fun. Um I would just have to like it's so hard for me to get to my own
+19:4319 minutes, 43 secondsproduction company. I don't know how to host an entire event. Don't worry I'll help. Yes.
+19:5119 minutes, 51 secondsOkay cool. Um so okay so uh is it just you uh I wanted to ask is it just you as a founder like are you
+19:5919 minutes, 59 secondsdoing everything start to finish or do you have like a co-founder or like people helping you out as a team?
+20:0620 minutes, 6 secondsIt's primarily just me. I've had like a few interns help out with things like tech packs um like fashion drawings,
+20:1420 minutes, 14 secondsthings like that. Um I think sometime last year. Um, and then honestly [clears throat] my fiance helps me out with some of the the financial aspects
+20:2220 minutes, 22 secondsof it. I will be honest. But otherwise, no, it is just me.
+20:2620 minutes, 26 secondsWow, that's quite impressive that you're handling everything start to finish. That's like top-notch CEO experience.
+20:3320 minutes, 33 secondsUh, yeah.
+20:3820 minutes, 38 secondsOkay. So, if you had to start over, what would you do differently? like uh is there anything that you could you know
+20:4620 minutes, 46 secondsdo differently like a very specific thing I would like not like the small things you know like any major stuff
+20:5420 minutes, 54 secondsthat you would do differently um I think I would start the whole process in India I think
+21:0421 minutes, 4 secondsmy want to be like close to the actual process to the actual production um and that's why I went with the initial like
+21:1221 minutes, 12 secondssampling contract with a company here in the US. Um, and while that was a that was a perfectly fine experience and that
+21:1921 minutes, 19 secondswas great, but it did feel very like I was paying a lot of money and like while I did get results, it was kind of like okay, you know, I paid a lot, but like I
+21:2821 minutes, 28 secondsdon't really know for for if it was worth that much, right? Um, and then like honestly once you switch production companies, you have to do redo a lot of
+21:3721 minutes, 37 secondsthat work anyway. So it's kind of like okay you're paying the cost twice while it is significantly less. Yeah. But you're still paying that cost twice for
+21:4621 minutes, 46 secondsbasically getting the same result. So I think I would probably just like you know bite the bullet and immediately start in India and like if that meant
+21:5521 minutes, 55 secondshaving to take a trip or something at the beginning of this whole process and then start directly there. I think that's the biggest change I would have made.
+22:0522 minutes, 5 secondsYeah. Okay, which brings me to my last question which is my legacy question which I ask all of my founders is what
+22:1322 minutes, 13 secondsare you in wisht for your brand for the next 5 to 10 years? Yeah.
+22:1822 minutes, 18 secondsOh, that's a good question. I think that's such a hard question especially for a lot of founders because you're so stuck in the now. You know, you're like, "Oh, got to get this launch out, then we
+22:2622 minutes, 26 secondsgot to get this marketing done and then so on and so forth." But honestly, I think 5 to 10 years I want this to be
+22:3322 minutes, 33 secondslike the forefront of oh Indian inspired work wear this is the brand whether it's for men or women or anyone right um I I
+22:4222 minutes, 42 secondswant it it's for men as well right now it's just for women but I have had a lot of requests from a lot of guys
+22:5022 minutes, 50 secondswho are like I would I would wear that and so I'm like we will try to get something for you out here. Um, so that's why I'm like saying I want to
+22:5822 minutes, 58 secondsexpand it, right? Like to be more than just women cuz like at the end of the day a lot of people do want to represent their culture in their workplace. And I think especially like a lot of guys wear
+23:0623 minutes, 6 secondssuits a lot, right? Like I think they would they would love to have something like this where they can represent what their their culture is. Um, and so I
+23:1423 minutes, 14 secondswould want to expand it to pretty much include anyone. um and not really be like sort of like you know for a
+23:2123 minutes, 21 secondsspecific group of people um including moving across like basically the entire world. I think right now obviously India
+23:2823 minutes, 28 secondsor US is my main focus but I'd love for it to be in like London, Dubai, who knows, right? Um but yeah, I wanted to
+23:3523 minutes, 35 secondsbe like sort of synonymous with oh yeah like Indian work where that's that's bam. We know that. So like I would love for that sort of um recognition. Yeah.
+23:4723 minutes, 47 secondsIt's fine.
+23:4923 minutes, 49 secondsOkay, so that's all of my questions. Uh, thank you so Asha. This was really fun and like your answers were crisp. So I
+23:5723 minutes, 57 secondsreally like that. [laughter] Thank you.
+24:0124 minutes, 1 secondYeah, thank you so much. So for the people listening if you like this conversation please uh share it with a
+24:0824 minutes, 8 secondsfriend and I have also enabled comment section on the YouTube YouTube section.
+24:1424 minutes, 14 secondsUh so you can uh type in your comments uh whatever you feel about this video.
+24:2024 minutes, 20 secondsThank you very much Ashna again. Uh and for the audience I'll see you in the next one. Bye.
+

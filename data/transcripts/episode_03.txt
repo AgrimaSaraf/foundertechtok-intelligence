@@ -1,0 +1,1505 @@
+Episode 03: FounderTechTok with Vedant Nair
+Guest Name: Vedant Nair
+
+Hi everyone, this is Agrima and uh
+0:20
+welcome to Founder Tech Talk, a space
+0:23
+where we decode founder journeys and
+0:25
+learn the art and science of building
+0:27
+the future. Today I have with me Van
+0:30
+Nyer from the US. Uh he's the founder of
+0:34
+Miru. Um and today we'd be going head
+0:37
+first into his journey of being an
+0:40
+entrepreneur. So hi Van.
+0:42
+Hey GMA. Nice to be here. Um super
+0:45
+excited for this interview.
+0:46
+Yeah. [laughter] Cool. Um so yeah I'll
+0:49
+just dive straight right in.
+0:51
+Sure. Let's go for it.
+0:52
+Yeah. So, uh, just to begin with, if you
+0:56
+had to describe your company to like a
+0:58
+10-year-old, how would you do it?
+1:01
+Yeah, definitely. Um, we build software
+1:04
+for robotics. So, I often struggle to
+1:06
+create a good answer to this question,
+1:08
+but I think the best way I think about
+1:10
+it is that a robot, it needs
+1:13
+instructions for how to work or what to
+1:16
+do. And we help people who are making
+1:20
+these robots get their instructions from
+1:23
+their computers to the robots. That's
+1:26
+what we help with.
+1:29
+Nice. Um that was without any business
+1:32
+jargon. So I love that answer.
+1:34
+Great. I love that.
+1:35
+Yeah. So what uh made you uh start mu
+1:40
+like what what point?
+1:42
+Uh
+1:42
+yeah.
+1:44
+So I think growing up I always had a
+1:48
+fascination with robotics. Um I read a
+1:52
+lot of sci-fi. I read like Isaac Asimov
+1:54
+and all those kinds of folks. And um I
+2:00
+was always captivated by a robot's
+2:03
+ability to replace a human in something
+2:07
+that
+2:08
+was usually painful or dangerous or
+2:13
+boring. And I thought it was so
+2:16
+beautiful that you could use a machine
+2:18
+to automate that work. Going into
+2:21
+college, I think I kind of put this
+2:23
+fascination a bit to bed. I that's when
+2:24
+I really started, you know,
+2:27
+doing startups, building software
+2:29
+companies with my friends. But then um I
+2:33
+think it was either junior or senior
+2:34
+year of college, uh Cruz, Cruz, they're
+2:37
+the robo taxi company. Unfortunately,
+2:39
+they're now defunct, but they started
+2:41
+doing beta tests in Austin. And I was
+2:44
+lucky enough to be a beta rider of Cruz.
+2:47
+And I'll never forget the night I took
+2:49
+my first cruise. Um and I like got into
+2:52
+this car and there's literally no one in
+2:54
+the driver's seat. and we just start
+2:57
+driving around Austin. Uh I went to
+2:58
+school at UT Austin and it was like this
+3:01
+magical moment where I just like I
+3:04
+couldn't believe that like we had built
+3:05
+something like this special, this like
+3:06
+useful um something that brought me so
+3:09
+much joy, something that I could see so
+3:10
+much utility in. And I knew after that
+3:14
+that I had to build something in the
+3:16
+space to help the people who are making
+3:18
+these magical experiences make their
+3:19
+lives easier. Um, and that set me and my
+3:23
+friends down this windy long path of
+3:27
+trying to build different ideas in what
+3:30
+I call like edge AI and computer vision.
+3:33
+Um, which are two like really impactful
+3:35
+parts of the robotics kind of software
+3:37
+stack.
+3:39
+In that journey, um, we tried a bunch of
+3:41
+different ideas. None of them really
+3:43
+worked. We were doing like model
+3:45
+optimization and just some very esoteric
+3:48
+things. But the important thing that we
+3:50
+did was that each week we had a
+3:52
+hypothesis for what we were doing and we
+3:54
+tested it over and over. Um, and the way
+3:57
+we tested it was we talked to a bunch of
+3:59
+founders, researchers, engineers in the
+4:02
+space. And it was a few weeks, actually
+4:05
+a few months of us kind of doing this
+4:07
+wild goose chase where one day we talked
+4:09
+to this founder and, you know, we gave
+4:12
+him his p this pitch. We showed him his
+4:14
+idea and he's like, you know what,
+4:15
+that's great. Um, but you know what's
+4:17
+really really hard for me right now? You
+4:19
+know what's so painful that I would
+4:21
+actually pay you money if you solve this
+4:22
+this problem for me right now is
+4:25
+deploying these models and the software
+4:28
+to my devices to my robots.
+4:31
+And hearing that so clearly articulated
+4:35
+um and so cleanly put by a founder who
+4:37
+has so much pain made me realize that
+4:41
+we needed to solve this problem for him
+4:43
+and make his life easier. And that's
+4:45
+when we started Miu. Um, and yeah, we we
+4:48
+haven't looked back ever since.
+4:51
+Um, okay. So, what was your most
+4:54
+memorable uh day ones? Uh, um, what were
+4:58
+your first most memorable day ones as a
+5:01
+founder?
+5:02
+Yeah. Um, I think there's like two
+5:05
+separate moments I remember. Um, one
+5:08
+was, you know, kind of in this part
+5:11
+where I mentioned that we were iterating
+5:12
+a bunch and trying different ideas. Uh,
+5:16
+we had previously been rejected by Y
+5:19
+Combinator when we applied for one of
+5:21
+their batches. Um, but we were lucky
+5:23
+enough to get another opportunity to
+5:25
+make a pitch to to YC for a later batch.
+5:29
+And usually like with YC what happens is
+5:31
+if they have good news they call you and
+5:34
+if they have bad news uh you know they
+5:36
+send you an email and they're pretty
+5:37
+quick about it too. You'll do an
+5:39
+interview on one day and you might hear
+5:40
+that same night. So we did our Y
+5:43
+cominator interview. Um this was spring
+5:46
+of our senior year. Uh none of us had
+5:49
+jobs. We didn't know what we would do if
+5:51
+we didn't get money. All we knew is that
+5:53
+we were going to figure it out and we
+5:55
+were going to make this company work.
+5:57
+But honestly, yeah, we were looking for
+5:59
+a lifeline and we did this interview.
+6:03
+Honestly, we did get some pretty tough
+6:06
+feedback from our partners. They weren't
+6:08
+sure, you know, if we were the right
+6:10
+people to build this, if we were
+6:12
+technical enough to build this, if we
+6:13
+had the chops to sell it. Some really
+6:16
+harsh feedback, honestly. Um, but for
+6:20
+some reason or another, uh, maybe they
+6:22
+took a chance in us. Maybe they believed
+6:23
+in us as founders. our doggedness, um,
+6:26
+our willingness to not give up. They
+6:29
+accepted us. And I remember my
+6:30
+co-founder Armell running into the room
+6:33
+like waving his phone in the air cuz on
+6:36
+the other end was the YC partner who
+6:37
+just told us that we were, you know,
+6:39
+going to we were accepted into YC and
+6:41
+that honestly things would change change
+6:44
+forever. The trajectory of our companies
+6:46
+and our lives would change forever after
+6:48
+that moment. And that was that was a
+6:50
+really good moment. I remember uh yeah,
+6:52
+I would we had a balcony in our in our
+6:54
+apartment and I just like kind of sit
+6:56
+sit out there like 2:00 a.m. at night
+6:58
+just like reflecting. I was like, I
+7:00
+can't believe it. I can't believe that
+7:01
+all the things that I had done, all the
+7:03
+blood, sweat, and tears I'd put in. Um
+7:07
+I'm I'm now in YC. It was it was
+7:08
+beautiful. um in the second day one
+7:12
+moment that's probably a little uh less
+7:15
+you know poetic or or magical was okay
+7:18
+great you got into YC but now that's
+7:20
+just the that's the easy part the hard
+7:22
+part starts now the day one of building
+7:24
+your company right and we graduated from
+7:27
+UT Austin a week later we packed up a
+7:30
+U-Haul and we drove for like 2 and 1/2
+7:32
+days straight like barely sleeping from
+7:35
+Austin to San Francisco
+7:38
+we get to San Francisco like late on
+7:41
+like a Thursday uh afternoon evening. We
+7:44
+unpack everything, set everything up,
+7:45
+exhausted, we fall asleep and wake up.
+7:48
+When we wake up, I'm like, "Holy like
+7:51
+this is it. This is all this is the this
+7:53
+is the start of the company." Like from
+7:54
+here on it's it's on us. It's on me to
+7:57
+execute. Um and I'm like staring at all
+8:00
+these blank white walls around me and my
+8:02
+desk and my computer and I was like I
+8:04
+guess it's time to make it happen. like
+8:05
+this is this is the reality of being a
+8:07
+founder is that um it's not that
+8:10
+glamorous. It's not that magical. It's
+8:11
+just like a lot of boring days stacked
+8:13
+on top of each other to execute. Um and
+8:16
+it reminded me of Parker Conrad. He's
+8:18
+the founder of Rippling. He has this
+8:20
+nice line where he says, you know, when
+8:22
+you're starting a company, you're
+8:23
+starting a startup, there's a really
+8:25
+fine line between being an entrepreneur
+8:27
+and just being some random guy sitting
+8:29
+on your couch in your underwear just on
+8:31
+his laptop, right? And um
+8:35
+It made me feel like that. I was like,
+8:36
+"Dang, I'm just like some guy in some
+8:37
+room with a computer." The only
+8:39
+delineation between being some random
+8:41
+guy and being a founder is the work that
+8:43
+I put in, the execution that I have. And
+8:44
+that really felt like day one of the
+8:46
+company. So yeah, I guess to to
+8:48
+summarize a a long monologue is like the
+8:51
+day we got into YC and the day we
+8:53
+actually moved to San Francisco and
+8:55
+started building Miru were two of the
+8:56
+most memorable days in in my journey
+8:58
+this far.
+9:00
+Uh and was like moving to San Francisco
+9:03
+was the scariest spot? I know the
+9:04
+beginnings can be scary. Fear of unknown
+9:07
+and like you know not knowing how figure
+9:10
+it out.
+9:11
+Yeah. Um I think it was both scary and
+9:14
+exciting. Um being from Texas, uh
+9:19
+we definitely had some set of startup
+9:21
+ecosystem. There were really successful
+9:23
+people, but it all felt so far away,
+9:26
+right? Like watching the social network,
+9:28
+watch marching watching Mark Zuckerberg
+9:30
+move to the valley that didn't feel like
+9:32
+the world that I was in. But honestly,
+9:34
+it felt like the world I wanted to be
+9:35
+in. I wanted to be in the arena with all
+9:38
+those people building um scaling and I
+9:42
+think I I always wanted to move to San
+9:44
+Francisco because I always felt like
+9:46
+that would be the place that I could you
+9:48
+know chase my dreams. So that part was
+9:50
+super exciting that I was getting to
+9:51
+fulfill that kind of you know part of
+9:53
+the hero's journey of my life. Yeah. The
+9:56
+scary part was my parents are like
+9:58
+thousands of miles away. Um I come from
+10:01
+an Indian family where like family is
+10:02
+very important. People you know you
+10:05
+sometimes like not sometimes you you
+10:07
+live with your parents like into um
+10:10
+pretty old ages like the entire extended
+10:12
+family is like one unit that is in a
+10:15
+very close uh area to each other and
+10:18
+this was kind of breaking all of those
+10:20
+norms. Um and I felt this is also at the
+10:23
+time that I was graduating as well. So,
+10:25
+like graduating from college, moving to
+10:26
+this next chapter, um moving to a new
+10:29
+city, it was a lot. It was really
+10:30
+overwhelming to kind of take in and
+10:33
+adjust to. And it really did feel like I
+10:35
+was being thrown into the the
+10:38
+uh what is it called like into the
+10:40
+boiling pot. Like I was, you know,
+10:43
+having all these changes at once and it
+10:45
+it was really overwhelming. There's some
+10:46
+really difficult times for sure. But um
+10:50
+I also felt like that was just a hyper
+10:52
+personification of the startup journey
+10:53
+where it's so intense. All the feelings
+10:55
+are intense. The feelings of joy, the
+10:57
+feelings of sadness, the feelings of
+10:58
+euphoria, of you know setback. Um so I
+11:02
+don't know, it just felt like right that
+11:04
+that was also the time that I was
+11:05
+starting my journey moving to this new
+11:07
+city.
+11:09
+So Gary mentioned family which uh brings
+11:12
+me to my question which I always ask is
+11:16
+how was your early how were your early
+11:19
+influences and how did they affect um
+11:22
+you know your childhood and your
+11:24
+mindset?
+11:26
+Yeah. Um
+11:29
+I think so I'm a second generation
+11:31
+immigrant. My parents came from India to
+11:33
+the US uh as part of the Y2K boom. There
+11:36
+were IT workers. I think their story, I
+11:39
+mean, one in general, I think it's like
+11:41
+I mentioned, you know, moving a few
+11:43
+thousand miles to San Francisco, but I
+11:44
+couldn't even imagine moving across the
+11:46
+world to a different country. My parents
+11:48
+moved to Oklahoma in the '9s. Uh, from
+11:50
+people who aren't in the US, I'm not
+11:52
+even sure if people know what Oklahoma
+11:54
+is. It's one of like
+11:56
+Yeah. Yeah. Tulsa's in Oklahoma, but um
+11:58
+yeah, that it's a
+12:01
+No, not in Tulsa. Uh, so I was born in
+12:04
+Oklahoma City. Uh that's where my
+12:06
+parents moved to first. Um but yeah,
+12:09
+it's like a pretty small state in the US
+12:11
+like um very often a lot of parts are
+12:14
+very rural. Um it was part of um it's
+12:19
+it's like part of the south, right? So
+12:20
+there's like maybe some undertones of
+12:22
+racism or isolation. And um my parents
+12:26
+moved into that in the '9s. And I'm
+12:29
+thoroughly impressed and grateful that
+12:31
+they did and underwent all those
+12:33
+hardships because it gave me like this
+12:36
+amazing life that I have today. Um so I
+12:38
+think I was always grateful for my
+12:40
+parents putting me in that situation. Um
+12:42
+but then I think growing up like I
+12:44
+honestly had a really great life. Uh I
+12:46
+don't think I you know faced uh a lot of
+12:49
+uh adversity in the traditional sense. I
+12:50
+think my parents cared for me. They
+12:52
+pushed me really hard in school. But I
+12:54
+think that's what a lot of Indian
+12:55
+parents do, especially immigrant parents
+12:57
+do. Um, but I think the the blessing
+12:59
+that that I really had, something I
+13:01
+think was special was um early on I just
+13:05
+read a lot. I read a lot of books. I
+13:09
+remember like my mom would take my
+13:11
+sister and I to the library and you know
+13:14
+most parents or like most kids they
+13:16
+would walk out and they would just have
+13:18
+like you know a few books in their hand
+13:20
+like a stack of books like three or four
+13:21
+books. I remember my mom brought these
+13:23
+like big bags because I just read so
+13:26
+much that we had to like put like 20 30
+13:29
+books in there at a time. I don't even
+13:31
+know how the library let us do that but
+13:33
+I was always encouraged to read. I was
+13:35
+always left alone to read. In Texas in
+13:38
+the summer, it's like 100° Fahrenheit
+13:41
+outside. No one wants to go outside. So,
+13:43
+what I did is I just read the entire
+13:44
+day. And I'm like so grateful that I
+13:46
+did. Um because one, reading made me
+13:49
+really curious and made me very
+13:50
+creative. And I think that's something
+13:51
+that I hold with me to this day. It's
+13:53
+one of my strengths. Um it made me love
+13:56
+the written word. I think I love
+13:58
+writing. I still love reading. Um but it
+14:02
+also introduced me to the stories of
+14:04
+entrepreneurs. Uh my uncle when I was I
+14:08
+think going into high school gifted me
+14:10
+two like really canonical books I think
+14:12
+in a lot of founders lives which is one
+14:14
+the Steve Jobs biography of uh by Walter
+14:17
+Isacson and then two 0ero to1 by Peter
+14:19
+Teal. And that's what really got me
+14:21
+started into believing that, you know,
+14:25
+maybe as confident as this, I this is to
+14:27
+say like I'm cut from the same cloth as
+14:28
+these people, I can become one of these
+14:30
+people. I will become one of these
+14:31
+people and inspired me to think about
+14:34
+business and how to build businesses,
+14:35
+what makes good businesses, what makes
+14:37
+good startups. Um, just being inspired
+14:40
+by them. I think those were that was
+14:42
+like a really fundamental part of of me
+14:45
+becoming a founder. Um, and I think also
+14:48
+I was a troublemaker too. Uh if you ask
+14:50
+my mom like I talked back a lot. I cried
+14:54
+a lot. Um when I I [laughter]
+14:58
+going from like elementary school and
+15:00
+like you know there's like some uncles
+15:02
+and aunties that you don't see for you
+15:04
+know a few years and I remember when I'd
+15:06
+grow up they they'd tell my mom like
+15:07
+what happened to him? He used he's such
+15:09
+a nice he's such a good boy now. Such a
+15:11
+nice boy now. Like he used to be like
+15:12
+this guy who was like crying this kid
+15:14
+who was crying and couldn't he couldn't
+15:16
+like take care of him or whatever. Um I
+15:19
+think I and I think the reason that was
+15:21
+is because I always had some level of
+15:23
+like independence and ferocity that I
+15:25
+wanted to do things for better or worse
+15:27
+my way. Um I believed in my
+15:30
+self-sufficiency and that caused
+15:32
+problems. I was definitely very
+15:34
+abrasive. Um but I think yeah those
+15:36
+kinds of factors I think when I think
+15:38
+about like looking back um those are the
+15:41
+kinds of things I think led me to where
+15:42
+I am today. I'm sure there's like a
+15:45
+bunch of other things too that I I don't
+15:47
+I don't have a pulse on that that that
+15:49
+that uh got me here, but um definitely
+15:52
+some of the biggest factors there um in
+15:54
+terms of my my childhood and growing up.
+15:57
+Really nice. Um good to know that you
+16:00
+read a lot. Um because one of my
+16:03
+questions I love to ask what are your
+16:05
+book recommendations because I want for
+16:08
+tech talk also to be like a book club.
+16:10
+Um,
+16:10
+oh, nice.
+16:11
+People can like share what they're
+16:13
+reading. Um, at least on the podcast
+16:16
+they can, you know, share. So, you did
+16:18
+share two books that really like helped
+16:21
+you. Yeah.
+16:22
+Good.
+16:23
+Definitely recommend those.
+16:24
+Yeah. Yeah. So, okay, coming back to the
+16:28
+company side of things. Um, I want to
+16:30
+talk about the market moment, you know,
+16:32
+uh, when you realized this is, you know,
+16:35
+your company and your product is
+16:37
+actually working.
+16:40
+Yeah. So like I mentioned, you know, we
+16:42
+started building, you know, our product
+16:44
+for that founder who said, "Hey, this is
+16:46
+a really painful problem. Uh, can you
+16:48
+solve it for us?" Um, and you know, a
+16:51
+few months later, we had iterated a few
+16:53
+times and we're building this product,
+16:54
+Miru, uh, configuration management for
+16:57
+robotics. And we had envisioned this
+17:00
+kind of experience. Uh we had built this
+17:02
+MVP um on how that experience would look
+17:05
+and we released it out into the world.
+17:08
+And it had been a slog up until that
+17:10
+point to get people to talk to us to you
+17:13
+know uh you know say oh I'll use your
+17:16
+product um understand what their
+17:18
+problems were. And for some reason, and
+17:21
+I don't know how they found us, um,
+17:23
+exactly, um, this customer who would
+17:28
+have been one of the biggest companies
+17:29
+that we had interfaced with to that
+17:31
+point came in cold inbound and started
+17:35
+using our product. And I remember seeing
+17:38
+them sign up and I was like, "Oh, oh my
+17:40
+god." Like, "Why are these guys here?
+17:42
+How how did they even find us?" They
+17:43
+started using our product and um you
+17:46
+know one of their engineers asked to get
+17:48
+on a call and whenever we got on a call
+17:50
+with that engineer we realized
+17:53
+they had used it incorrectly in all in
+17:57
+in every single way possible. They were
+18:00
+trying to fit like a square peg into a
+18:01
+round hole. They were not using our
+18:03
+product correctly. But because this
+18:05
+problem was so painful, but because no
+18:07
+one had solved it yet, they were like
+18:10
+begging for anything that they could,
+18:12
+you know, use or yeah, utilize to uh
+18:15
+solve this problem. And they just they
+18:17
+they asked us like, "Hey, like I know
+18:19
+this isn't the right version of what we
+18:21
+need, but like can you can you help us?
+18:23
+Can you help us solve this?" Um and
+18:26
+seeing that, seeing how painful it was
+18:28
+for them, how crucial this product was
+18:30
+at this inflection point in their
+18:31
+company and knowing that we were
+18:33
+uniquely the ones to solve it. Um that
+18:35
+was when we realized, okay, we are
+18:37
+solving a real problem for the robotics
+18:39
+industry that all these scaling robotics
+18:43
+teams have and it's just up to us to
+18:46
+execute and build the product with all
+18:48
+the features that it needs uh with all
+18:50
+the right workflows um to help solve
+18:52
+their problems. And yeah, that's when we
+18:54
+knew like this is this is going to be uh
+18:56
+a successful product. We just have to
+18:58
+focus and we just have to keep
+19:00
+compounding.
+19:02
+Nice. So like it's is it um just you
+19:05
+building the product? And I'm sure you
+19:07
+have co-founders, right?
+19:08
+Yes. So there's three of us uh three
+19:10
+co-founders. Um and yeah, we all we all
+19:13
+build um
+19:16
+we uh are purposely very lean. Um I
+19:20
+think
+19:22
+Our goal is that we want to build a team
+19:26
+that looks more like
+19:29
+a small elite group like the Navy Seals
+19:32
+compared to like a big, you know, for
+19:35
+lack of a better word, less talented
+19:36
+group like uh, you know, the the army or
+19:40
+some infantry or something like this.
+19:41
+Like I think in my short career so far
+19:45
+I've seen the power that small teams can
+19:48
+have, how much impact they can have and
+19:50
+more importantly how quickly they can
+19:52
+move and we want to embody that
+19:53
+ourselves. Of course we're going to
+19:55
+start hiring and scaling the team as we
+19:57
+we grow our product and revenue base but
+20:00
+uh we wanted to create a culture of
+20:02
+small and fast um in the early days of
+20:05
+our company.
+20:07
+Okay. So you're hiring. So you don't
+20:09
+have a team apart from the founders.
+20:11
+Yes, not yet. That will change but not
+20:13
+yet.
+20:15
+Cool. So coming back to the human side
+20:19
+of the company, I wanted to ask you what
+20:21
+keeps you grounded? I know building a
+20:23
+company is so stressful. So what
+20:25
+[laughter]
+20:26
+uh rituals uh and hobbies or habits um
+20:30
+you know keep you sane?
+20:32
+Yeah. Um
+20:35
+I think for me as well as the rest of
+20:37
+our company, health is a huge part of
+20:40
+our culture.
+20:42
+I think um you know in years past,
+20:46
+especially in the valley, uh working
+20:48
+until you drop was kind of it was kind
+20:51
+of u
+20:53
+put on a pedestal, right? Like oh, how
+20:55
+many hours did you work? How little
+20:57
+sleep did you get? People I remember
+21:00
+reading the Elon Musk biographies. He's
+21:03
+he's also a different breed, but like
+21:05
+you know, working late into the night
+21:06
+and then drinking even later to the
+21:08
+night while you're playing video games,
+21:09
+waking up on a few hours of sleep and
+21:11
+doing it all over again. Um, to me that
+21:14
+just sounded like a really, really good
+21:16
+way to prevent yourself from working on
+21:20
+your company um, and building the best
+21:22
+product that you can for a really long
+21:24
+period of time. Um, and I think for us,
+21:28
+like we were all athletes in high
+21:30
+school, and I think keep that same kind
+21:32
+of athletic mindset where we want to
+21:35
+treat our craft and treat our lives like
+21:37
+Olympians. Uh, we want to train really
+21:40
+hard, we want to eat very clean, we want
+21:43
+to prepare very well so we can do our
+21:45
+best and produce the best work. And so,
+21:48
+yeah, because of all those things, we
+21:50
+have a, you know, big uh culture around
+21:52
+health. Also, selfishly, like I want to
+21:54
+live for a really long time. I love
+21:56
+being alive. I don't know what being
+21:58
+dead is like, but being alive sounds
+22:00
+pretty great, so I want to keep doing
+22:02
+that. Um, so I think like I care a lot
+22:05
+and I try to make time every day for
+22:08
+exercising. Um, try to exercise before
+22:11
+work, whether that's running. I'm
+22:13
+training for a half marathon right now,
+22:15
+but other than that, like just like, you
+22:16
+know, working out, lifting, all that
+22:18
+stuff. Um, but I think as a release
+22:21
+valve, um, like I said, we were athletes
+22:24
+in high school. We all played basketball
+22:25
+in high school, and that's how we met
+22:27
+each other while we're in college. Um, I
+22:29
+love playing sports. So, um, I love
+22:32
+playing basketball and football, but
+22:33
+honestly, I'll play any sport, uh, as
+22:35
+long as there's a competition on the
+22:36
+line. I'm someone who's fiercely
+22:38
+competitive. I love competing. I I don't
+22:42
+actually really like winning. I just
+22:43
+hate like losing. It just sucks to lose.
+22:46
+Um and so I love being able to play
+22:49
+sports and have that competitive spirit.
+22:51
+Um I think it I don't know. I it it
+22:56
+hones my mind to
+22:59
+be a more effective, more disciplined,
+23:02
+more intense founder and playing sports
+23:04
+and competing. I think competition is
+23:06
+just like a great thing for making you
+23:08
+sharper. So I always try to compete at
+23:11
+different things. Um but yeah, I think
+23:13
+sports are a big big uh part of my life,
+23:17
+especially as a stress reliever. As you
+23:19
+said, building a company is really hard.
+23:20
+Um so yeah, I think I think sports is
+23:22
+that is that thing for me.
+23:25
+It's nice. And also reading, right? I
+23:27
+Yeah. Yeah.
+23:29
+Yeah. Okay.
+23:30
+I I Yeah, I I I I guess I should have
+23:32
+mentioned that as well. Reading is
+23:33
+definitely a big one. Um, sometimes it
+23:35
+does feel like reading is more like
+23:37
+homework than it is like than a release.
+23:39
+Like I think I read a lot of books about
+23:41
+entrepreneurship um and and business.
+23:45
+But I think like I said, I grew up
+23:47
+reading sci-fi. So I think like reading
+23:49
+sci-fi books is kind of like my uh
+23:52
+escape. Um I'm reading this book called
+23:54
+Hyperion right now that's really good.
+23:57
+And it's it's like it's a nice ritual
+23:58
+that I do right before I sleep. Um I
+24:00
+think reading before I sleep also helps
+24:02
+me go to bed. uh easier. But I agree.
+24:06
+Yes, reading is also one of those things
+24:07
+for me as well.
+24:12
+Which brings me into my next question is
+24:14
+what's next? So like what's one thing
+24:17
+you're excited to build in 2026
+24:21
+um in the next year. I'm not going to
+24:23
+ask you what's next for the five years
+24:24
+because times change very quickly.
+24:27
+Yeah.
+24:28
+Yeah.
+24:29
+Yeah. Um, I think for me and for our
+24:32
+team at Miru, I think the things that
+24:36
+we're really excited to build are just
+24:38
+new features in Miru. Um, right now
+24:41
+we're at this point where we have a
+24:46
+narrow set of features and it als it
+24:48
+almost feels like we have a product and
+24:51
+not a solution. And a solution is like
+24:53
+an encompassing set of uh uh of products
+24:57
+that work together to deliver a solution
+25:01
+to a problem. And we're not quite there
+25:03
+yet. And so in 2026, I'm excited to add
+25:06
+on to Miu and yeah, build new features,
+25:10
+but and more importantly refine the ones
+25:12
+that we do have and keep eating out
+25:14
+quality from all of our all the things
+25:16
+that we put out. Um so that's what I'm
+25:19
+really excited about. I like I'm excited
+25:20
+to see what our customers think um from
+25:22
+the new things that we build, the things
+25:24
+that we refine. Um personally, like I'm
+25:28
+just like you really interested in
+25:29
+content, whether that's producing video
+25:31
+content or writing. Uh we have a big
+25:35
+kind of content focus and strategy with
+25:37
+Miru. I think the robotics industry
+25:39
+right now is starved of really good
+25:42
+content that's like tactical, like how
+25:44
+do I do this? How do I scale this fleet?
+25:46
+Uh what do I do for my operations? And
+25:49
+uh uh that's something I really care
+25:51
+about filling the gap in. So um bringing
+25:54
+the industry insights across from
+25:56
+scaling robotics is something I'm super
+25:58
+excited about. Creating that knowledge
+25:59
+base for the industry. Um in general, I
+26:02
+think the the focus is the same. Just
+26:04
+make miru as good as we possibly can so
+26:07
+that we can continue to serve our
+26:08
+customers better continue to grow our
+26:10
+company.
+26:12
+That's nice. If you don't mind me
+26:13
+asking, what does miru mean? Like
+26:16
+Yeah. Yeah. So, Miru means to see in
+26:19
+Japanese. Um, and we just really love
+26:23
+the name because it like made us think
+26:26
+about, you know, a robot when they're
+26:28
+opening their eyes for the first time
+26:30
+and like seeing this new world that
+26:31
+they're interacting with. It's like
+26:32
+they're seeing this world and in some
+26:34
+ways we're helping the robots do that.
+26:37
+Um, you know, I think all of us have a
+26:39
+lot of respect for Japanese culture. Uh,
+26:42
+my co-founder Art Mel is especially like
+26:43
+really big into into anime. It just made
+26:46
+sense. Uh, I love the name. It just
+26:48
+sounds very pleasing, easy to pronounce,
+26:50
+uh, easy to spell. Um, yeah, mirror is
+26:53
+great.
+26:55
+Um, nice. Uh, okay. So, now uh to the
+26:58
+legacy question that I have. Um, so if
+27:01
+found a tech talk like this podcast had
+27:03
+a time capsule for 10 years from now,
+27:06
+2035, what message from your journey
+27:10
+would uh you leave or advice?
+27:13
+Yeah. Um [clears throat] so uh
+27:16
+uh Matthew McConna when he you know
+27:20
+accepted his Oscar I forget what year he
+27:22
+did he said this really interesting
+27:24
+thing where he said that you know his
+27:26
+hero is him in 5 years right he's
+27:29
+competing with this future version of
+27:31
+himself because he wants to you know
+27:33
+continuously improve and and be better
+27:35
+than them and and the whole thing is
+27:37
+like you know when you get to 5 years
+27:38
+from now his hero is not him at that
+27:40
+moment it's 5 years again in the future
+27:43
+Right. And so in some ways it's like
+27:46
+about being, you know, the same beast
+27:48
+but the different animal. And I think
+27:50
+like in general when I think about 10
+27:52
+years from now, I still want to be Vant.
+27:54
+I want to still have all the things that
+27:55
+make Vdant special and unique, but I
+27:58
+just want to be so much better. I want
+27:59
+to be laughably better than what I was
+28:02
+now. Um like like incredibly better.
+28:05
+Like you couldn't even compare the two
+28:06
+people, right? And so when I think about
+28:09
+10 years from now, my advice would be,
+28:11
+okay, how do you get to that? How do you
+28:13
+become this incredible version of
+28:14
+yourself, this way better version of
+28:16
+yourself? And it's just like, you have
+28:18
+to keep compounding, right? You have to
+28:19
+keep putting in the work over and over,
+28:22
+every single day, every single hour,
+28:24
+every single minute to keep improving
+28:26
+and growing as a person, as a founder,
+28:29
+as an operator, as a builder, whatever.
+28:32
+And my advice in that time capsule would
+28:35
+be don't quit. Don't interrupt this
+28:38
+compounding. Don't do anything else.
+28:41
+Just work relentlessly at this thing for
+28:43
+10 years and you will get to where you
+28:45
+need to be. The score will take care of
+28:47
+itself. Um but if you really do care
+28:50
+about, you know, chasing that version of
+28:51
+yourself in 2035 or 2036,
+28:55
+don't quit. Don't give up the
+28:56
+compounding. Don't interrupt it. Um that
+28:58
+would be my advice for myself or other
+29:00
+folks. um in 10 years.
+29:03
+That's brilliant actually. Like I would
+29:05
+love if you could, you know, if you get
+29:07
+a chance in 10 years to look back at
+29:09
+this video and like see
+29:12
+all of us.
+29:13
+Yeah, that'd be great.
+29:15
+That'd be so cool. Um yeah, I think that
+29:18
+was all of my question.
+29:21
+Yeah, I was very nice chatting with you.
+29:24
+Yes, likewise. Um yeah, I think uh to
+29:27
+the audience, whoever is listening, if
+29:29
+you like this conversation, please share
+29:31
+it with a friend. And if you're on
+29:33
+YouTube, please like this video as well.
+29:36
+Thank you. Hi.
+29:39
+Okay, I'll just
+

@@ -1,0 +1,823 @@
+Episode 07: FounderTechTok with Rucha Dave
+Guest Name: Rucha Dave
+
+0:16 Yeah. Hi everyone. Welcome to Founder
+0:19
+Tech Talk podcast, a space where we
+0:22
+decode founder journeys and learn the
+0:24
+art and science of building the future.
+0:26
+Today I have with me Richa Dave. She is
+0:29
+the founder of skinsides.ai.
+0:32
+Um, and she also works in tech
+0:35
+full-time. So, welcome Rich. Welcome to
+0:38
+Founder Tech Talk podcast.
+0:40
+Thank you so much for having me, Agra.
+0:42
+Um, great to be on the podcast.
+0:44
+Yeah. Uh, so can you briefly tell us
+0:49
+about your background and what you've
+0:52
+built?
+0:54
+100%. So, I come from a bioengineering
+0:57
+background. I've always wanted my career
+1:00
+to be at the intersection of human
+1:02
+impact and innovation. And so I went
+1:05
+into study bioengineering with a focus
+1:07
+on um ML, data science, uh innovation
+1:11
+products. and then found my way from
+1:13
+data science to uh tech consulting to
+1:16
+entrepreneurship. And yeah, right now I
+1:19
+work uh full-time in uh tech, but I also
+1:21
+am building a product that essentially
+1:25
+helps bridge that gap between yourself
+1:27
+and your dermatologist. I went through
+1:29
+about 9 to 10 years of really bad cystic
+1:31
+acne. And it made me realize that across
+1:34
+the board between, you know, going to
+1:36
+the dermatologist, seeing a plethora of
+1:38
+different product and ingredient
+1:40
+recommendations on social media, when
+1:42
+you're navigating acne, there's so many
+1:44
+different hurdles you run into. And
+1:46
+there's nothing on the market, um, at
+1:48
+least nothing I saw. And even right now,
+1:49
+there isn't anything that actually helps
+1:51
+you navigate that in a way that isn't
+1:53
+just, okay, just use this product and
+1:55
+that's it. Because I think skincare is
+1:57
+so much more than that. It's about, you
+1:59
+know, learning to navigate the low
+2:00
+self-esteem, learning to track your
+2:02
+habits and um create like a holistic
+2:05
+perspective of what's working for your
+2:07
+acne and knowing that and it's different
+2:09
+for every person. So, that's uh
+2:11
+essentially what we're solving in the
+2:12
+form of an app and we're actually
+2:14
+launching soon. So, this is a perfect
+2:16
+pre-launch podcast to be on. But, yeah,
+2:18
+it's a bit about me.
+2:20
+Yeah, pretty cool. So, okay. So glad
+2:23
+that so are you using any of the
+2:27
+education that you have you know taken
+2:30
+from your college in the building this
+2:32
+app like are you building this app or
+2:34
+like all the tech side and everything?
+2:38
+Yeah. Yeah, I am. This actually started
+2:39
+from a hackathon and I'm definitely
+2:42
+using my background. And I mean like
+2:43
+having that data science background and
+2:45
+knowing a lot about AI, machine learning
+2:47
+helps a ton with this especially when
+2:49
+you're designing something that um you
+2:51
+know reach that reaches the end user
+2:53
+whose data is so sensitive and you want
+2:55
+to be mindful of that. But at the same
+2:57
+time creating an experience that people
+2:59
+like and they're able to relate to
+3:01
+that's all uh what engineering is about,
+3:03
+right? So I definitely use my background
+3:05
+every single day.
+3:08
+Yeah. Pretty cool. Okay. And what made
+3:10
+you say that this problem is broken
+3:12
+enough that I need to build a company
+3:14
+around it?
+3:15
+Yeah,%. So before I went into that
+3:17
+hackathon, I actually ran a few user
+3:20
+surveys. Um I put it on my Instagram
+3:22
+story and I saw hundreds of people
+3:24
+responded to that and they were like,
+3:26
+"Oh my god, I would love something like
+3:28
+this." They showcased that their
+3:30
+struggles with acne um had a lot of
+3:32
+confusion around it. They don't know
+3:33
+what to use, where to start. There's a
+3:35
+lot of low self-esteem. And originally I
+3:38
+thought that this is just something that
+3:39
+you experience in your teens, but it was
+3:42
+a lot of uh folks in their 20s and 30s
+3:44
+as well. So they made me see that this
+3:46
+is something that's a universal problem.
+3:49
+and then winning the hackathon and even
+3:51
+like winning a few awards after that for
+3:53
+this app before it's even on the market
+3:55
+yet I think gave me a lot of conviction
+3:57
+that like okay this is something that
+3:59
+it's not just something I'm passionate
+4:00
+about that I've faced with and that this
+4:03
+small um test group uh is validating but
+4:06
+it's something across the board that
+4:07
+like larger audiences are also
+4:09
+responding to so you know I've won pitch
+4:11
+competitions in New York from different
+4:14
+venture studios also at my uh Temple
+4:17
+University Fox School of Business
+4:19
+So everything like coming together and
+4:22
+getting this level of validation and
+4:24
+that sort of like market response has
+4:26
+given me a lot of confidence that I'm
+4:28
+just excited to bring this to the people
+4:30
+that are excited about it.
+4:32
+Yeah. Okay. Pretty cool. Daniel know
+4:35
+like you won and stuff. Yeah. So okay
+4:39
+people are trusting an app with their
+4:41
+face and their skin and their confidence
+4:44
+at large. Yeah.
+4:46
+So, how do you build trust when AI is
+4:48
+involved? Are people scared of scare
+4:51
+like sharing data with you?
+4:54
+I think honestly it all comes down to
+4:56
+transparency and making sure that the
+5:00
+user is in that loop. So, I mean in the
+5:03
+world that we live in today, everyone's
+5:04
+data is always shared. Everyone is using
+5:07
+Cloud, Gemini, Chat GBC, whatever you're
+5:10
+using, your data is exposed anyways. But
+5:13
+I think when with a product like this
+5:15
+where it's very sensitive data and you
+5:17
+know you're essentially the person
+5:19
+that's using this, they're scared,
+5:20
+they're confused, being transparent with
+5:22
+them and talking to them like they are
+5:25
+part of this uh build with us is a big
+5:28
+part of um how we're building that user
+5:30
+trust because there's nothing to hide
+5:31
+honestly. I mean, you know, if they want
+5:34
+to keep their data on uh on their phone
+5:37
+or like have it uploaded like whatever
+5:39
+they want, they get to choose that and
+5:41
+we have a lot of transparency about like
+5:42
+where the data is going overall at
+5:44
+large. So that makes sure that people
+5:46
+are able to either opt in or opt out.
+5:50
+Okay. Okay, that makes sense. Okay. So,
+5:53
+what's one transformation story from a
+5:55
+user um excluding yourself that made you
+5:58
+feel that you know this is actually
+6:00
+working? Yeah, 100%. So, um I've done a
+6:04
+lot of different uh testing and one
+6:06
+specific story that stuck out to me. It
+6:08
+was uh with this girl, she was a
+6:11
+sophomore in college and I had her try
+6:14
+the app and essentially she um had a few
+6:17
+breakouts. um she had a lot of stress
+6:19
+going on with the exams at that time.
+6:21
+And when she started, she used the app
+6:23
+for about 2 weeks. And I think for her,
+6:27
+the biggest thing was she was able to
+6:29
+track her skin over time, like be able
+6:31
+to see pictures of her skin and see what
+6:33
+ingredients work for her. And it made
+6:35
+her realize like what habits she was
+6:37
+taking into consideration while doing
+6:38
+this. It wasn't just like, "Oh my god,
+6:40
+I'm breaking out. I'm so stressed all
+6:41
+the time." She was like, "Okay, like
+6:42
+what are those habits that are coming
+6:45
+into play while I'm stressed and while
+6:46
+I'm breaking out?" And it was she wasn't
+6:48
+drinking enough water. Her face wash was
+6:50
+drying her face out during that time.
+6:52
+And like she was using something that
+6:54
+was more drying all year instead of just
+6:56
+using that maybe in the summer. And like
+6:58
+her learning this about herself. And
+7:00
+just like feeling like she has agency
+7:02
+over her skin really helped her
+7:04
+understand that like, okay, this is not
+7:06
+just something that I'm going to be
+7:07
+blindly taking recommendations from. U
+7:10
+because that's not the goal, right? The
+7:11
+goal is to empower the user to feel like
+7:14
+they can actually understand and pick
+7:16
+what to use. So, uh that was something
+7:18
+that really made me feel like, okay,
+7:20
+like this is really cool. She loves it
+7:22
+and I'm really excited to make an impact
+7:24
+on other lives this way.
+7:28
+Okay. So, okay. What's one acne myth you
+7:33
+wish the internet would stop spreading?
+7:36
+This is more uh especially on because uh
+7:40
+on platforms like Instagram, Tik Tok, I
+7:43
+feel like there's a lot of
+7:44
+misinformation. So, what's one myth
+7:46
+which you
+7:47
+Yeah, that's a really good question. You
+7:50
+know, the first thing that comes to mind
+7:52
+is probably around having a 10step
+7:55
+skincare routine. I'm all for K beauty.
+7:58
+I think it's great, but I think everyone
+8:00
+feels like you have to have this like
+8:02
+really large creative like skincare
+8:04
+routine. And if you don't have that,
+8:06
+like you're going to break out. You're
+8:07
+going to break your skin barrier. But I
+8:09
+actually think, and this is from a
+8:11
+dermatologist as well, and just going
+8:13
+off of my background, uh, too, and my
+8:15
+experience is like when you use too many
+8:18
+products at once without understanding
+8:20
+your skin first, it actually can create
+8:22
+an adverse effect because you're just
+8:24
+putting on and on and on and that can
+8:25
+clog your pores. So, I think, okay, if
+8:28
+you understand your skin fully and then
+8:30
+you're like, "Okay, I want to use all
+8:31
+these products." Like, go for that. Love
+8:33
+it. But I think it's best to start off
+8:36
+with like a few that really work for
+8:38
+you. Like find your just like when we
+8:40
+talk about fashion and wardrobe, right?
+8:42
+You have your capsule wardrobe, but if
+8:44
+you you're like you have too many
+8:45
+clothes, it's going to be confusing.
+8:47
+There's a lot of mental tasks every day
+8:48
+to get ready. I think the same thing is
+8:50
+there with skincare. Like you need to
+8:52
+find your staple products and then you
+8:54
+can expand like you know like maybe in
+8:55
+the summer like I need more of this,
+8:57
+more sheet masks or more well like
+8:58
+whatever you want. But if you don't have
+9:00
+your core products and ingredients set
+9:02
+into stone, then it becomes really hard
+9:04
+uh to actually take care of your skin
+9:06
+because your skin needs consistency to
+9:08
+be able to actually glow up and um clear
+9:11
+out acne. And if you're never giving it
+9:14
+that, then of course you're going to
+9:15
+keep spending so much money and um you
+9:17
+know continue to have the same issues.
+9:21
+Yeah. Okay. Anyway, so let's come down
+9:24
+to like some operational questions
+9:26
+regarding the company. Sure. what you
+9:29
+what's something about building a
+9:31
+company in this space that people don't
+9:33
+talk about like but it's actually very
+9:35
+very hard
+9:37
+yeah I think okay so right now I feel
+9:39
+like when you go on social media whether
+9:41
+it's LinkedIn X even Instagram Tik Tok
+9:43
+being a founder is so glamorized and
+9:46
+it's like this whole thing oh yeah like
+9:48
+quit your job like build a company and
+9:50
+like it's glamorized as like really
+9:52
+fancy lifestyle and I have a lot of
+9:56
+friends that are founders I'm a founder
+9:57
+self, whether people that are full-time
+9:59
+or even like um doing this with like
+10:01
+their full-time uh job as well, it's not
+10:04
+as glamorous as people realize. And I
+10:06
+think the thing is that behind any like
+10:08
+overnight success you might see online,
+10:11
+even if like they have like hundreds of
+10:13
+thousands of followers, what you don't
+10:14
+see is like the late nights. And I feel
+10:17
+like I sound like one of those Instagram
+10:18
+posts, but I think it's very very true
+10:20
+that like you have to be willing to sit
+10:23
+through that discomfort and seeing like
+10:26
+stagnancy in terms of like with
+10:28
+entrepreneurship, it's not a um like a
+10:31
+linear progression, right? Like you
+10:33
+know, with anything else, you put in the
+10:36
+effort, you immediately get back the
+10:37
+results. I think with entrepreneurship,
+10:39
+it's more about long-term strategy,
+10:41
+being able to have a long-term
+10:43
+gratification. And if you're not willing
+10:45
+to sit with that, I think you're not
+10:47
+going to be satisfied with
+10:48
+entrepreneurship because it just doesn't
+10:51
+work like that and it it's really a long
+10:53
+game. So I think that's something that I
+10:55
+wish more people understood because when
+10:56
+a lot of people uh come to me because
+10:58
+I've built a company in the past in a
+11:00
+different space and like oh yeah this is
+11:02
+so cool da da and like when I look at
+11:04
+it's like I the founder themselves they
+11:06
+actually don't feel like that cool doing
+11:08
+it because you know that like half the
+11:09
+time you're like wearing under eye
+11:11
+patches you're like in like a messy bond
+11:13
+on your bed just like freaking out like
+11:15
+oh my god this isn't working or like
+11:17
+this is working and you know what I'm
+11:18
+saying like it ends up working out but I
+11:21
+think it's the behind the scenes that I
+11:22
+feel like no one talks about and I think
+11:24
+it's uh just the truth and reality of
+11:26
+it.
+11:28
+Yeah. Yeah. That is why I feel like
+11:31
+podcasts like this like very raw
+11:34
+podcasts are helpful for people to
+11:36
+understand
+11:37
+um how much effort and what kind of
+11:40
+effort goes into
+11:43
+uh entrepreneurship. Yeah.
+11:45
+Okay. So when you started building your
+11:48
+company, what did you decide to do
+11:49
+completely different uh from the
+11:52
+existing skinare or dermatology
+11:55
+solutions?
+11:57
+I think it's the fact that I'm not
+11:59
+competing with them. You know what I'm
+12:00
+saying? We're not a skincare company.
+12:02
+We're not looking to replace derms at
+12:04
+all. We're just building a bridge that
+12:06
+helps people develop a sense of
+12:09
+self-love towards their skin. And yes,
+12:11
+of course, like you know, they should
+12:13
+still connect with the dermatologist,
+12:15
+but it's more so a really big focus on
+12:18
+user experience and building consistency
+12:20
+and habits around skincare, which no one
+12:23
+else really does. And honestly, I think
+12:26
+that is the key that people miss. Like
+12:29
+you want that instant fix. You want, you
+12:31
+know, you want the Tik Tok poster to
+12:32
+make you look like you're flawless. You
+12:34
+want the new uh skinincare product to
+12:36
+make you look like you have glass skin.
+12:38
+But like news slash, even the people
+12:40
+that have really perfect skin, they
+12:42
+don't have glass skin every day. Like
+12:44
+that's definitely something where if you
+12:45
+put on a lot of skin care and you take a
+12:48
+video, like like any of us will look
+12:50
+like we have glass skin. And I think
+12:51
+that's where my product stands out
+12:54
+because it's more so about transparency
+12:56
+and learning your skin at an authentic
+12:58
+level.
+13:02
+Okay.
+13:03
+And like in the early days, did you ever
+13:06
+question that if you were the right
+13:08
+person to solve this problem?
+13:11
+Honestly, no. I never questioned myself.
+13:14
+I will say I have been questioned
+13:16
+before. Um, but it's typically just been
+13:19
+by people that aren't in the space, like
+13:21
+maybe that don't understand
+13:22
+entrepreneurship. And so I think it it's
+13:25
+rather than me questioning myself, it's
+13:27
+more so been learning how to separate
+13:30
+someone else's opinion from my own
+13:32
+opinion. I think that's a great skill
+13:33
+for anyone to have regardless of whether
+13:35
+you're an entrepreneur or not.
+13:39
+Nice. So, in like a decade or so, how do
+13:42
+you imagine
+13:44
+uh your company growing and what's your
+13:46
+vision like?
+13:48
+Yeah, I essentially I'm looking to build
+13:51
+the biggest movement around acne
+13:53
+positivity. I want having acne and
+13:56
+having imperfect skin to be something
+13:58
+that no one ever feels shame about. I
+14:00
+think we're already on our way there in
+14:02
+culturally for sure, but when you really
+14:05
+look at it outside of the acne patches
+14:07
+like that are like the mainstream
+14:08
+influencers are using overall your
+14:10
+everyday girl or boy like that still
+14:13
+isn't there. And my mission is to make
+14:15
+sure everyone is using this app and
+14:17
+feels empowered in their skin um to just
+14:19
+feel like okay, I have acne. Like it
+14:21
+doesn't mean I need to put makeup over
+14:22
+it or like even use like a patch if I
+14:24
+don't want to. Like this is a normal
+14:26
+thing that happens to skin and it's not
+14:28
+something that I need to be uh feeling
+14:30
+ashamed for or be using like a bunch of
+14:32
+products right away. Like it's okay.
+14:34
+Like I love my skin and I love myself. I
+14:37
+don't need to look a specific way to do
+14:39
+that.
+14:42
+That's a very nice message. I feel like
+14:44
+it'll bring a lot of empowerment in a
+14:46
+lot of girls and you know and men as
+14:50
+well.
+14:51
+100%. Yeah. Yeah.
+14:55
+Okay, those were all of my questions.
+14:57
+Thank you, Rocha, for coming to this
+14:59
+podcast. It was quite insightful and all
+15:03
+the best with the launch.
+15:05
+Thank you so much. Yeah, and if you
+15:07
+haven't checked us out already, we're
+15:09
+Skinsize.ai on Tik Tok, Instagram. Make
+15:12
+sure you follow along with the journey.
+15:13
+And I'm just so excited. Uh, thank you
+15:15
+so much for having me on your podcast,
+15:17
+Agramma.
+15:19
+Thank you, R. You're welcome. Okay,
+15:22
+bye. Bye.
+

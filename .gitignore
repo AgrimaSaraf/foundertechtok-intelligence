@@ -255,3 +255,47 @@ data/evaluation/generation_cache.json
 
 # Logs
 *.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.DS_Store
+
+# Chroma vector databases
+data/chroma_db/
+data/chroma_db_multi/
+
+# Model / cache files
+.cache/
+.cache_*/
+huggingface/
+models/
+
+# Evaluation runtime cache
+data/evaluation/multi_rag_generation_cache.json
+
+# Temporary / backup evaluation files
+data/evaluation/eval_questions_before_label_fix.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Ingestion runtime state
+data/ingested/
+data/ingestion_state.json

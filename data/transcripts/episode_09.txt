@@ -1,0 +1,163 @@
+Episode 08: FounderTechTok with Shania Jain
+Guest Name: Shania Jain
+
+0:1616 secondsYeah. Hi everyone. Welcome to Founder Tech Talk podcast, a space where we decode founder journeys and learn the art and science of building the future.
+0:2626 secondsToday I have with me Shaa Jen. She is based out of New York City. Um she works
+0:3333 secondsin tech full-time as a software engineer and she has built a fitness platform on the side. Um which is currently based
+0:4141 secondsout of New York City as well. So hi Sha, welcome to found a tech talk podcast. Thank you. So happy to be here.
+0:5050 secondsYeah. Cool. So my first question would obviously be um can you share something about your background and what you have built?
+0:5959 secondsOf course. So I have a background in tech. Um I went to USC for college. Um had a degree in computer science and then right after graduating I moved to
+1:071 minute, 7 secondsNew York City. So I think um that's when I really discovered like the fitness scene in New York. And I've always had kind of like an entrepreneurial I don't
+1:161 minute, 16 secondsknow side of me. Like I had a minor in when I was in college as well. Um, so when I moved to New York, I was working at a startup, um, an AI startup. So
+1:241 minute, 24 secondsfully working in tech. Um, and I feel like I've always wanted to kind of explore that like entrepreneurial side of things eventually. I kind of like
+1:321 minute, 32 secondsknew that in the back of my mind. So I think a couple years after working full-time, um, that's when I decided to just kind of go for it and like start
+1:411 minute, 41 secondssomething on the side that kind of lets me fulfill that creative entrepreneurial side of me. So that's when I started Fit In. Um, and the idea stemmed. I knew I wanted to build something in the fitness
+1:491 minute, 49 secondsspace because I went to a lot of workout classes after moving to New York. Um, it kind of became like a hobby at that point. I discovered Pilates and the
+1:571 minute, 57 secondsGreen and it's so fun. Um, but what I did realize is that um, everyone says that like things that you spend all your time doing like your hobbies are where
+2:042 minutes, 4 secondsyou should be meeting people and that's like the best way to meet people. But I kind of discovered that that was lacking in the fitness scene in New York. Um,
+2:122 minutes, 12 secondslike I would love Solid Pour, love going to workout classes, but like they're very much like you go in the studio, you like do your workout, and you leave. And it's kind of weird to like linger after
+2:202 minutes, 20 secondsand like meet people. So that's kind of why I kind of had the idea of building more of a community around the fitness space, especially for people who love
+2:292 minutes, 29 secondsspending a lot of their time and invest their time in health and wellness. Um, kind of like a space for people to use that as an opportunity to meet new
+2:362 minutes, 36 secondspeople. So that's how I decided to start fit in. We started it as an app. So, the idea was I would like go to pop-up classes that I hear about like in all
+2:442 minutes, 44 secondsthe time back like a year ago. Um, and those are super fun because those are a lot more conducive to meeting people cuz like an instructor's putting on the event. There's always like some brands
+2:522 minutes, 52 secondsinvolved or like sponsors involved and like after class people stay in chat because you're not being rushed out the door. So, I was like, okay, pop-up
+3:003 minutesevents are a great way to, you know, kind of get to meet new people through your workouts, but obviously those are
+3:073 minutes, 7 secondsvery much like you hear about them on the fly. So that's kind of why I thought it fit in as an app to be kind of like a centralized place for people to discover
+3:153 minutes, 15 secondscommunity workouts and then also on the flip side for instructors kind of to build their own community. So I started as an app last year September and then
+3:233 minutes, 23 secondsum after a few months of doing that I found myself directly working with a lot of instructors that were hosting events around the city and I realized another
+3:313 minutes, 31 secondsproblem which is that there's not a lot of great spaces to host events in New York especially with like studios kind of have you know their own classes
+3:383 minutes, 38 secondsthey're running at like you know peak times when you'd want to be able to go to a class and um or they're like expensive or like they don't have
+3:473 minutes, 47 secondsequipment. I was at one point like literally Ubering to like this one studio in um Midtown with like 25 mats
+3:543 minutes, 54 secondsto put on classes and I was like, "Okay, this is not making sense anymore." Um so that's kind of why I was like, "Let's get our own space." So then in February, we h um opened up our own fitness studio
+4:034 minutes, 3 secondsin Chelsea um Manhattan. Um and that's where we do all our community events now. So that's kind of how Fitin has evolved. Like back then I never thought
+4:124 minutes, 12 secondsit would evolve into like a physical space that we'd kind of have as part of the business but that's what it evolved into. Um so now [clears throat]
+4:204 minutes, 20 secondsfit in as a whole is like a third space for fitness. We have our like IRL community at the studio and then we have our app which is kind of where community discovers events that are happening at the studio.
+4:314 minutes, 31 secondsNice. So like I think the lack of community was what made you start this app, right? Like around fitness.
+4:404 minutes, 40 secondsYes, for sure.
+4:424 minutes, 42 secondsDefinitely. I think that's like it's crazy how New York has so many people and like it's so densely populated, but like
+4:494 minutes, 49 secondsthere's not a lot of ways to like meet people like that. Like you you're walking on the streets, these people all the time, but I think especially our
+4:584 minutes, 58 secondsgeneration, we're moving towards like a very health and wellness focused, you know, we prioritize that a lot more.
+5:045 minutes, 4 secondsSo, I feel like like previously I've been to like events that are like at bars and like that's a great way to meet people, but sometimes you just want to like on a weekday not have to like drink
+5:135 minutes, 13 secondsto be able to like meet, you know, meet new people. So, that's kind of where that third space or fitness come from, especially for like the Pilates girls
+5:205 minutes, 20 secondsand like people in that realm of fitness.
+5:245 minutes, 24 secondsYeah. And people who are into fitness like you meet like healthier options rather than going to a bar. [gasps] For sure.
+5:345 minutes, 34 secondsYeah. Okay. So, what does it actually mean? People looking for a community.
+5:395 minutes, 39 secondsWhat does it actually mean inside the app? Like how do you uh connect people?
+5:445 minutes, 44 secondsIs there a messenger or something of sorts, right?
+5:505 minutes, 50 secondsYeah. No, great question. So, the app is kind of a two-sided market. We have our fitness instructors. So, we have like over 150 New York City instructors that
+5:595 minutes, 59 secondsare onboarded on the app. And then we have our community of like users that are looking for classes and events to go
+6:056 minutes, 5 secondsto. So essentially on the app is kind of where instructors are able to like post their classes and users can follow them.
+6:126 minutes, 12 secondsSo like people come back for the community because they have instructors that they like you know going to. So like we have instructors that host like monthly classes. We have instructors
+6:196 minutes, 19 secondsthat host like weekly. So on the instructor side, they're fully building their own community and business and like using Fitin's platform as like the
+6:276 minutes, 27 secondsapp is kind of where they can like post about what they're hosting because it's like they're kind of freelance instructors. And then um on the flip
+6:356 minutes, 35 secondsside, community people looking for community, they can either follow their favorite instructors on the app and go to that or there's people who just like to kind of like look out for the next
+6:436 minutes, 43 secondsfun event and just book it there. And then of course community really means like people coming back over and over.
+6:506 minutes, 50 secondsSo on the app you can kind of see who else has booked the class. So once you book it, people kind of like to come back and you kind of see familiar faces every time of people that are also going to class and like oh I know this person.
+7:007 minutesAnd I think that's what really drives community as well. It's like seeing the same people over and over and that's kind of why having the studio has been really nice but just having like a one central space.
+7:117 minutes, 11 secondsYeah. Okay. So, is New York the place that you wanted to start building or was it just by chance just because you're there?
+7:217 minutes, 21 secondsYeah, that's a great question. So, I think there's like pockets around America that are very in the fitness scene and I think New York is like the
+7:287 minutes, 28 secondsbest. I think Miami would also be a close second like when it comes to like the health and wellness space, but New York, I think what's great is it's very
+7:357 minutes, 35 secondsdensely populated. So, like for someone to go to work and then have then to go to an event after is so easy. You just take the subway, you walk, especially
+7:437 minutes, 43 secondslike because we're in Chelsea, it's so central. Flat Iron area has a lot of fitness. So, it's easy for people to kind of get around to things. And the
+7:517 minutes, 51 secondsfitness scene here, obviously, there's so many workout classes, so many studios. And with that, as a result, there's also so many instructors that are getting that are getting certified.
+7:597 minutes, 59 secondsSo, like that's why New York's great because there's so many instructors that want to host their own classes for them to hop around studios because these instructors usually don't just teach at
+8:068 minutes, 6 secondsFidendle. So, have like other studios that they teach at. It's very normal for people to teach at three to four studios. So that makes it easy for the
+8:138 minutes, 13 secondsinstructors. And then again, I think people in New York really crave community and it's so densely populated with people who are in their 20s, 30s um
+8:228 minutes, 22 secondsthat are looking to meet new people and are in that phase of life. So I think that's why New York's like a perfect place. But that being said, I do post a
+8:298 minutes, 29 secondslot on TikTok about like for marketing purposes and about events we host. And I've gotten comments where people are like, "Oh, like is this in LA or is this NSF?" like I'd love to have this here.
+8:408 minutes, 40 secondsUm I got an email the other day from someone who's based in New York. They go to like events. They come to the studio at fitin for New York classes and they
+8:478 minutes, 47 secondssent me an email being like oh I'm going to I'm traveling to LA next week and I was trying to look at events on the app for LA but I don't see anything like is
+8:548 minutes, 54 secondsthe app glitching and I was like like we are not in LA yet but I would love for us to kind of eventually you
+9:029 minutes, 2 secondsknow expand expand like that. Um, so I think Miami, LA, I know Chicago even like a lot of big cities. I mean, I feel
+9:109 minutes, 10 secondslike health and wellness is everywhere at this point, but New York is definitely I think the best start point.
+9:149 minutes, 14 secondsOf course, being here myself makes it a lot easier, too.
+9:189 minutes, 18 secondsH So, okay. So, I have one interesting question that you build for both instructors and the members. Uh,
+9:279 minutes, 27 secondsso, uh, what side of the marketplace was harder to attract first? Because like I'm sure there might have been a chicken and egg problem, right? Who would come to the app first? Yeah.
+9:399 minutes, 39 secondsYeah. No, that's a great question. I like actually had to do a lot of thinking around that one. But what ended up what I ended up doing is solving the instructor problem first as in getting
+9:489 minutes, 48 secondsas many instructors on boarded because to be able to put on events, we obviously need the instructors that are hosting and then these instructors are trying to build their own community. So
+9:569 minutes, 56 secondsthe idea was like I would work especially early days before we even had the studio to give you an example is like I think I was like chatting with
+10:0410 minutes, 4 secondslike 10 different instructors. I think the our a lot of our early instructors were people who had recently gotten certified but they wanted teaching
+10:1110 minutes, 11 secondsexperience and they were not yet teaching at studios. So they just wanted to kind of like start teaching get some experience build their own you know
+10:1810 minutes, 18 secondsexperience for their resumes for teaching at studios eventually. Um, so I was working with them a lot and we were basically chatting through like ideas
+10:2610 minutes, 26 secondsfor putting on events and then we were co-arketing it. So like I was posting about like the events that they were hosting. It was a lot of like just
+10:3310 minutes, 33 secondsoutreach posting on social media and getting those classes that they were hosting to be full. So then that's kind of how we got our first community of
+10:4210 minutes, 42 secondsmembers then of like people who are attending those set of instructors classes. And then once you put on a good event with those instructors, obviously those instructors are either like
+10:5010 minutes, 50 secondsrepetitively teaching and then those people are coming back or people just had a great experience and they want to just keep being part of a community. So we did start with the instructor side
+10:5810 minutes, 58 secondsfirst and then the events that we're putting on instructors is what are kind of naturally filling up the classes.
+11:0511 minutes, 5 secondsOkay. Okay. So, how do you like get the instructors? Uh, I mean, weren't they interested in the business model or like how do you pitch to them is my question.
+11:1611 minutes, 16 secondsYeah. Um, so all of the I think every single instructor I've never had to do any cold outreach at all. Um, I've done
+11:2411 minutes, 24 secondseverything has been thus far in terms of getting instructors initially, at least my first hundred I think was all through founder marketing TikTok like I was
+11:3311 minutes, 33 secondsmentioning earlier. So, I would just post about like if you're an instructor that's looking for teaching experience or wants to build your own community and host your own pop events in New York
+11:4011 minutes, 40 secondsCity, reach out and let's chat about like putting on an event and like working together to um you know, create
+11:4811 minutes, 48 secondscommunity events. And that's literally how I got my first 100 instructors on the platform. Um they would just reach out. Every instructor I think that I've
+11:5511 minutes, 55 secondstalked to or most of them I've had a call with and then kind of just like explain give given my pitch of what fit in is. And everyone was very much bought
+12:0312 minutes, 3 secondsinto the idea of like building their own community and teaching on their own schedule. I think that's what attracted people the most to the opportunity of
+12:1112 minutes, 11 secondsjust like being able to host your own class where you're teaching your own method, putting your own spin on it, you know, create your own playlist, kind of
+12:2012 minutes, 20 secondsdo like it's kind of like them running their own business and then fit in being like a platform for them to like we help them out with the marketing and help them out with providing the space now.
+12:3012 minutes, 30 secondsSo that kind of solves a lot of problems and attracts instructors to teach with fit in.
+12:3812 minutes, 38 secondsYes. Okay. Cool. So um one operational question is uh can you share how you
+12:4612 minutes, 46 secondsactually build the app? Like did you bootstrap it? What tech stack did you use and all of that?
+12:5112 minutes, 51 secondsYeah. So we're fully bootstrapped and um when I started actually this is an interesting question because when I started I was working again like I'd
+13:0013 minutesmentioned my startup job earlier which was very in person 9 to5 which is not typical nowadays like you're a lot more remote now and the biggest thing is it
+13:0913 minutes, 9 secondswas pre um AI so this was like I think early 2025 I think is when I started um and yeah it was like very pre maybe even
+13:1713 minutes, 17 secondslike 2024 anyways pre AI um so that's why I was like I also So like I do have a tech background but I do find like the
+13:2513 minutes, 25 secondsmarketing and business sides of things more interesting and I chose to be more focused on that versus building out a full app from scratch without any tools.
+13:3313 minutes, 33 secondsUm so that's why at that time I um outsourced that work to another dev team that was based in India. But obviously
+13:4113 minutes, 41 secondsnow there's cloud. I'm very familiar with using cloud. I have that tech background. So now I fully do everything myself. um all the deployments, all the
+13:4913 minutes, 49 secondsapp updates um our web UI u all of it and cloud of course makes it very easy to do that and I'm saving costs as a
+13:5813 minutes, 58 secondsresult of it and I'm also building I think the most valuable part of it all is like that I am able to test features and build out new
+14:0614 minutes, 6 secondsfeatures very quickly and cheaply like anytime earlier every feature I wanted to add I would have to think twice I'm
+14:1314 minutes, 13 secondslike okay this costs something this takes so much like this takes x amount of time. I have to communicate what I want to my developer. I have to pay them for x number of hours. If it doesn't
+14:2214 minutes, 22 secondswork, then we're losing that. So, I would really have to like think twice and prioritize. But now, it's like someone reports a bug, I can just
+14:2914 minutes, 29 secondsimmediately fix it and push that out. Or if it's like a feature that I wanted to try out, I'm like, "Okay, might as well like it doesn't cost me anything to do
+14:3714 minutes, 37 secondsthat, so might as well try adding in this feature or that feature and see how that works. And if it doesn't, I roll it back." So I think having AI has really
+14:4514 minutes, 45 secondsjust increased efficiency and allowed me to experiment with the business and with the app.
+14:5114 minutes, 51 secondsYeah. So what technologies have you used?
+14:5514 minutes, 55 secondsYeah. So our app is built on Flutter. Um so we're only on iOS right now. The reason we chose Flutter is that we also do Android. But we have not deployed to
+15:0315 minutes, 3 secondsAndroid yet because most of our market right now is iOS. So I wanted to just focus on that for now. And then we have a web app as well um for booking
+15:1215 minutes, 12 secondsclasses. But of course the app is kind of what gives users a full experience.
+15:1815 minutes, 18 secondsOkay. Nice. So you mentioned Tik Tok like you initially started posting on Tik Tok, right? So was it like the primary growth channel or what are the other growth channels?
+15:2915 minutes, 29 secondsYeah, definitely Tik Tok is our biggest growth channel. Um, up until two weeks ago, it was just like my own personal
+15:3715 minutes, 37 secondsTikTok and I was kind of like it's like Shauna, I'm building fit in as kind of like my title on there. So, I think people love kind of seeing the journey of founders and I've seen a lot of other
+15:4615 minutes, 46 secondsfounders on there and I love polling that along too. So, I think that's why founder marketing had been the biggest growth channel. Um, and second after
+15:5415 minutes, 54 secondsthat is our and oh or I guess like I was saying earlier um as of two weeks ago we got an actual page for fit in as well on Tik Tok. Um, and I have a team working
+16:0316 minutes, 3 secondson helping out with that. So, I think as we've expanded and grown a team, it's been nice to get help with different channels as well. So, that's another channel. Our I think our next biggest
+16:1116 minutes, 11 secondschannel is Instagram. Um, we have a Instagram page for Fit In. So, that's where we post about all our events. Um,
+16:1816 minutes, 18 secondswe've grown that also over the past six, seven months, eight months. Um, so that's another channel. And then we also
+16:2616 minutes, 26 secondshave our weekly newsletters that we send out to our community. So that's a way we engage with our current community. But in terms of growth channels, I would say
+16:3316 minutes, 33 secondsTik Tok and Instagram. And I've experimented with meta ads as well. But it's interesting. Um I just found like Tik Tok,
+16:4216 minutes, 42 secondsyou're not spending anything on advertising and that does better. It outperforms like meta ads, which is really interesting. So I don't know. I
+16:5116 minutes, 51 secondsthat's why I'm very pro Tik Tok when it comes to marketing because I think Tik Tok just pushes out to the right audience. Yeah. Um I think Tik Tok is more addictive also.
+17:0317 minutes, 3 secondsYeah. And just the discoverability of everything. I think people in my audience I think also lives on Tik Tok a lot more like any other app. Yeah.
+17:1217 minutes, 12 secondsOkay.
+17:1217 minutes, 12 secondsYeah. Cool. So okay. So uh as AI becomes more personalized, how do you see it
+17:1917 minutes, 19 secondsfitting in the fitness space? like do you think AI coaches, you know, where there there have been AI coaches, do you
+17:2617 minutes, 26 secondsthink they will compete with the human instructors at any level?
+17:3317 minutes, 33 secondsThat's funny you asked that because I mean as a software engineer, I'm sure and you're in the text field as well. I feel like there was that moment of scare and I was like, "Oh my god, like AI is
+17:4117 minutes, 41 secondstaking over our jobs, blah blah blah." And then I would joke I'd be like, "Okay, well I need fit in to work because like obviously people need to work out." But like that's you can't
+17:5017 minutes, 50 secondshave AI replace that. But that being said, obviously there are tools like there's like mirrors nowadays, right?
+17:5517 minutes, 55 secondsThat are like those AI mirrors for working out. Um so that space is definitely starting to get some AI into
+18:0418 minutes, 4 secondsit as well. But I will say at the end of the day like fitness for a lot of people isn't just if you're someone that like just wants to work out just to get your workout in.
+18:1318 minutes, 13 secondsLike sure like you can get some AI personalized thing to help you co you know get coaching. I guess P skeleton bikes are not AI but an example of like
+18:2118 minutes, 21 secondsyou know personalized workouts like that. But I think at the end of the day a lot of people that are in the fitness world they crave community. They crave
+18:2818 minutes, 28 secondslike particular instructors and just like being in a room or with other people that are doing the workout besides you. Um and like obviously human
+18:3618 minutes, 36 secondsconnection at the end of the day cannot be replaced. So having like a bot what to do versus an instructor that's like pushing you and making jokes throughout
+18:4418 minutes, 44 secondsclass and like playing fun music like all of that like I feel like that's really hard to replace. And I think especially with fit
+18:5118 minutes, 51 secondsin that's kind of why the idea of like having that community fitness events where you have like some aspect beyond just the workout like we always have
+18:5918 minutes, 59 secondslike macho pop-ups after like some brand will kind of bring in like a little table and share about themselves and
+19:0619 minutes, 6 secondslike just having that extra piece to like just being beyond a workout. I think that's very valuable as well. That's where we'll connect over.
+19:1519 minutes, 15 secondsYeah. Yeah. That's pretty nice. Okay.
+19:1819 minutes, 18 secondsCool. Also, I think my last question would be um uh five years from now, how do you imagine your ab growing?
+19:2819 minutes, 28 secondsYeah, that's a good question. Five years from now, I think the ideal is to kind of have a community like we were kind of talking a little bit before beyond New
+19:3619 minutes, 36 secondsYork. That'd be awesome. Where our users that were trying to find classes in LA, they can do that. Um it would be amazing to just grow kind of what we've created
+19:4519 minutes, 45 secondsin New York. Obviously, there's still a long way to go within New York itself.
+19:4819 minutes, 48 secondsWe're still early, but I'm starting here and then wanting to kind of just replicate that across America would be
+19:5619 minutes, 56 secondsawesome. Um, we also work with brands that are like I've worked with like some London based brands before, too. So, that'd be very cool to go beyond
+20:0320 minutes, 3 secondsAmerica. That's that's like Northstar dream as well. But, um, and I think that's what's cool about tech, right? Is
+20:1020 minutes, 10 secondsthat you can things. Um, right now the studio is just in New York, but if we can kind of replicate that kind of model and have things grow everywhere, kind of
+20:1820 minutes, 18 secondslike the studio and the app and just tying in and having that pop up around America would be really cool. But that's the grand vision.
+20:2620 minutes, 26 secondsNice. Okay, cool. I think uh all the best for that by the way. Um,
+20:3420 minutes, 34 secondsyeah, and I think those were all of my questions. Um yeah it was really fun
+20:4020 minutes, 40 secondschatting with you Shana. Um yeah and yeah thank you very very much and to the
+20:4820 minutes, 48 secondsaudience uh thank you for joining in and I'll see you in the next one. Thank you. Bye.
+20:5720 minutes, 57 secondsThank you. Bye. Yeah.

@@ -1,555 +1,729 @@
 # FounderTechTok Intelligence
 
-An AI knowledge system for exploring insights from FounderTechTok podcast conversations.
+**A multi-episode Retrieval-Augmented Generation (RAG) system for turning FounderTechTok podcast conversations into a searchable, citation-grounded knowledge base.**
 
-## Goal
+FounderTechTok Intelligence lets users ask natural-language questions across podcast episodes and retrieves relevant evidence from the original conversations before generating an answer.
 
-FounderTechTok Intelligence will allow users to ask questions across podcast episodes and receive answers grounded in the original conversations.
-
-Example:
-
-> What have FounderTechTok guests said about finding product-market fit?
-
-The system will retrieve relevant podcast segments and generate an answer with:
-
-- episode title
-- guest name
-- timestamp
-- supporting quote
-
-## Planned Architecture
-
-Podcast Episodes
-→ Transcription
-→ Semantic Chunking
-→ Embeddings
-→ Hybrid Retrieval
-→ Reranking
-→ LLM Generation
-→ Grounded Citations
-→ Evaluation
-
-
-## Status
-
-🚧 Currently under development.
-
-# FounderTechTok Intelligence
-
-FounderTechTok Intelligence is a retrieval-augmented generation (RAG) system built on top of FounderTechTok podcast transcripts.
-
-Instead of treating podcast episodes as passive long-form content, the system converts transcripts into a searchable knowledge base that can retrieve relevant podcast evidence and generate grounded answers to user questions.
-
-The project implements a hybrid retrieval pipeline combining lexical search, semantic search, reciprocal rank fusion, cross-encoder reranking, grounded LLM generation, citation handling, abstention, and automated evaluation.
+Rather than treating podcast episodes as isolated long-form content, the project converts the FounderTechTok archive into a structured intelligence layer that can search across guests, topics, and conversations.
 
 ---
 
-## What It Does
+## Product
 
-A user can ask a natural-language question about a FounderTechTok episode, such as:
+A user can ask:
 
 > How do salespeople build trust with customers?
 
-FounderTechTok Intelligence:
+or:
 
-1. searches transcript chunks using BM25,
-2. performs semantic vector retrieval,
-3. combines both rankings using Reciprocal Rank Fusion,
-4. reranks the strongest candidates with a cross-encoder,
-5. selects the best transcript evidence,
-6. sends only that evidence to Gemini,
-7. generates an answer grounded in the podcast,
-8. cites relevant timestamps,
-9. abstains when the retrieved evidence is insufficient.
+> How did user feedback influence Strika's expansion beyond North America?
 
-The goal is not simply to generate plausible answers.
+or even:
 
-The system is designed to answer questions from the FounderTechTok archive while remaining traceable to the original podcast evidence.
+> What did FounderTechTok guests say about nuclear fusion?
+
+FounderTechTok Intelligence searches the podcast archive, identifies the strongest supporting transcript evidence, and either:
+
+- generates a grounded answer with source metadata and timestamps, or
+- abstains when the archive does not contain sufficient evidence.
+
+The goal is not to produce the most plausible answer.
+
+The goal is to produce the most defensible answer from the FounderTechTok archive.
 
 ---
 
-# Architecture
+## Architecture
 
-The high-level pipeline is:
+![FounderTechTok Intelligence Architecture](docs/architecture.png)
+
+The system consists of four major layers:
 
 ```text
-Podcast Episode
-      ↓
-Transcript
-      ↓
+Podcast Episodes
+        │
+        ▼
+Transcript Ingestion
+        │
+        ▼
 Timestamp-Aware Chunking
-      ↓
-────────────────────────────
-        INDEXING
-────────────────────────────
-      ↓
-Sentence Transformer Embeddings
-      ↓
-Chroma Vector Store
-
-
-User Question
-      ↓
-┌───────────────────────────────┐
-│                               │
-↓                               ↓
-BM25 Search              Vector Search
-Lexical Retrieval        Semantic Retrieval
-│                               │
-└──────────────┬────────────────┘
-               ↓
-      Reciprocal Rank Fusion
-               ↓
-        Hybrid Candidates
-               ↓
-     Cross-Encoder Reranking
-               ↓
-         Top-3 Evidence
-               ↓
-      Grounded Generation
-            Gemini
-               ↓
-      Answer + Timestamps
-               ↓
-     Abstain if unsupported
+        │
+        ▼
+Embedding + Vector Indexing
+        │
+        ▼
+┌─────────────────────────────────────┐
+│             RETRIEVAL               │
+│                                     │
+│   BM25 Search      Vector Search    │
+│       │                 │           │
+│       └───────┬─────────┘           │
+│               ▼                     │
+│      Reciprocal Rank Fusion         │
+│               │                     │
+│               ▼                     │
+│      Cross-Encoder Reranking        │
+└───────────────┬─────────────────────┘
+                │
+                ▼
+         Context Expansion
+                │
+                ▼
+        Evidence Selection
+                │
+                ▼
+┌─────────────────────────────────────┐
+│            GENERATION               │
+│                                     │
+│       Grounded LLM Generation       │
+│               │                     │
+│      Answer / Abstention            │
+│               │                     │
+│     Citations + Timestamps          │
+└───────────────┬─────────────────────┘
+                │
+                ▼
+             FastAPI
+                │
+                ▼
+        FounderTechTok UI
 ```
-
-The system therefore separates:
-
-- retrieval,
-- ranking,
-- generation,
-- evaluation.
-
-This makes each component independently testable.
 
 ---
 
-# Chunking
+# Why I Built This
 
-Podcast transcripts are divided into smaller timestamp-aware chunks before retrieval.
+Podcast archives contain a large amount of useful information, but most of that information is difficult to retrieve after an episode has been published.
 
-Each chunk contains metadata such as:
+A traditional podcast interface is optimized for listening.
+
+It is not optimized for questions such as:
+
+> What patterns have founders mentioned about early customer feedback?
+
+or:
+
+> How have different guests described using AI in their businesses?
+
+FounderTechTok Intelligence explores a different interface for podcast knowledge:
+
+```text
+Listen to episodes
+        ↓
+Structure conversations
+        ↓
+Retrieve evidence
+        ↓
+Ask questions
+        ↓
+Synthesize insights
+```
+
+The project is therefore both a RAG engineering system and an experiment in turning long-form conversations into queryable knowledge.
+
+---
+
+# How It Works
+
+## 1. Multi-Episode Ingestion
+
+FounderTechTok transcripts are ingested into a common processing pipeline.
+
+Each episode retains metadata including information such as:
 
 ```json
 {
-    "guest": "Khushy Aggarwal",
-    "start_time": "31:05",
-    "text": "..."
+  "episode_id": "episode_08",
+  "episode_title": "...",
+  "guest": "...",
+  "start_time": "18:01",
+  "end_time": "18:33",
+  "chunk_id": "episode_08_chunk_027",
+  "text": "..."
 }
 ```
 
-Timestamp preservation is important because the system should not only retrieve relevant information but also trace generated answers back to the corresponding point in the podcast.
+Keeping episode and timestamp metadata attached to every chunk is important because retrieval alone is not enough.
 
-The processed chunks for Episode 01 are stored in:
-
-```text
-data/processed/episode_01_chunks.json
-```
+The system must also be able to trace evidence back to its original conversation.
 
 ---
 
-# Embeddings
+## 2. Timestamp-Aware Chunking
 
-Each transcript chunk is converted into a dense vector representation using:
+Podcast transcripts are split into smaller retrieval units.
+
+Each chunk preserves:
+
+- episode identity
+- episode title
+- guest
+- start timestamp
+- end timestamp
+- chunk ID
+- transcript text
+
+The resulting multi-episode corpus currently contains hundreds of searchable transcript chunks.
+
+Chunking allows the retrieval system to reason over small, focused passages instead of entire podcast transcripts.
+
+---
+
+## 3. Dense Embeddings
+
+Transcript chunks are converted into vector representations using:
 
 ```text
-all-MiniLM-L6-v2
+sentence-transformers/all-MiniLM-L6-v2
 ```
-
-from Sentence Transformers.
 
 Conceptually:
 
 ```text
-Transcript chunk
-      ↓
-Embedding model
-      ↓
-Dense vector
+Transcript Chunk
+       │
+       ▼
+Sentence Transformer
+       │
+       ▼
+Dense Embedding
+       │
+       ▼
+ChromaDB
 ```
 
-These vectors allow semantically similar passages to be retrieved even when the user's question does not contain exactly the same words as the transcript.
+Dense embeddings allow the system to retrieve passages based on semantic similarity even when the user's wording differs from the wording used in the podcast.
 
 ---
 
-# BM25
+## 4. BM25 Lexical Retrieval
 
-FounderTechTok Intelligence also implements BM25 lexical retrieval using:
+FounderTechTok Intelligence also performs lexical retrieval using BM25.
+
+BM25 is useful for queries containing:
+
+- names
+- product names
+- technical terminology
+- company names
+- exact phrases
+- distinctive keywords
+
+For example:
+
+```text
+Strika Europe feedback
+```
+
+may benefit heavily from exact lexical matches.
+
+The implementation uses:
 
 ```text
 rank_bm25
 ```
 
-BM25 searches for transcript chunks based on token and keyword relevance.
-
-For example, a query containing:
-
-```text
-salespeople incentives
-```
-
-may retrieve chunks containing those terms directly.
-
-BM25 is useful because exact terminology, names, products, and phrases can sometimes be captured better by lexical retrieval than embeddings alone.
-
 ---
 
-# Vector Retrieval
+## 5. Vector Retrieval
 
-Semantic retrieval is performed against a persistent Chroma vector database.
+In parallel with BM25, the question is embedded using the same Sentence Transformer model used during indexing.
 
-The query is embedded using the same Sentence Transformer model:
+The query embedding is compared against the persistent Chroma vector store.
 
 ```text
 Question
-    ↓
-all-MiniLM-L6-v2
-    ↓
-Query embedding
-    ↓
-Chroma similarity search
-    ↓
-Top semantic chunks
+   │
+   ▼
+Embedding Model
+   │
+   ▼
+Query Vector
+   │
+   ▼
+ChromaDB
+   │
+   ▼
+Semantic Candidates
 ```
 
-This allows the system to retrieve conceptually relevant passages even when there is limited lexical overlap between the question and transcript.
+This retrieval path is useful when the relevant transcript passage expresses the same idea using different words.
 
 ---
 
-# Reciprocal Rank Fusion
+## 6. Hybrid Retrieval
 
-BM25 and vector retrieval produce two different ranked result sets.
+Lexical and semantic search solve different problems.
 
-FounderTechTok Intelligence combines them using Reciprocal Rank Fusion (RRF).
+Instead of choosing one, FounderTechTok Intelligence combines both.
 
-For a document ranked at position `r`, its contribution is approximately:
+```text
+BM25
+  │
+  │
+  ├───────────┐
+  │           │
+  ▼           ▼
+Lexical     Semantic
+Results     Results
+  │           │
+  └─────┬─────┘
+        ▼
+       RRF
+```
+
+This gives the system access to both:
+
+**lexical relevance**
+
+and
+
+**semantic relevance.**
+
+---
+
+## 7. Reciprocal Rank Fusion
+
+The two retrieval rankings are merged using Reciprocal Rank Fusion (RRF).
+
+For an item appearing at rank `r`, its contribution is approximately:
 
 ```text
 1 / (k + r)
 ```
 
-where this implementation uses:
+The implementation uses:
 
 ```text
 k = 60
 ```
 
-Scores from the lexical and semantic rankings are added together.
+Documents that rank strongly in either retrieval system receive higher fused scores.
 
-Conceptually:
-
-```text
-BM25 Ranking ─────┐
-                  ├──→ RRF → Hybrid Ranking
-Vector Ranking ───┘
-```
-
-This gives the system the benefits of both exact lexical matching and semantic similarity.
+RRF is attractive here because it combines rankings without requiring BM25 scores and vector similarity scores to exist on the same numerical scale.
 
 ---
 
-# Cross-Encoder Reranking
+## 8. Cross-Encoder Reranking
 
-The strongest hybrid candidates are then reranked using:
+Hybrid retrieval increases recall, but the first-stage ranking is not always precise enough.
+
+The strongest hybrid candidates are therefore reranked using:
 
 ```text
 cross-encoder/ms-marco-MiniLM-L-6-v2
 ```
 
-Unlike the embedding model, which independently embeds the query and documents, the cross-encoder evaluates the question and transcript chunk together.
-
-Each pair takes the form:
-
-```python
-[
-    question,
-    transcript_chunk
-]
-```
-
-The cross-encoder produces a relevance score for each candidate.
-
-The candidates are sorted by this score, and the top three become the final evidence supplied to the generation layer.
-
-The retrieval pipeline is therefore:
+The cross-encoder evaluates:
 
 ```text
-BM25 Top-K
-       +
-Vector Top-K
-       ↓
-      RRF
-       ↓
-Hybrid Candidates
-       ↓
+(question, transcript chunk)
+```
+
+as a pair.
+
+This allows it to perform a more computationally expensive but more precise relevance judgment on a smaller candidate set.
+
+The pipeline therefore becomes:
+
+```text
+Large Transcript Corpus
+        ↓
+BM25 + Vector Retrieval
+        ↓
+RRF Candidate Set
+        ↓
 Cross-Encoder
-       ↓
-Top-3 Evidence
+        ↓
+Best Evidence
 ```
 
 ---
 
-# Gemini Grounded Generation
+## 9. Context Expansion
 
-After retrieval and reranking, only the selected podcast evidence is provided to Gemini.
+One important retrieval failure mode appeared during evaluation.
 
-The model is explicitly instructed to:
+Sometimes the retriever identifies a highly relevant chunk, while the exact sentence required to answer the question appears immediately before or after it.
 
-- use only the retrieved podcast evidence,
-- avoid outside knowledge,
-- avoid inventing information,
-- cite timestamps,
-- abstain when evidence is insufficient.
+For example, a retrieved chunk may contain the beginning of an explanation while the actual answer continues into the neighboring transcript chunk.
 
-This creates a separation between what the language model may know generally and what FounderTechTok Intelligence is actually allowed to claim.
+FounderTechTok Intelligence therefore supports context expansion around retrieved evidence.
 
 Conceptually:
 
 ```text
-Question
-+
-Top-3 Transcript Chunks
-+
+Retrieved Chunk N
+        ↓
+Chunk N-1
+Chunk N
+Chunk N+1
+        ↓
+Expanded Evidence Window
+```
+
+This improves evidence coverage without forcing the system to use excessively large chunks during initial retrieval.
+
+---
+
+# Grounded Generation
+
+After retrieval, reranking, and context expansion, the selected transcript evidence is passed to the generation layer.
+
+The language model is instructed to:
+
+- answer using the supplied FounderTechTok evidence
+- avoid unsupported external knowledge
+- avoid inventing facts
+- preserve source traceability
+- cite relevant podcast timestamps
+- abstain when the evidence is insufficient
+
+Conceptually:
+
+```text
+User Question
+      +
+Retrieved Evidence
+      +
 Grounding Instructions
-        ↓
-      Gemini
-        ↓
+      │
+      ▼
+     LLM
+      │
+      ▼
 Grounded Answer
 ```
 
-A generated answer may look like:
-
-```text
-Salespeople build trust by understanding what the customer
-needs and helping in a way that feels authentic rather than
-pushy [31:05].
-```
-
-The timestamp allows the user to trace the answer back to the podcast.
+The generation model is therefore used as a synthesis layer rather than as the system's source of truth.
 
 ---
 
 # Abstention
 
-A RAG system should not answer every question.
+A trustworthy RAG system should not answer every question.
 
-For questions that are unsupported by the podcast archive, FounderTechTok Intelligence is instructed to return:
+Consider:
+
+> What did FounderTechTok guests say about nuclear fusion?
+
+If the archive contains no meaningful discussion of nuclear fusion, the system should not use the language model's general knowledge to manufacture an answer.
+
+Instead, it should return an insufficient-evidence response.
+
+Example:
 
 ```text
 I don't have enough evidence in the FounderTechTok archive to answer that.
 ```
 
-For example:
-
-```text
-What did Khushy say about nuclear fusion?
-```
-
-should not cause the system to use Gemini's general knowledge about nuclear fusion.
-
-Instead, it should recognize that the retrieved FounderTechTok evidence does not support an answer.
-
-Abstention helps reduce hallucination and keeps the system bounded by its source material.
+This keeps the system bounded by the underlying podcast corpus.
 
 ---
 
-# Evaluation
+# Retrieval Evaluation
 
-FounderTechTok Intelligence includes an automated RAG evaluation harness:
+FounderTechTok Intelligence includes a manually constructed multi-episode evaluation benchmark.
 
-```text
-src/evaluate_rag.py
-```
-
-The current evaluation framework measures four properties.
-
-### 1. Retrieval Hit@3
-
-Tests whether at least one expected transcript timestamp appears in the final top-three retrieved chunks.
+The current benchmark contains:
 
 ```text
-Hit@3 =
-successful retrieval questions
-/
-answerable retrieval questions
+30 questions
+
+25 answerable questions
+5 unanswerable questions
 ```
 
-### 2. Abstention Accuracy
+Positive questions are associated with expected supporting transcript evidence.
 
-Tests whether the system correctly refuses questions that cannot be answered from the podcast evidence.
-
-```text
-Abstention Accuracy =
-correct abstentions
-/
-unanswerable questions
-```
-
-### 3. Citation Correctness
-
-Generated timestamps are extracted from answers and checked against the timestamps actually retrieved by the RAG pipeline.
-
-This detects cases where the model generates a citation that was not present in its supplied evidence.
-
-### 4. Groundedness
-
-A separate evaluation step checks whether factual claims in a generated answer are supported by the retrieved podcast evidence.
-
-This is intended to detect answers that sound plausible but introduce unsupported claims.
+Negative questions test whether the system can recognize queries that are unsupported by the archive.
 
 ---
 
-# How to Run
+## Metrics
 
-Clone the repository and enter the project directory.
+The retrieval evaluation measures:
 
-Create and activate a Python environment if desired.
+### Hit@1
 
-Install dependencies:
+Whether expected evidence appears in the first retrieved result.
+
+### Hit@3
+
+Whether expected evidence appears anywhere in the first three results.
+
+### Hit@5
+
+Whether expected evidence appears anywhere in the first five results.
+
+### Mean Reciprocal Rank
+
+MRR rewards systems that place the first relevant result as high as possible.
+
+For a question whose first relevant result appears at rank `r`:
+
+```text
+Reciprocal Rank = 1 / r
+```
+
+MRR is the average reciprocal rank across the positive evaluation questions.
+
+---
+
+# Current Retrieval Results
+
+A baseline configuration produced:
+
+```text
+Hit@1: 0.52
+Hit@3: 0.72
+Hit@5: 0.80
+MRR:    0.6313
+```
+
+Increasing candidate retrieval depth improved performance:
+
+```text
+Hit@1: 0.52
+Hit@3: 0.84
+Hit@5: 0.88
+MRR:    0.6700
+```
+
+Therefore, the current best measured retrieval configuration achieves:
+
+| Metric | Score |
+|---|---:|
+| Hit@1 | 52% |
+| Hit@3 | 84% |
+| Hit@5 | 88% |
+| MRR | 0.67 |
+
+These numbers are reported on the current 25-question positive retrieval benchmark.
+
+They should be interpreted as development benchmark results rather than general claims about performance on arbitrary podcast questions.
+
+---
+
+# Retrieval Error Analysis
+
+Evaluation was also used to inspect retrieval failures instead of treating the benchmark as a single aggregate number.
+
+Several misses revealed that the relevant evidence was located in neighboring chunks around a retrieved passage.
+
+This motivated context expansion.
+
+For difficult evaluation cases, expanded context successfully surfaced expected supporting chunks that were absent from the original final ranking.
+
+This is an important distinction:
+
+```text
+Retrieval miss
+≠
+No useful local evidence
+```
+
+Sometimes the retrieval system identifies the correct conversational region but not the exact chunk containing the answer.
+
+Context expansion addresses that failure mode.
+
+---
+
+# Generation Evaluation
+
+The evaluation framework is designed to separately measure retrieval and generation.
+
+Generation-related checks include:
+
+- answerability
+- abstention behavior
+- citation correctness
+- groundedness
+- latency
+- API reliability
+
+A generation evaluation run was attempted across the 30-question benchmark.
+
+However, the external Gemini API quota was exhausted during the run, producing HTTP `429 RESOURCE_EXHAUSTED` responses for most requests.
+
+Only one request completed successfully in that run.
+
+Because of this, generation metrics from that run are **not treated as meaningful final benchmark results**.
+
+This distinction is intentional.
+
+API failure should not be reported as model-quality failure, and a one-request sample should not be presented as reliable generation accuracy.
+
+The retrieval benchmark remains independently measurable because retrieval is performed locally.
+
+---
+
+# Generation Caching and Resumability
+
+Generation evaluation can involve external API calls that are:
+
+- rate limited
+- quota constrained
+- slower than retrieval
+- potentially costly
+
+The evaluation pipeline therefore supports generation caching and resumable execution.
+
+Previously completed generation results can be reused instead of repeatedly calling the model for the same benchmark question.
+
+This separates:
+
+```text
+retrieval experimentation
+```
+
+from:
+
+```text
+external LLM availability
+```
+
+and makes evaluation more reproducible.
+
+---
+
+# API
+
+FounderTechTok Intelligence exposes the RAG pipeline through a FastAPI application.
+
+The API includes:
+
+```text
+GET  /
+GET  /health
+POST /ask
+```
+
+Interactive API documentation is automatically available through FastAPI's Swagger interface when the server is running.
+
+---
+
+## Example Request
+
+```json
+{
+  "question": "How do salespeople build trust with customers?"
+}
+```
+
+The response includes fields for information such as:
+
+```json
+{
+  "question": "...",
+  "status": "...",
+  "answer": "...",
+  "citations": [],
+  "retrieval_latency_sec": 0.0,
+  "generation_latency_sec": 0.0,
+  "total_latency_sec": 0.0,
+  "retrieved_chunk_count": 0,
+  "expanded_context_count": 0
+}
+```
+
+Exact values depend on retrieval results and generation availability.
+
+---
+
+# Web Interface
+
+The project also includes a lightweight browser interface for querying the system.
+
+The frontend communicates with the FastAPI `/ask` endpoint.
+
+The interface is designed around the FounderTechTok visual identity while keeping the interaction intentionally simple:
+
+```text
+Ask a question
+      ↓
+Search FounderTechTok
+      ↓
+Retrieve podcast evidence
+      ↓
+Generate grounded response
+      ↓
+Display answer + sources
+```
+
+Frontend files are stored under:
+
+```text
+static/
+```
+
+---
+
+# Running the Project
+
+## 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+cd foundertechtok-intelligence
+```
+
+---
+
+## 2. Create a Virtual Environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+On Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+---
+
+## 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Build or populate the transcript/vector data as required by the project pipeline.
+---
 
-Then run the retrieval/generation system:
+## 4. Configure Environment Variables
+
+Generation requires a Gemini API key.
+
+Set it through your environment rather than committing credentials to the repository.
+
+For example:
 
 ```bash
-python3 src/hybrid_rag.py
+export GEMINI_API_KEY="your-api-key"
 ```
 
-Run the evaluation harness with:
+Never commit API keys to Git.
+
+---
+
+## 5. Start the API
+
+From the project root:
 
 ```bash
-python3 src/evaluate_rag.py
+uvicorn src.api:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-Gemini generation requires a valid Gemini API configuration.
+Once the application starts, the API is available locally at port `8000`.
 
-Generation-dependent evaluations may be skipped if the API is unavailable or quota has been exhausted.
-
----
-
-# Current v1 Results
-
-The current development evaluation dataset contains:
+FastAPI documentation is available at:
 
 ```text
-6 answerable questions
-4 unanswerable questions
-10 total questions
+/docs
 ```
-
-The retrieval pipeline currently achieves:
-
-```text
-Retrieval Hit@3
-
-Hits: 6
-Positive questions: 6
-Hit@3: 1.0
-```
-
-Therefore, on the current Episode 01 development evaluation set:
-
-```text
-Hit@3 = 100%
-```
-
-This means the expected supporting transcript region appeared within the final three retrieved chunks for all six answerable development questions.
-
-Generation-dependent metrics are not reported as final until a complete Gemini evaluation run succeeds.
-
-The project evaluates those separately as:
-
-```text
-Abstention Accuracy
-Citation Correctness
-Groundedness
-```
-
-The current dataset is small and based on a single podcast episode, so these results should be interpreted as development-set performance rather than evidence of general performance across the full FounderTechTok archive.
-
----
-
-# Limitations
-
-FounderTechTok Intelligence v1 has several important limitations.
-
-### Small evaluation dataset
-
-The current evaluation contains only a small number of manually constructed questions.
-
-A 100% Hit@3 result on six positive questions should therefore not be interpreted as 100% retrieval accuracy in general.
-
-### Single-episode evaluation
-
-The current evaluation primarily tests Episode 01.
-
-Performance may change as additional guests, topics, speaking styles, and episodes are added.
-
-### Timestamp-level relevance
-
-Evaluation currently relies on expected transcript timestamps.
-
-Some questions may legitimately have supporting evidence across multiple neighboring chunks.
-
-### Model-dependent generation
-
-Answer generation and some evaluation stages depend on an external language model API.
-
-API availability, quota, and model changes can affect generation experiments.
-
-### LLM-as-judge evaluation
-
-Groundedness evaluation uses a language model as a judge.
-
-This is useful for automated testing but should not be treated as a perfect substitute for human evaluation.
-
-### Basic tokenization
-
-The current BM25 implementation uses relatively simple text tokenization.
-
-More advanced normalization or tokenization could improve lexical retrieval.
-
----
-
-# Future Work
-
-Future versions can expand FounderTechTok Intelligence from a single-episode RAG prototype into a larger podcast intelligence system.
-
-Potential directions include:
-
-- indexing the complete FounderTechTok archive,
-- episode-level and guest-level metadata filtering,
-- improved transcript chunking,
-- larger evaluation datasets,
-- held-out evaluation questions,
-- Recall@K and MRR retrieval metrics,
-- answer relevance evaluation,
-- human evaluation,
-- confidence scoring,
-- improved abstention thresholds,
-- query rewriting,
-- metadata-aware retrieval,
-- conversational search across episodes,
-- guest discovery,
-- topic clustering,
-- cross-episode synthesis,
-- source-linked podcast playback,
-- web/API interface,
-- production deployment.
-
-A future query could therefore move beyond a single episode:
-
-```text
-What have FounderTechTok guests said about
-how AI is changing software engineering?
-```
-
-The system could retrieve evidence across multiple conversations, identify recurring ideas, compare perspectives, and link every claim back to the original podcast evidence.
 
 ---
 
@@ -559,72 +733,295 @@ The system could retrieve evidence across multiple conversations, identify recur
 foundertechtok-intelligence/
 │
 ├── data/
-│   ├── chroma_db/
 │   ├── evaluation/
 │   ├── processed/
-│   │   └── episode_01_chunks.json
 │   └── transcripts/
 │
+├── docs/
+│   └── architecture.png
+│
 ├── src/
+│   ├── api.py
+│   ├── batch_ingest.py
 │   ├── bm25_search.py
+│   ├── build_eval_dataset.py
+│   ├── build_multi_episode_vector_store.py
 │   ├── build_vector_store.py
 │   ├── chunk_transcript.py
 │   ├── chunk_with_timestamps.py
 │   ├── create_embeddings.py
+│   ├── evaluate_multi_rag.py
 │   ├── evaluate_rag.py
 │   ├── hybrid_rag.py
 │   ├── hybrid_search.py
 │   ├── load_transcript.py
+│   ├── manual_ingest.py
+│   ├── multi_episode_chunk.py
+│   ├── multi_episode_rag.py
+│   ├── multi_episode_search.py
 │   ├── query_vector_store.py
 │   ├── rag_answer.py
 │   ├── rerank_results.py
 │   ├── save_chunks.py
 │   ├── semantic_search.py
-│   └── test_gemini.py
+│   ├── test_gemini.py
+│   └── youtube_ingest.py
+│
+├── static/
+│   └── index.html
 │
 ├── .gitignore
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
+
+---
+
+# Tech Stack
+
+### Retrieval
+
+- BM25
+- Sentence Transformers
+- ChromaDB
+- Reciprocal Rank Fusion
+
+### Ranking
+
+- Cross-Encoder reranking
+- `cross-encoder/ms-marco-MiniLM-L-6-v2`
+
+### Embeddings
+
+- `all-MiniLM-L6-v2`
+
+### Generation
+
+- Gemini
+- evidence-constrained prompting
+- abstention handling
+- timestamp-grounded citations
+
+### Backend
+
+- Python
+- FastAPI
+- Uvicorn
+
+### Frontend
+
+- HTML
+- CSS
+- JavaScript
+
+### Evaluation
+
+- Hit@K
+- Mean Reciprocal Rank
+- answerability checks
+- abstention evaluation
+- citation validation
+- generation caching
+- latency tracking
+- API error tracking
+
+---
+
+# Engineering Decisions
+
+Several design decisions are intentional.
+
+## Hybrid Retrieval Instead of Vector Search Alone
+
+Embeddings are strong at semantic similarity but can miss exact names and terminology.
+
+BM25 handles lexical matching well.
+
+Combining both provides a stronger candidate pool.
+
+---
+
+## Reranking Instead of Sending Every Retrieved Chunk to the LLM
+
+Sending a large amount of weakly relevant context to the generation model increases noise and cost.
+
+The cross-encoder acts as a second-stage relevance filter.
+
+---
+
+## Small Retrieval Chunks + Context Expansion
+
+Large chunks improve context but reduce retrieval precision.
+
+Very small chunks improve retrieval precision but may split an answer across boundaries.
+
+The system therefore retrieves focused chunks first and expands around promising evidence afterward.
+
+---
+
+## Retrieval and Generation Are Evaluated Separately
+
+A RAG system can fail because:
+
+```text
+retrieval failed
+```
+
+or because:
+
+```text
+generation failed
+```
+
+or because:
+
+```text
+the external API failed
+```
+
+These are different failure modes.
+
+The evaluation framework keeps them separate instead of collapsing everything into one opaque accuracy number.
+
+---
+
+## Abstention Is a Feature
+
+The system is not optimized to answer every question.
+
+It is optimized to answer questions that can be supported by the archive.
+
+A correct refusal is preferable to a fluent hallucination.
+
+---
+
+# Current Limitations
+
+FounderTechTok Intelligence is still an experimental system.
+
+Current limitations include:
+
+### Small Evaluation Dataset
+
+The current benchmark contains 30 manually constructed questions.
+
+That is sufficient for development and error analysis but not enough to establish broad statistical performance.
+
+### Corpus Size
+
+The indexed FounderTechTok archive is still relatively small compared with large production knowledge bases.
+
+Retrieval behavior may change as the number and diversity of episodes increase.
+
+### External Generation Dependency
+
+Generation depends on an external LLM API.
+
+Rate limits, quota exhaustion, latency, and model changes can affect generation availability.
+
+### Retrieval Threshold Calibration
+
+Determining whether retrieved evidence is sufficiently strong for generation remains an important RAG problem.
+
+Abstention behavior can be improved through better confidence calibration.
+
+### Transcript Quality
+
+Retrieval quality ultimately depends on transcript quality.
+
+Automatic transcription errors, speaker ambiguity, and timestamp boundaries can affect evidence retrieval.
+
+### Benchmark Construction
+
+Evaluation labels are manually created and therefore require careful validation.
+
+Some questions can legitimately be supported by multiple neighboring transcript regions.
+
+---
+
+# Roadmap
+
+Potential next iterations include:
+
+- expand the indexed FounderTechTok archive
+- build a larger held-out benchmark
+- improve confidence calibration
+- tune retrieval depth automatically
+- improve abstention thresholds
+- add metadata-aware filtering
+- add guest-level filtering
+- add episode-level filtering
+- improve transcript normalization
+- experiment with query rewriting
+- evaluate alternative embedding models
+- evaluate alternative rerankers
+- measure Recall@K and nDCG
+- add human evaluation
+- improve citation validation
+- add conversational follow-up questions
+- build cross-episode synthesis
+- identify recurring themes across guests
+- add topic clustering
+- link citations directly to podcast playback timestamps
+- containerize the application
+- deploy the API and frontend
+- add automated ingestion for new FounderTechTok episodes
+
+---
+
+# Long-Term Direction
+
+The broader goal is to move from:
+
+```text
+Podcast Archive
+```
+
+to:
+
+```text
+Podcast Knowledge System
+```
+
+As the FounderTechTok corpus grows, questions can become increasingly cross-episode:
+
+> What patterns do founders describe when talking about their first users?
+
+> How are different guests using AI to change their workflows?
+
+> Where do founders disagree about product-market fit?
+
+> What recurring lessons appear across FounderTechTok conversations?
+
+The system can then retrieve evidence from multiple guests, synthesize recurring themes, compare perspectives, and keep every conclusion traceable to the original conversations.
 
 ---
 
 # Status
 
-**FounderTechTok Intelligence v1 — evaluation and reproducibility stage.**
+**FounderTechTok Intelligence — multi-episode RAG prototype with retrieval evaluation, grounded generation, FastAPI serving, and a branded web interface.**
 
-Current verified retrieval result:
+Current retrieval benchmark:
 
 ```text
-Hit@3: 1.0
+Questions: 30
+Positive retrieval questions: 25
+Negative questions: 5
+
+Hit@1: 52%
+Hit@3: 84%
+Hit@5: 88%
+MRR:    0.67
 ```
 
-Final generation metrics will be recorded after completing the cached generation, abstention, citation, and groundedness evaluation run.
+Generation evaluation infrastructure is implemented, but final generation-quality metrics are intentionally not reported from the latest run because external Gemini API quota exhaustion prevented a sufficiently complete evaluation.
 
+---
 
-**v2 — Archive intelligence**
+## FounderTechTok
 
-Add all ~10 FounderTechTok episodes, automated ingestion/transcription, episode/guest/topic metadata, multi-episode search, better evaluation dataset, citations with episode + timestamp + supporting quote, latency/cost measurements.
+FounderTechTok Intelligence is built on top of conversations from **FounderTechTok**, a podcast exploring founders, technology, products, AI, and the decisions behind building companies.
 
-**v3 — Actual product**
+The intelligence layer turns those conversations into structured, searchable evidence.
 
-                 FounderTechTok episodes
-                          ↓
-                ingestion pipeline
-                          ↓
-               knowledge/index layer
-                          ↓
-                 retrieval engine
-                          ↓
-                 FastAPI service
-                    ↙           ↘
-               Web UI           API
-                 ↓
-       "What did founders say
-        about customer acquisition?"
-                 ↓
-       Answer + guest + episode
-       + timestamp + evidence
-
-
-
+**From conversations → retrieval → intelligence.**

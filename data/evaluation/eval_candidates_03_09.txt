@@ -1,0 +1,448 @@
+
+================================================================================
+episode_03 - Vedant Nair
+================================================================================
+
+--- WINDOW AROUND 04:09 ---
+[04:02] space. And it was a few weeks, actually
+[04:05] a few months of us kind of doing this
+[04:07] wild goose chase where one day we talked
+[04:09] to this founder and, you know, we gave
+[04:12] him his p this pitch. We showed him his
+[04:14] idea and he's like, you know what,
+[04:15] that's great. Um, but you know what's
+[04:17] really really hard for me right now? You
+
+--- WINDOW AROUND 08:31 ---
+[08:25] fine line between being an entrepreneur
+[08:27] and just being some random guy sitting
+[08:29] on your couch in your underwear just on
+[08:31] his laptop, right? And um
+[08:35] It made me feel like that. I was like,
+[08:36] "Dang, I'm just like some guy in some
+[08:37] room with a computer." The only
+[08:39] delineation between being some random
+
+--- WINDOW AROUND 12:49 ---
+[12:42] but then I think growing up like I
+[12:44] honestly had a really great life. Uh I
+[12:46] don't think I you know faced uh a lot of
+[12:49] uh adversity in the traditional sense. I
+[12:50] think my parents cared for me. They
+[12:52] pushed me really hard in school. But I
+[12:54] think that's what a lot of Indian
+[12:55] parents do, especially immigrant parents
+
+--- WINDOW AROUND 16:57 ---
+[16:51] few months later, we had iterated a few
+[16:53] times and we're building this product,
+[16:54] Miru, uh, configuration management for
+[16:57] robotics. And we had envisioned this
+[17:00] kind of experience. Uh we had built this
+[17:02] MVP um on how that experience would look
+[17:05] and we released it out into the world.
+[17:08] And it had been a slog up until that
+
+--- WINDOW AROUND 21:28 ---
+[21:20] your company um, and building the best
+[21:22] product that you can for a really long
+[21:24] period of time. Um, and I think for us,
+[21:28] like we were all athletes in high
+[21:30] school, and I think keep that same kind
+[21:32] of athletic mindset where we want to
+[21:35] treat our craft and treat our lives like
+[21:37] Olympians. Uh, we want to train really
+
+--- WINDOW AROUND 25:56 ---
+[25:49] uh uh that's something I really care
+[25:51] about filling the gap in. So um bringing
+[25:54] the industry insights across from
+[25:56] scaling robotics is something I'm super
+[25:58] excited about. Creating that knowledge
+[25:59] base for the industry. Um in general, I
+[26:02] think the the focus is the same. Just
+[26:04] make miru as good as we possibly can so
+
+================================================================================
+episode_04 - Ayushi Sinha
+================================================================================
+
+--- WINDOW AROUND 02:03 ---
+[01:37] was the biggest influence? I think the better question to ask would be what was the biggest influence for your entrepreneurial journey? what shape your risk and creation out there.
+[01:48] Yeah, that's a great question and I hope my my answer is a little maybe nonobvious. So, my parents were definitely my biggest sort of
+[01:56] inspiration and that how they raised me really has informed my obsession with scaling access to healthcare but also
+[02:03] risk ironically. So, my parents actually immigrated from India to work in rural Tennessee and federally qualified healthcare centers. And so on one hand,
+[02:12] I grew up with like conversations at the dinner table being around questions of how do you actually bring real access to
+[02:20] rural communities when it comes to healthcare. And so I realized at an early age that technology was kind of the how, right? Without technology, it's
+[02:28] really tough to make sure like everyone has universal healthcare coverage and access. On the flip side though, when it comes to risk, you know, a lot of people
+[02:36] are very surprised. They asked me, "Didn't your parents like force you to go to med school?" And actually, it was a total opposite. Um, obviously my
+
+--- WINDOW AROUND 04:09 ---
+[03:50] And I think that's very rare as well, right? Um, super rare. I mean, it's funny. I feel like all my cousins are
+[03:57] all doctors. They're so smart. But I do think like there is a trope, right? Like ABCD becomes a doctor. And so, I feel
+[04:05] like it was actually like I kind of felt like a black sheep in a lot of ways.
+[04:09] Growing up in a doctor family and not going to med school, I felt like, oh my god, is there something wrong with me?
+[04:14] and then realizing that no actually I do have this passion that you know makes me kind of a little different than everybody else but it's one that I'm
+[04:23] very thankful that I've been able to carve this path and been supported throughout.
+[04:27] Yeah. I'm sure your parents are also proud of the path that you're taking.
+[04:32] Yeah. So which brings me to a more operational question regarding your company which is what was the real clinical problem in healthcare that made you start turb?
+
+--- WINDOW AROUND 06:10 ---
+[05:47] nondiscreet data um there's a lot of clinical interpretation that goes into it and so through that job I actually
+[05:54] figured out the pain points on the machine learning side and then it was really kind of taking both of those experiences and then having the time and space at business school to really think
+[06:03] through them. Um because there a lot of problems, not every problem is worth building a business around. Um
+[06:10] all of this you know hype about healthcare AI and so many buzzwords which one from your vantage point what's
+[06:18] one misconception that actually shows real slows real progress?
+[06:25] I think right now a lot of ML folk and investors people in the apps there they think that healthcare data can be
+[06:32] treated like other forms of data but healthcare data is nondiscreet what I mean by that is think about all these AI
+[06:40] code gen tools at the end of the day they either compile or they don't compile right you either like you either
+
+--- WINDOW AROUND 07:50 ---
+[07:34] Interesting. I had like so many follow-up questions to that, but I think I'm going to finish all of my questions.
+[07:39] [laughter]
+[07:41] Um, yeah. So, okay, my next question is medical data is sensitive and labeling it is even more sensitive. So, who do you think should own the process of
+[07:50] labeling? uh physicians or the AI teams or the industry and why so when you say own that's a unique
+[07:58] choice of word because in some ways someone like us turmeric right are like the best fit because we see labeling across many different customers so we
+[08:06] actually know what best practices are so when it comes from a process point of view I think we should own it obviously I'm biased that's what our company does
+[08:14] but I think structurally it's important that someone like Turmeric sees across the board what is best practices and helps the whole industry be better. Now,
+[08:24] when it comes to IP and ownership, that's quite tricky, right? Because if you think about it, a lot of data right now, patients own their data, right? But when you think about labor laws, right?
+
+--- WINDOW AROUND 09:55 ---
+[09:30] labeling. What we think is important is we think it's important for the structured data to be with the companies who we work with, the raw data to be
+[09:38] that of our patients, but the actual labels we technically own and we basically license out. We think that's important because that's the only way that we can improve our own processes.
+[09:48] If the actual labels are the property of someone else, then we actually don't have the rights to actually learn from it. So maybe that's getting a little too
+[09:55] technical deep in the weeds, but we've been incredibly thoughtful around every step of this process.
+[10:03] As a founder, you look at metrics every day and what KPI tells you that Turmeric is truly improving healthcare and not just shipping model.
+[10:13] So we don't ship models, we help our customers ship bottles.
+[10:17] Yeah, shipping models is one metric that matters to our customers. So therefore, it matters to us. Obviously revenue matters as well, right? But also you can think about like there's some really
+[10:25] interesting questions around quality of data. Is that increasing? our processes increasing and doing better, right?
+
+--- WINDOW AROUND 11:44 ---
+[11:26] you know, not all pieces of data are going to show that. So, it's pretty complicated, but that's sort of how we think it through. Okay. And are doctors skeptical of tech?
+[11:35] Like the tech that they're using, are they skeptical or are they all for it?
+[11:40] Like what's the hardest barrier that you had to cover?
+[11:44] For sure. I I think doctors are very skeptical of technology. But we started with our early adopters, people who did research already, people who were excited about AI. We had a whole
+[11:53] fellowship, right? So I think it's important to start where you have a lot of good support. Yeah. You have a fellowship program. 12:0012 minutesSo that's what on this doctor side, right? We have like a huge fellowship program where we actually educate doctors about AI because we want to make sure they're part of our community.
+[12:11] That's really nice. I didn't know if that existed. I think um you speak a lot about the philosophy.
+[12:21] What is safe scaling actually into real environments?
+[12:27] So first safe scaling thing is related to do you have a human in the loop right? I think you're very nent and AI we need to have humans in the loop that
+
+================================================================================
+episode_05 - Alisha Gupta
+================================================================================
+
+--- WINDOW AROUND 03:28 ---
+[03:04] days ago in which I'm looking for, you know, professional connections to advance my career in different ways.
+[03:12] Then I'm a strategy consultant and then a founder and, you know, the cherry on top is that I do professional dance and
+[03:20] hopefully can connect with someone on that level. And so it really depends on like the audience and the time in my life. But otherwise I would say my big
+[03:28] three buckets are being a founder, being a dancer, and being a strategy consultant.
+[03:37] Okay. So I would uh want to talk about the company that you've built. Yeah.
+[03:44] Um I'm sure you realized the gap and that's what led to uh you building it.
+[03:50] Um would you like to talk about what gab you found?
+[03:55] Yeah, definitely. So, it was essentially when I first graduated and I had nine
+
+--- WINDOW AROUND 07:39 ---
+[07:14] idea of like making dance more than just a hobby. And I didn't realize it back then, but that that was something I was
+[07:22] already doing it. I was already taking it so seriously. I knew I wanted to dance in high school. I was the captain of my uh high school Bollywood team. I
+[07:30] also did cheerleading and I also took ballet and then I joined a professional company and we started doing gigs um and
+[07:39] showcases around the Bay Area and then come college I was also part of two teams. So dance has been like the
+[07:46] through line throughout everything. I would say the other tag that people gave me was definitely entrepreneurial.
+[07:53] Ever since I was young I was finding solutions to things and it was probably because of my dad's influence. He's a serial entrepreneur on just sold his
+[08:02] fourth company. So that was clearly in you know my blood and my lineage. But when I was 18 years old is when I first
+[08:10] started something. Actually it was a little bit before that. I had a nonprofit that I ran as part of a Girl Scout award and I ran that for a couple
+
+--- WINDOW AROUND 11:41 ---
+[11:18] of it feeling so empowered and they felt like so important because of how much
+[11:25] focus was placed on them. So I wanted to emulate that same feeling for our community. So I would get sponsorships,
+[11:33] I would give goodie bags, I made them very intentional, curated and personalized events. And I think that's what kept the community together and
+[11:41] really made them interested in staying a part of Beauty and Balance. Um, so we did a couple community events and then we started hosting bigger and bigger
+[11:50] events nationwide all the way pretty much leading up to Chicago Fashion Week's runway.
+[11:57] That's really impressive. So like do you do people Okay. So is it just girls only, women only or uh
+[12:05] No. Um so the community is right now for everyone. The only requirement that we have is that you are creatively either
+[12:12] inclined or what we call um creatively curious. And so there are some people in
+
+--- WINDOW AROUND 15:45 ---
+[15:14] can talk about that because what we like to say is that you're not balancing everything all at once. You're understanding what to prioritize in your life to make balance realistic for you.
+[15:25] And that means adjusting the levels of certain activities at certain times. Um so that's the biggest misconception we
+[15:32] get. But truly, if you fall into any one of those tiers or maybe a a merge of a couple of them, then this community is going to help you with the tools and resources that we have.
+[15:45] Thanks. Um Um Okay, so kind of like Hannah Montana, I think I came up with that when I was prepping all of the questions.
+[15:54] She lives a dual life. Uh but yeah, this is more of um similar, but yeah. Okay.
+[16:01] when you are obviously pursuing so many things professionally and personally, what activities um keep you grounded
+[16:11] like do you have any rituals or uh for yourself personally?
+[16:20] Yeah. So we came up with essentially a workshop of sorts that we actually got
+
+--- WINDOW AROUND 20:06 ---
+[19:45] number um till, you know, we can't anymore. So, that is what I'm hoping to grow is like how many people can we get
+[19:53] in our community newsletter um as fast as possible.
+[19:58] That's nice. I think you would love your uh the followers or the people community that you're engaging with to grow with
+[20:06] you rather than just like being like ghost followers, you know, the term where they just follow you and like never really interact or grow with you.
+[20:15] Yeah, I get that. Um yeah so doing so many collaborations with creators,
+[20:22] brands and even local talent I believe what uh kind of people um do bring out
+[20:30] the best uh in like a partnership like I want to know what is your filter. Uh it's really helpful for creative brands
+[20:37] like me who are just starting out to know what kind of people you love working with and yeah what what do you
+
+--- WINDOW AROUND 24:10 ---
+[23:52] going to go, but I see the vision and so we're just going to go for it.
+[23:57] Yeah. sometimes gut feeling you just go with that feeling right. Yeah. Um yeah
+[24:03] that was quite useful especially for me not sure how much further the list is but like anyone who's trying to be a
+[24:10] creator I think that was really very useful. Okay. So my which brings me to my last question which is um in the next
+[24:20] year uh how do you plan to evolve beauty and balance? Like what's your uh dream
+[24:26] goal? Yeah. So we've been playing around with the idea of what do we want our events to be right now? Our events are
+[24:35] our main attraction. Um so it is you know what we've been growing our community for. I like to say year 1 was
+[24:43] the year of engagement. Um, and so we've done that very successfully, but I need to now figure out what do events look
+
+================================================================================
+episode_06 - Aashna Mehta
+================================================================================
+
+--- WINDOW AROUND 03:14 ---
+[02:52] that and turn them into clothes for my dolls. Um, but yeah, so that's that kind of hobby sort of passion kind of stayed
+[02:58] with me for I guess until now. It stays still with me. Um, even as I went through college and did computer science
+[03:06] and did all of that sort of techreated, you know, heavy sort of lifting there, um, that sort of passion stayed with me and I ended up taking a few extra
+[03:14] classes in college also related to fashion design. Um, and then very recently actually ended up trying to start my own brand.
+[03:23] Yeah, that's so you're like I I feel like you're very privileged. Even growing up in India, I did not access to my grandparents a lot because like we
+[03:32] have a lot of so they had they had to spend time with like a lot of Yeah. But you're so lucky like even even
+[03:41] uh yeah very interesting and inspiring u childhood I would say like um because
+[03:49] pursuing both like an academic career as well as like a creative thing on the side uh is very challenging. So, so
+
+--- WINDOW AROUND 06:54 ---
+[06:31] iterations, right, where you're quickly able to change things and it's perfectly fine, with a physical product, it's a lot harder. takes a lot longer, but I, you know, the idea is still the same.
+[06:40] You need to go through it multiple times. Um, and then you need to gather data, which is essentially feedback from your customer. I think that's pretty
+[06:46] universal, honestly. Um, for software, it might be just sending it out to a few clients to trust out. For fashion, it's
+[06:54] maybe posting online and like getting people's feedback to see if they like it. So, those kind of things, those principles are I I would say the same.
+[07:03] you know, maybe like the actual like methodology is a little bit different, but it's still there. Yeah.
+[07:10] Okay. Uh, and yeah. So, did you ever make any mistakes? Like, do you make
+[07:17] mistakes? I'm sure like there are a lot of steps and do you like ever make a mistake in like building what you do and
+[07:24] how do you correct it? Like I'm I'm just like curious of like founders never talk about the mistakes that they're making. Yes.
+
+--- WINDOW AROUND 10:29 ---
+[10:07] it's in Mumbai oh nice okay yeah yeah have you ever like been to Mumbai to actually check how things work on crowd
+[10:16] Not yet. So I have um a few like family members. I have a few like interns that I've been working with from like you
+[10:23] know fashion schools in Mumbai who've kind of been doing a lot of that for me until at least I can get there you know.
+[10:29] So I'm like there's people I trust who are able to do a lot of that until I myself can go. Um just because again it
+[10:37] is a little bit you know you got to take time off of work you got to figure it out. It's it's a lot of back and forth and it it does get a little bit complicated.
+[10:44] Yeah. Yeah. Which brings me to my next question is how do you decide the price point for each piece?
+[10:53] Like is there Yeah. Could you just talk about like your thinking uh deciding the price points?
+[11:01] Yes. So I mean there is like a mathematical formula for this one, right? It's essentially you would take into account um all of the material
+
+--- WINDOW AROUND 14:10 ---
+[13:50] like if you're looking at $5,000 versus $300, right? That's already a massive difference. More than 10. Yeah.
+[13:58] Yeah. Interesting uh to know. Uh but yeah. Okay. So, how do you deal with the competition? Are there other brands
+[14:06] which are trying to achieve the same thing in the US?
+[14:10] That's a good question. I honestly I have seen a lot of people who are trying to say make like Indian blazers with
+[14:17] like a lot of heavy embroidery things like that. Um, at least for me, the differentiating factor that I see for
+[14:24] myself is that I'm making work wear that you can actually wear like daily to to the office, right? Where it's not like maybe more of like an occasion piece,
+[14:33] which is how I view the other um other brands, which of course there's nothing wrong with that, right? Like I think they're still beautiful. There's still a time and place for them, but it's not
+[14:42] maybe something that you can wear to an office, especially in the US or like a client meeting. And so that's something that I wanted people to be able to do where it's maybe a little more
+
+--- WINDOW AROUND 17:54 ---
+[17:31] know, they they talk about like, oh, do you remember like the blazer that I wore that time by and they start quoting you
+[17:38] and that's how you sort of build like the brand loyalty and like you know that that's replaceable even if you find a similar piece somewhere else.
+[17:47] So, right, I think that's very difficult to build, but once you build it, I think it's like priceless. I think you can't really Yeah.
+[17:54] put a price on, you know, that kind of support from people.
+[17:59] Um, yes. 18:0018 minutesYeah. Um, so, okay. So, how do you market and sell your pieces? Is it just online or word of mouth or how do you do it?
+[18:09] Yeah. So right now it is primarily online. I think um a lot of the amazing marketing that I got last year was
+[18:17] through different fashion weeks. Um we did New York fashion week as well as Chicago fashion week last year. So I think that's it really did I think help
+[18:26] bring it to like a different audience, right? Cuz whatever happens online, it's sometimes being marketed to the same people. You never know. Um but at least if you go to these fashion weeks, it
+
+--- WINDOW AROUND 21:19 ---
+[20:54] that you would do differently um I think I would start the whole process in India I think
+[21:04] my want to be like close to the actual process to the actual production um and that's why I went with the initial like
+[21:12] sampling contract with a company here in the US. Um, and while that was a that was a perfectly fine experience and that
+[21:19] was great, but it did feel very like I was paying a lot of money and like while I did get results, it was kind of like okay, you know, I paid a lot, but like I
+[21:28] don't really know for for if it was worth that much, right? Um, and then like honestly once you switch production companies, you have to do redo a lot of
+[21:37] that work anyway. So it's kind of like okay you're paying the cost twice while it is significantly less. Yeah. But you're still paying that cost twice for
+[21:46] basically getting the same result. So I think I would probably just like you know bite the bullet and immediately start in India and like if that meant
+[21:55] having to take a trip or something at the beginning of this whole process and then start directly there. I think that's the biggest change I would have made.
+
+================================================================================
+episode_07 - Rucha Dave
+================================================================================
+
+--- WINDOW AROUND 02:12 ---
+[02:07] acne and knowing that and it's different
+[02:09] for every person. So, that's uh
+[02:11] essentially what we're solving in the
+[02:12] form of an app and we're actually
+[02:14] launching soon. So, this is a perfect
+[02:16] pre-launch podcast to be on. But, yeah,
+[02:18] it's a bit about me.
+[02:20] Yeah, pretty cool. So, okay. So glad
+
+--- WINDOW AROUND 04:24 ---
+[04:17] University Fox School of Business
+[04:19] So everything like coming together and
+[04:22] getting this level of validation and
+[04:24] that sort of like market response has
+[04:26] given me a lot of confidence that I'm
+[04:28] just excited to bring this to the people
+[04:30] that are excited about it.
+[04:32] Yeah. Okay. Pretty cool. Daniel know
+
+--- WINDOW AROUND 06:48 ---
+[06:42] what are those habits that are coming
+[06:45] into play while I'm stressed and while
+[06:46] I'm breaking out?" And it was she wasn't
+[06:48] drinking enough water. Her face wash was
+[06:50] drying her face out during that time.
+[06:52] And like she was using something that
+[06:54] was more drying all year instead of just
+[06:56] using that maybe in the summer. And like
+
+--- WINDOW AROUND 08:57 ---
+[08:52] find your staple products and then you
+[08:54] can expand like you know like maybe in
+[08:55] the summer like I need more of this,
+[08:57] more sheet masks or more well like
+[08:58] whatever you want. But if you don't have
+[09:00] your core products and ingredients set
+[09:02] into stone, then it becomes really hard
+[09:04] uh to actually take care of your skin
+
+--- WINDOW AROUND 11:09 ---
+[11:04] it's like I the founder themselves they
+[11:06] actually don't feel like that cool doing
+[11:08] it because you know that like half the
+[11:09] time you're like wearing under eye
+[11:11] patches you're like in like a messy bond
+[11:13] on your bed just like freaking out like
+[11:15] oh my god this isn't working or like
+[11:17] this is working and you know what I'm
+
+--- WINDOW AROUND 13:22 ---
+[13:16] before. Um, but it's typically just been
+[13:19] by people that aren't in the space, like
+[13:21] maybe that don't understand
+[13:22] entrepreneurship. And so I think it it's
+[13:25] rather than me questioning myself, it's
+[13:27] more so been learning how to separate
+[13:30] someone else's opinion from my own
+[13:32] opinion. I think that's a great skill
+
+================================================================================
+episode_08 - Natalie Beaulieu
+================================================================================
+
+--- WINDOW AROUND 03:52 ---
+[03:32] Yeah. So, how did you validate that people are actually using the app? Uh it's already launched, right?
+[03:40] Yeah. Yeah. So, I launched Strika um just about three months ago in the Apple App Store.
+[03:46] Yeah. So how do you validate that people are actually using the app?
+[03:52] Yeah. So before I launched it, I did I underwent three phases of research. So first um just chatted with friends that
+[04:01] I knew were frequent picture takers and I wanted to check in on two hypotheses.
+[04:08] One hypothesis was that people like we weren't no one was really taught how to pose for photos and that was validated
+[04:17] to through my conversations. I think you know friends said hey I might have like one go-to pose but other than that like I'm just kind of winging it over here.
+[04:25] And then the second hypothesis I tested is that taking pictures is more it's more than just posting to social media.
+
+--- WINDOW AROUND 08:39 ---
+[08:10] just okay, like that 70% range to absolutely perfect 100, um it takes so many revisions and sometimes like I kind of have to give up on what's in my head.
+[08:22] um because I'm I have such a hard I'm not able to like get it pixel perfect.
+[08:30] Um, so for one example of this is uh the camera viewfinder. Like it was fairly easy to actually build that technology,
+[08:39] but to get the um the the layout and kind of the pixels exactly where I wanted, like, hey, there's going to be a
+[08:48] small bit of text above the viewfinder and then the shutter button below and a couple buttons um above that. like it
+[08:55] took so many iterations and fighting with cursor to get it to that stage. And so um that's been a very interesting
+[09:03] learning and I'm sure if folks out there are vibe coding they've they've experienced that headache as well.
+[09:11] So how did you curate the poses inside the app? Did you work with photographers or creators?
+
+--- WINDOW AROUND 13:24 ---
+[12:59] confused about what happened after the photo was taken. And so I after that I was like, "Oh no, okay, I need to like
+[13:07] um have the user, you know, preview their shot." Like they could choose whether they want to save it to their camera roll or not. And then like they
+[13:16] need to have that space in the Strike app so they can come back to a photo in case um you know they don't want to sip
+[13:24] through their whole camera roll. So that was um really cool to see like the confusion in the real time and just know how deep that painoint was.
+[13:34] Okay. So a little psychological I wanted to ask how do you make the
+[13:42] app feel useful instead of you know making people feel a little insecure?
+[13:50] Yes. So that's been very very top of mind for me. Um because I know that 14:0014 minutesfeeling confident enough to take photos and like what you see takes a lot of
+[14:07] self-love work and maybe not everyone is quite there yet. And so as of right now
+
+--- WINDOW AROUND 18:09 ---
+[17:47] Yeah. So, which country has like the most users?
+[17:52] That's a great question. I haven't looked too closely at the data recently, but I actually just launched in the US
+[18:01] and Canada um to keep things simple and kind of like test proof of concept, but I had a um a how-to video on Tik Tok
+[18:09] that went viral. And every single comment that was coming in were um users in Europe actually that said, "Hey, um
+[18:17] when is this coming to Germany? When is this coming to Belgium, UK, Italy?" And so um there are some regulatory
+[18:24] requirements to launch in Europe and so was able to um work through those over a week or so and then um making it
+[18:33] available in Europe. And so that was that was my first um kind of thing I was able to build based on user feedback.
+[18:42] And I've since received other feedback that users want to upload their own photo um instead of using the photo templates available. And so I was able
+
+--- WINDOW AROUND 22:43 ---
+[22:19] getting those three elements to um yeah, work work in harmony like was actually slightly
+[22:28] faster than I expected. But then like to get the viewfinder in the center of the frame instead of hugging like the very
+[22:36] top or the very bottom um took a lot of fighting with Claude, but eventually I got there.
+[22:43] Oh, okay. So, I know that you've been doing a lot of um this is more on
+[22:50] marketing. So, you I know that you've been doing a lot of uh marketing uh on Instagram. Tik Tok is banned in India.
+[22:59] so I can check out your Tik Tok.
+[23:02] [laughter]
+[23:02] Um, uh, so how are you planning to grow the app even more? So through creators,
+
+--- WINDOW AROUND 27:01 ---
+[26:33] behind um my NAT built account is just to empower people to take that first step to build their dream lives.
+[26:42] Yeah. Okay. So, do you think social media has made people more camera conscious or camera confident?
+[26:54] I would say probably the former. So, I am 35. I or I'm turning 35 this week
+[27:01] actually. I guess I'm still 34. But, um, my first experience with taking photos
+[27:08] for social media was when I was 14. and I was creating my first MySpace page and I realized I didn't have any photos of
+[27:15] myself. So, I snuck into my parents' bedroom when they weren't home, took their personal camera, snapped a few
+[27:22] selfies of myself, and put them on MySpace. And in reflecting on that moment, I don't know why I was needing to be so secretive about taking photos.
+[27:32] Um, but I think since then I realized that like taking photos
+
+================================================================================
+episode_09 - Shania Jain
+================================================================================
+
+--- WINDOW AROUND 02:44 ---
+[02:20] and like meet people. So that's kind of why I kind of had the idea of building more of a community around the fitness space, especially for people who love
+[02:29] spending a lot of their time and invest their time in health and wellness. Um, kind of like a space for people to use that as an opportunity to meet new
+[02:36] people. So that's how I decided to start fit in. We started it as an app. So, the idea was I would like go to pop-up classes that I hear about like in all
+[02:44] the time back like a year ago. Um, and those are super fun because those are a lot more conducive to meeting people cuz like an instructor's putting on the event. There's always like some brands
+[02:52] involved or like sponsors involved and like after class people stay in chat because you're not being rushed out the door. So, I was like, okay, pop-up 3:003 minutesevents are a great way to, you know, kind of get to meet new people through your workouts, but obviously those are
+[03:07] very much like you hear about them on the fly. So that's kind of why I thought it fit in as an app to be kind of like a centralized place for people to discover
+[03:15] community workouts and then also on the flip side for instructors kind of to build their own community. So I started as an app last year September and then
+[03:23] um after a few months of doing that I found myself directly working with a lot of instructors that were hosting events around the city and I realized another
+
+--- WINDOW AROUND 05:50 ---
+[05:34] Yeah. Okay. So, what does it actually mean? People looking for a community.
+[05:39] What does it actually mean inside the app? Like how do you uh connect people?
+[05:44] Is there a messenger or something of sorts, right?
+[05:50] Yeah. No, great question. So, the app is kind of a two-sided market. We have our fitness instructors. So, we have like over 150 New York City instructors that
+[05:59] are onboarded on the app. And then we have our community of like users that are looking for classes and events to go
+[06:05] to. So essentially on the app is kind of where instructors are able to like post their classes and users can follow them.
+[06:12] So like people come back for the community because they have instructors that they like you know going to. So like we have instructors that host like monthly classes. We have instructors
+[06:19] that host like weekly. So on the instructor side, they're fully building their own community and business and like using Fitin's platform as like the
+
+--- WINDOW AROUND 09:02 ---
+[08:40] Um I got an email the other day from someone who's based in New York. They go to like events. They come to the studio at fitin for New York classes and they
+[08:47] sent me an email being like oh I'm going to I'm traveling to LA next week and I was trying to look at events on the app for LA but I don't see anything like is
+[08:54] the app glitching and I was like like we are not in LA yet but I would love for us to kind of eventually you
+[09:02] know expand expand like that. Um, so I think Miami, LA, I know Chicago even like a lot of big cities. I mean, I feel
+[09:10] like health and wellness is everywhere at this point, but New York is definitely I think the best start point.
+[09:14] Of course, being here myself makes it a lot easier, too.
+[09:18] H So, okay. So, I have one interesting question that you build for both instructors and the members. Uh,
+[09:27] so, uh, what side of the marketplace was harder to attract first? Because like I'm sure there might have been a chicken and egg problem, right? Who would come to the app first? Yeah.
+
+--- WINDOW AROUND 12:11 ---
+[11:48] community events. And that's literally how I got my first 100 instructors on the platform. Um they would just reach out. Every instructor I think that I've
+[11:55] talked to or most of them I've had a call with and then kind of just like explain give given my pitch of what fit in is. And everyone was very much bought
+[12:03] into the idea of like building their own community and teaching on their own schedule. I think that's what attracted people the most to the opportunity of
+[12:11] just like being able to host your own class where you're teaching your own method, putting your own spin on it, you know, create your own playlist, kind of
+[12:20] do like it's kind of like them running their own business and then fit in being like a platform for them to like we help them out with the marketing and help them out with providing the space now.
+[12:30] So that kind of solves a lot of problems and attracts instructors to teach with fit in.
+[12:38] Yes. Okay. Cool. So um one operational question is uh can you share how you
+[12:46] actually build the app? Like did you bootstrap it? What tech stack did you use and all of that?
+
+--- WINDOW AROUND 15:29 ---
+[15:03] Android yet because most of our market right now is iOS. So I wanted to just focus on that for now. And then we have a web app as well um for booking
+[15:12] classes. But of course the app is kind of what gives users a full experience.
+[15:18] Okay. Nice. So you mentioned Tik Tok like you initially started posting on Tik Tok, right? So was it like the primary growth channel or what are the other growth channels?
+[15:29] Yeah, definitely Tik Tok is our biggest growth channel. Um, up until two weeks ago, it was just like my own personal
+[15:37] TikTok and I was kind of like it's like Shauna, I'm building fit in as kind of like my title on there. So, I think people love kind of seeing the journey of founders and I've seen a lot of other
+[15:46] founders on there and I love polling that along too. So, I think that's why founder marketing had been the biggest growth channel. Um, and second after
+[15:54] that is our and oh or I guess like I was saying earlier um as of two weeks ago we got an actual page for fit in as well on Tik Tok. Um, and I have a team working
+[16:03] on helping out with that. So, I think as we've expanded and grown a team, it's been nice to get help with different channels as well. So, that's another channel. Our I think our next biggest
+
+--- WINDOW AROUND 18:28 ---
+[18:04] it as well. But I will say at the end of the day like fitness for a lot of people isn't just if you're someone that like just wants to work out just to get your workout in.
+[18:13] Like sure like you can get some AI personalized thing to help you co you know get coaching. I guess P skeleton bikes are not AI but an example of like
+[18:21] you know personalized workouts like that. But I think at the end of the day a lot of people that are in the fitness world they crave community. They crave
+[18:28] like particular instructors and just like being in a room or with other people that are doing the workout besides you. Um and like obviously human
+[18:36] connection at the end of the day cannot be replaced. So having like a bot what to do versus an instructor that's like pushing you and making jokes throughout
+[18:44] class and like playing fun music like all of that like I feel like that's really hard to replace. And I think especially with fit
+[18:51] in that's kind of why the idea of like having that community fitness events where you have like some aspect beyond just the workout like we always have
+[18:59] like macho pop-ups after like some brand will kind of bring in like a little table and share about themselves and

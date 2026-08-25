@@ -1,0 +1,238 @@
+Episode 08: FounderTechTok with Natalie Beaulieu
+Guest Name: Natalie Beaulieu
+
+0:1717 secondsOkay. Hi everyone. Welcome to Founder Tech Talk podcast, a space where we decode founder journeys and learn the art and science of building the future.
+0:2727 secondsToday I have with me Natalie Balu and she is the founder of Striker app. Uh
+0:3636 secondsshe also works as a product marketer at Atlassian in San Francisco. So yeah, welcome Natalie. Welcome to found tech talk podcast.
+0:4747 secondsThanks Auma. I'm so thrilled to be here and share more about Striker.
+0:5454 secondsYeah, cool. So, I'll just get started with my questions if that's okay.
+0:5959 secondsYeah. Okay. So, what made you believe like posing was a big enough problem to build an entire app around it?
+1:081 minute, 8 secondsYeah. So, I wouldn't say there was necessarily like one big aha moment. It was more so just a process of beginning
+1:161 minute, 16 secondsto pull a thread and just becoming more and more in awe that no one has been
+1:231 minute, 23 secondsfocusing on this problem space that heavily. So um a little bit of backstory. So I received my MBA from
+1:311 minute, 31 secondsNorthwestern Kellogg. Um I graduated just about two years ago. So with an MBA comes a lot of traveling. So, I got to
+1:391 minute, 39 secondstravel to some pretty amazing places like Turkey, Nigeria, Costa Rica, Colombia. And during that time, you
+1:471 minute, 47 secondsknow, I wanted to take beautiful photos to remember those moments, but I just didn't feel super comfortable in
+1:551 minute, 55 secondsfront of the camera and didn't know how to actually execute on the photos that I saw um on Pinterest or Instagram. And so
+2:042 minutes, 4 secondsas I was coming home from one of my trips, I was um car I was on a road trip with one of my dear friends, Vivian. Um
+2:122 minutes, 12 secondswe started talking about, hey, like what what if there was some sort of app that could guide your hand to get this shot just right. And so
+2:212 minutes, 21 secondsI kind of sat with that idea for about six months. And then as these low code, no code AI development
+2:312 minutes, 31 secondstools um began proliferating and became easier for nontechnical people like me um I decided to mock up [clears throat]
+2:382 minutes, 38 secondsmy idea one day in Figma, bring them into lovable and all of a sudden uh my idea came to life. And so that was like
+2:462 minutes, 46 secondsone aha moment. And then as I did my market research and started talking to friends about the problem space, surveying customers, and then finally
+2:542 minutes, 54 secondsdoing market research, um it just became too undeniable to work on. I think the thing that really struck me the most is
+3:023 minutes, 2 secondsI analyzed the top 100 apps in the photo and video category and saw that
+3:093 minutes, 9 seconds90 plus% of them are focusing on the moment after a photo is taken, but no one has really focused [clears throat] on that moment before. and we're a five
+3:183 minutes, 18 secondsplus billion dollar category. It just seems like it was ripe for opportunity for someone to help people um feel better in that moment before they
+3:273 minutes, 27 secondscapture a photo so they don't need to rely on editing apps afterwards.
+3:323 minutes, 32 secondsYeah. So, how did you validate that people are actually using the app? Uh it's already launched, right?
+3:403 minutes, 40 secondsYeah. Yeah. So, I launched Strika um just about three months ago in the Apple App Store.
+3:463 minutes, 46 secondsYeah. So how do you validate that people are actually using the app?
+3:523 minutes, 52 secondsYeah. So before I launched it, I did I underwent three phases of research. So first um just chatted with friends that
+4:014 minutes, 1 secondI knew were frequent picture takers and I wanted to check in on two hypotheses.
+4:084 minutes, 8 secondsOne hypothesis was that people like we weren't no one was really taught how to pose for photos and that was validated
+4:174 minutes, 17 secondsto through my conversations. I think you know friends said hey I might have like one go-to pose but other than that like I'm just kind of winging it over here.
+4:254 minutes, 25 secondsAnd then the second hypothesis I tested is that taking pictures is more it's more than just posting to social media.
+4:324 minutes, 32 secondslike there is some kind of nostalgia element to it where you know people want to look back and have good photos of
+4:394 minutes, 39 secondsthemselves. So that was a good kind of bucket of aha moments. And then um the
+4:474 minutes, 47 secondsnext step I underwent is I just wanted to make sure that like hey this painoint was pervasive enough that it wasn't just
+4:544 minutes, 54 secondswithin my circle of friends. And so I paid $200 to survey a random subset of
+5:005 minutesAmerican women to understand like a how much do they care about improving photos of themselves and b what do they
+5:095 minutes, 9 secondsstruggle with the most? So, in my survey, I found that 87% of the women that filled out my survey, um 87% of
+5:165 minutes, 16 secondsthem wanted to improve photos of themselves. And then they the top reported thing that they wanted to
+5:235 minutes, 23 secondsimprove was um posing. It wasn't the angles, it wasn't the lighting, it was like the pose. So, I think that moment I
+5:325 minutes, 32 secondswas like, "Okay, I feel like there's enough women that care about this that I should um really see if I can design a solution to help them feel more
+5:415 minutes, 41 secondsconfident in front of the camera." All right. So, did the first version um look the same as what it is today?
+5:525 minutes, 52 secondsThat's so funny you should ask that because it actually looks very very similar. So, um, last summer I basically
+5:595 minutes, 59 secondsunderwent a design sprint and I I said, "Hey, I'm going to give myself the summer to try to build a production ready app.
+6:106 minutes, 10 secondsIf I just like don't have the energy, that's fine. At least I know I tried.
+6:156 minutes, 15 secondsBut, um, I'm just going to like dedicate this this time to really try to pull it off." So the solution that I built and I beta tested with my friends is actually
+6:246 minutes, 24 secondsreally similar to what's live in the app store. And where I've really made improvements is in the pre and post
+6:326 minutes, 32 secondscapture moment. So I've been thinking a lot about the onboarding. And so, um, right now I'm testing a hypothesis
+6:406 minutes, 40 secondsaround, um, having like a signature pose that you practice over and over again, so you're
+6:476 minutes, 47 secondsnot like feeling the pressure to snap into something on the fly.
+6:516 minutes, 51 secondsI'm still not convinced that that is the right solution for everyone. Like, I know it worked for me specifically, um, but I I'm still kind of testing that
+7:017 minutes, 1 secondhypothesis. And then I was able to improve like the post capture experience and like saving to someone's camera roll
+7:087 minutes, 8 secondsand in the Striker app. But it's it's actually kind of funny like I've been really chipping away at this for a year
+7:167 minutes, 16 secondsnow and the core app experience is very similar to when I first started. Nice.
+7:217 minutes, 21 secondsSo what's been the most uh hardest technical challenge uh while building Striker?
+7:327 minutes, 32 secondsYou know what's interesting um in reflecting on that is like because
+7:407 minutes, 40 secondsbuilding has become so commoditized like I wouldn't say there's like a specific technical hurdle that was especially
+7:477 minutes, 47 secondschallenging but I think it was more so contending with what's good enough and what needs to be perfect. Like I'm
+7:557 minutes, 55 secondsfinding as I'm building with AI, specifically my text, my tech stack includes cursor and cloud code, I can
+8:038 minutes, 3 secondsget a feature from zero to 70% fairly fast. But in order to get it from
+8:108 minutes, 10 secondsjust okay, like that 70% range to absolutely perfect 100, um it takes so many revisions and sometimes like I kind of have to give up on what's in my head.
+8:228 minutes, 22 secondsum because I'm I have such a hard I'm not able to like get it pixel perfect.
+8:308 minutes, 30 secondsUm, so for one example of this is uh the camera viewfinder. Like it was fairly easy to actually build that technology,
+8:398 minutes, 39 secondsbut to get the um the the layout and kind of the pixels exactly where I wanted, like, hey, there's going to be a
+8:488 minutes, 48 secondssmall bit of text above the viewfinder and then the shutter button below and a couple buttons um above that. like it
+8:558 minutes, 55 secondstook so many iterations and fighting with cursor to get it to that stage. And so um that's been a very interesting
+9:039 minutes, 3 secondslearning and I'm sure if folks out there are vibe coding they've they've experienced that headache as well.
+9:119 minutes, 11 secondsSo how did you curate the poses inside the app? Did you work with photographers or creators?
+9:199 minutes, 19 secondsYeah. So, that was a really fun operational challenge that I'm like probably the most it's the
+9:299 minutes, 29 secondspart of the app I'm most proud of. So, with Strike,
+9:369 minutes, 36 secondsum, basically my core app experience, um, is that I provide these photo templates that users
+9:469 minutes, 46 secondscan use to help them take photos. They overlay on the viewfinder and they solve two pain points at once. They both help
+9:539 minutes, 53 secondsthe photographer angle the camera just right so they kind of matches that reference photo and then they help the
+10:0110 minutes, 1 secondperson posing and gives them um some sort of pose to refer to so they're not just like um trying to think of something cool and aesthetic on the fly.
+10:1210 minutes, 12 secondsAnd so as I built my prototype, I, you know, sifted through Pinterest, found all these cool girl photos of, you know,
+10:2210 minutes, 22 secondsgirlies with their matcha in New York City. Um, and
+10:2910 minutes, 29 secondsI was trying to recreate I was trying to balance a couple things. Like number one, I wanted the backgrounds of the
+10:3710 minutes, 37 secondsphotos to seem like they could have been taken anywhere in the world because I knew vacation photos was going to be a primary use case of Strika. So, I live
+10:4610 minutes, 46 secondsin San Francisco. I started brainstorming all the places in the city that look like they could be in a different country. So, we
+10:5410 minutes, 54 secondshave um let's see, we have the Palace of Fine Arts, which has these beautiful Roman columns that look like they could
+11:0211 minutes, 2 secondsbe in Italy. We have the Japanese tea garden, which looks like it could be in Japan. We have a Chinatown. We have city skyscrapers that look like they could be
+11:0911 minutes, 9 secondsin New York. So, I pulled together a shot, an ideal, a list of shot locations, um, and then grouped them
+11:1711 minutes, 17 secondstogether so that I could have two different days of taking these photos.
+11:2111 minutes, 21 secondsAnd then, um, I hired an amazing photographer. Um, her name is Sue. She's typically a wedding photographer, but
+11:3011 minutes, 30 secondsshe was really excited about the mission and it was kind of her off season um in January when I needed to take these photos. So, she agreed to [laughter]
+11:3911 minutes, 39 secondsrun around San Francisco with me to take the shots. And then my models were just friends of mine who knew I'd been
+11:4811 minutes, 48 secondsworking really, really hard on Strika and they just wanted to support me in any way they could. And so I bought
+11:5511 minutes, 55 secondseveryone coffee and they definitely like went outside of their comfort zone and took photos with me. But it was really really cool to see it come to life.
+12:0512 minutes, 5 secondsThat's pretty cool. I didn't know that happened but yeah. Yeah. Okay. So what kind of feedback uh I'm sure there might
+12:1412 minutes, 14 secondshave been iterations. So what kind of feedback completely changed the product?
+12:1912 minutes, 19 secondsUh has there been like any uh changes in the product ever since the launch?
+12:2712 minutes, 27 secondsYeah. Um I think one piece of early feedback that stuck with me um was around like the capture moment. So
+12:3612 minutes, 36 secondsinitially I had designed Strika to just automatically save photos to your camera roll. um that felt intuitive to me. But
+12:4412 minutes, 44 secondsthen I had um the beta version of Strika on a trip. I was in Spain for a friend's
+12:5212 minutes, 52 secondswedding and I was having her um her aunts and her parents and their friends testing the app and they were so
+12:5912 minutes, 59 secondsconfused about what happened after the photo was taken. And so I after that I was like, "Oh no, okay, I need to like
+13:0713 minutes, 7 secondsum have the user, you know, preview their shot." Like they could choose whether they want to save it to their camera roll or not. And then like they
+13:1613 minutes, 16 secondsneed to have that space in the Strike app so they can come back to a photo in case um you know they don't want to sip
+13:2413 minutes, 24 secondsthrough their whole camera roll. So that was um really cool to see like the confusion in the real time and just know how deep that painoint was.
+13:3413 minutes, 34 secondsOkay. So a little psychological I wanted to ask how do you make the
+13:4213 minutes, 42 secondsapp feel useful instead of you know making people feel a little insecure?
+13:5013 minutes, 50 secondsYes. So that's been very very top of mind for me. Um because I know that
+14:0014 minutesfeeling confident enough to take photos and like what you see takes a lot of
+14:0714 minutes, 7 secondsself-love work and maybe not everyone is quite there yet. And so as of right now
+14:1314 minutes, 13 secondsI'm focusing on you know that core experience of like improving the capture moment.
+14:2214 minutes, 22 secondsUm, diversity of models and like diversity of body type is important to me so that like
+14:3114 minutes, 31 secondspeople can see themselves reflected and who they see in these photo templates. So,
+14:3714 minutes, 37 secondsit's not necessarily just like very thin white women. Um, but I think as I
+14:4614 minutes, 46 secondscontinue to grow the product, like I want to help empower the women using my app to feel
+14:5514 minutes, 55 secondsmore confident to take that photo in the first place. So that might inol involve introducing some sort of like self-love, self-confidence, little podcast to
+15:0415 minutes, 4 secondslisten to to get hyped up before a photo shoot or um you know just having motivational quotes just to remind
+15:1315 minutes, 13 secondsyourself how beautiful you are. Um, so I'm really excited about the opportunity to um,
+15:2015 minutes, 20 secondsbuild those types of features because that's ultimately what the mission is of my app is to help women feel more confident in front of the camera. And I
+15:2915 minutes, 29 secondsknow that's kind of goes beyond just like taking the picture itself.
+15:3515 minutes, 35 secondsYeah. Okay. So, what category of users really surprised you? I'm sure there's a diverse um group of people using the app.
+15:4515 minutes, 45 secondsYeah. Yeah. So, okay. One of my hypotheses that was proven wrong um
+15:5115 minutes, 51 secondsrecently was I so I initially thought that going after single women who wanted
+15:5915 minutes, 59 secondsto improve dating app profile photos would be a core user category of mine.
+16:0516 minutes, 5 secondsand I'm single, so I have no I'm I'm more than happy to talk about my own dating life. I actually used Strike
+16:1316 minutes, 13 secondsImages to upload my update my hinge and I ended up getting like 273 likes in one week. It was a little a little
+16:2116 minutes, 21 secondsum and I I have a Substack um post that I wrote about it, but um what I found is
+16:2816 minutes, 28 secondsactually couples are really gravitating towards my app. Um, that was like the top one of the top themes of comments in
+16:3816 minutes, 38 secondsa Tik Tok video that um went viral and it's been seen over 100,000 times is women saying things like, "I'm going to
+16:4516 minutes, 45 secondssend this to my fiance. I'm going to download it on my husband's phone." Um, there's a comment that said, "This just saved my marriage." That has been liked
+16:5316 minutes, 53 secondsover a thousand times. And um, the share rate has actually been really high. And as I've been talking to users, they've said, "Oh, I sent this to my boyfriend.
+17:0217 minutes, 2 secondsand I sent this to to my husband. And so I think that's been really cool um to see the conversation start between like a couple and wanting to improve photos.
+17:1317 minutes, 13 secondsBut it does make things a little bit challenging because it makes me think like, okay, am I positioning this app for the the man who needs help taking
+17:2217 minutes, 22 secondsphotos and like tailor messaging for that or do I just focus on the women and hope that they, you know, pass things
+17:2917 minutes, 29 secondsalong to their the the man in their life. But it's it's definitely a good problem to have and I'm excited to keep keep noodling on it.
+17:3917 minutes, 39 secondsNice. Okay. So, and it's launched in 70 plus countries, right? I would write that in. Yes. Yes.
+17:4717 minutes, 47 secondsYeah. So, which country has like the most users?
+17:5217 minutes, 52 secondsThat's a great question. I haven't looked too closely at the data recently, but I actually just launched in the US
+18:0118 minutes, 1 secondand Canada um to keep things simple and kind of like test proof of concept, but I had a um a how-to video on Tik Tok
+18:0918 minutes, 9 secondsthat went viral. And every single comment that was coming in were um users in Europe actually that said, "Hey, um
+18:1718 minutes, 17 secondswhen is this coming to Germany? When is this coming to Belgium, UK, Italy?" And so um there are some regulatory
+18:2418 minutes, 24 secondsrequirements to launch in Europe and so was able to um work through those over a week or so and then um making it
+18:3318 minutes, 33 secondsavailable in Europe. And so that was that was my first um kind of thing I was able to build based on user feedback.
+18:4218 minutes, 42 secondsAnd I've since received other feedback that users want to upload their own photo um instead of using the photo templates available. And so I was able
+18:5118 minutes, 51 secondsto build that in a weekend. So it's been really really fun to have the power of AI tools um to respond to these types of
+18:5918 minutes, 59 secondsrequests um and give people the best app for them.
+19:0419 minutes, 4 secondsThat's pretty cool. So what like can can you briefly tell us about the dexang that you've been using?
+19:1219 minutes, 12 secondsYes. Yes. Oh my gosh. Well, it's been quite the journey. So, I initially built the first Strika prototype with Lovable. I think like
+19:2119 minutes, 21 secondsthat had the strongest brand equity at the time in my mind. I had heard they created like the mo the best visuals and
+19:2919 minutes, 29 secondsum was really happy with the first prototype I built, but um at the time they weren't able to build camera
+19:3619 minutes, 36 secondsfunctionality, so I had to build to like more production grade tools. uh to actually get the camera functionality to
+19:4419 minutes, 44 secondswork. So [clears throat] at the beginning of my journey, I was using just regular claude, not even claude
+19:5319 minutes, 53 secondscode to build features for me um in Swift. And I
+20:0120 minutes, 1 secondchose to use Swift as my programming language because I knew that it had the
+20:0720 minutes, 7 secondsbest quality output for cameras. And um I'm an iPhone user. I I knew that there
+20:1520 minutes, 15 secondswas because my product experience was so dependent on a camera viewfinder. I just felt like there was too much variability with Android um to begin with Android.
+20:2520 minutes, 25 secondsSo I kind of wanted to test proof of concept with iOS before moving to Android. But yeah, basically use Swift as my programming language was copying
+20:3220 minutes, 32 secondsand pasting directly from Claude into um into Swift. And I was actually at a
+20:4020 minutes, 40 secondscoffee shop one day and this man next to me saw my workflow and he was like, "Hold up. You're copying and pasting
+20:4720 minutes, 47 secondsindividual lines of code into your codebase. Like there's a much easier way to do this." So that's how he got me set
+20:5420 minutes, 54 secondsup on cursor with MCPS. And so now I switch off between um Cursor and Cloud
+21:0021 minutesCode. I use both of their $20 a month premium plans, not token maxing in any
+21:0721 minutes, 7 secondsway. And um find that they both give me plenty of um tokens to work with to build all sorts all sorts of features.
+21:1921 minutes, 19 secondsYeah. Okay, cool. So building on that.
+21:2121 minutes, 21 secondsSo what kind of feature uh took the longest uh to build?
+21:3121 minutes, 31 secondsYeah. So I kind of mentioned like the viewfinder took quite a bit of time to
+21:3621 minutes, 36 secondsget it uh the composition just right. Um
+21:4221 minutes, 42 secondsbecause like with the way Striker works, first the user selects the pose template,
+21:5121 minutes, 51 secondsthey go to the camera viewfinder, they long press on the viewfinder to see that pose template, and then there's an
+21:5821 minutes, 58 secondsadditional little white outline um so on the viewfinder as well, so that the
+22:0522 minutes, 5 secondsperson taking the photo can place the subject like right in that outline. And I think of it like scanning a check, you
+22:1122 minutes, 11 secondsknow, like when you are holding your phone camera over a check, you line it up just right. And so
+22:1922 minutes, 19 secondsgetting those three elements to um yeah, work work in harmony like was actually slightly
+22:2822 minutes, 28 secondsfaster than I expected. But then like to get the viewfinder in the center of the frame instead of hugging like the very
+22:3622 minutes, 36 secondstop or the very bottom um took a lot of fighting with Claude, but eventually I got there.
+22:4322 minutes, 43 secondsOh, okay. So, I know that you've been doing a lot of um this is more on
+22:5022 minutes, 50 secondsmarketing. So, you I know that you've been doing a lot of uh marketing uh on Instagram. Tik Tok is banned in India.
+22:5922 minutes, 59 secondsso I can check out your Tik Tok.
+23:0223 minutes, 2 seconds[laughter]
+23:0223 minutes, 2 secondsUm, uh, so how are you planning to grow the app even more? So through creators,
+23:0923 minutes, 9 secondsinfluencers, Tik Tok, or just like word of mouth. Yeah, so this is actually what energizes me the most about Strike. I'm
+23:1823 minutes, 18 secondsa marketer by trade. I've been a marketer in the tech industry for about 10 years. And um now that the process of
+23:2523 minutes, 25 secondsbuilding is democratized, I think you know anyone can build what
+23:3223 minutes, 32 secondskind of they've envisioned but actually getting it in the hands of people is is
+23:4023 minutes, 40 secondssomething that you know it takes a lot of tenacity and
+23:4623 minutes, 46 secondsa lot of like strategy. And so I'm excited to be able to use these skills I've developed over the years to
+23:5423 minutes, 54 secondsget it in the hands of people that would find it useful, but it's honestly been a lot challenging than I expected. So um
+24:0224 minutes, 2 secondsStrika is completely bootstrapped and um so I don't really have a large marketing
+24:0924 minutes, 9 secondsbudget to work with in terms of standing up paid social. So I'm relying entirely on organic to help find my customers.
+24:1724 minutes, 17 secondsBut I'm actually very excited about taking this approach because typically with mobile apps like
+24:2624 minutes, 26 secondsthey have to spend like tens of thousands of dollars a month on paid social to get and for every 100
+24:3424 minutes, 34 secondsdownloads they get maybe four will pay them for a free trial and only two of those will retain after month one. So, I
+24:4224 minutes, 42 secondsfeel like that's a highly unsustainable way to grow and I would rather double down on organic channels
+24:5124 minutes, 51 secondsum with high intent customers that hopefully like they will be more incentivized to stick
+24:5924 minutes, 59 secondsaround because they are like choosing to continue to like follow my journey online rather than like have found me
+25:0725 minutes, 7 secondsjust through an ad shoved in their face when they weren't expecting it.
+25:1025 minutes, 10 secondsYeah. Yeah, I actually loved your Instagram page, Natalie Builds It. Nat
+25:1725 minutes, 17 secondsBuilds It, right? Is that right? Because the fact that you're sharing your journey of actually building it is um
+25:2525 minutes, 25 secondsreally good. I think people want to get invested, people get invested in their journey as well, right? Not just like um
+25:3525 minutes, 35 secondsjust another app in the market. You market it like with your journey. So that's pretty cool.
+25:4225 minutes, 42 secondsUm, exactly. Yeah. And there's some some intention behind that. So I think like I view so the two things that I talk about
+25:5025 minutes, 50 secondson my not builds it personal um or kind of like founder account is you know struggling with my personal pain point
+25:5925 minutes, 59 secondsof posing for photos and now building a solution but also finding empowerment and building with AI and um and so I
+26:0826 minutes, 8 secondsthink like both use cases are kind of unified by a similar viewoint. point in that like if
+26:1726 minutes, 17 secondsyou kind of put a little bit more effort into like asking to have a photo taken or ask or like figuring out a pose or
+26:2426 minutes, 24 secondsyou know spending the extra hour at night learning to use an AI tool like your life can open up in so many beautiful ways. So that's the intention
+26:3326 minutes, 33 secondsbehind um my NAT built account is just to empower people to take that first step to build their dream lives.
+26:4226 minutes, 42 secondsYeah. Okay. So, do you think social media has made people more camera conscious or camera confident?
+26:5426 minutes, 54 secondsI would say probably the former. So, I am 35. I or I'm turning 35 this week
+27:0127 minutes, 1 secondactually. I guess I'm still 34. But, um, my first experience with taking photos
+27:0827 minutes, 8 secondsfor social media was when I was 14. and I was creating my first MySpace page and I realized I didn't have any photos of
+27:1527 minutes, 15 secondsmyself. So, I snuck into my parents' bedroom when they weren't home, took their personal camera, snapped a few
+27:2227 minutes, 22 secondsselfies of myself, and put them on MySpace. And in reflecting on that moment, I don't know why I was needing to be so secretive about taking photos.
+27:3227 minutes, 32 secondsUm, but I think since then I realized that like taking photos
+27:3927 minutes, 39 secondsfor social media is like very performative and I don't think that
+27:4627 minutes, 46 secondsprior to that time people cared as much about the photos they were taking. Um,
+27:5427 minutes, 54 secondsso I hope that strike just helps people
+28:0328 minutes, 3 secondsfeel just like more confident in the photos that they're taking.
+28:1028 minutes, 10 secondsum and less about the performance for social media and more so just about like feeling good in their skin and
+28:1828 minutes, 18 secondskeeping that kind of piece of joy just for themselves.
+28:2328 minutes, 23 secondsYeah, that's pretty nice. Okay, so my last question um is uh h what's the long-term vision
+28:3328 minutes, 33 secondsfor Striker? How do you see it growing in the next couple of years?
+28:3928 minutes, 39 secondsYeah. So, I kind of alluded to it previously, but I've used or the mission of Strike is to help women feel more
+28:4628 minutes, 46 secondsconfident in front of the camera. So, um I think there's like several things a woman needs to do to feel um
+28:5528 minutes, 55 secondsmore camera ready for that specific like shutter moment. So, I would love to just turn Strike into more of like a
+29:0229 minutes, 2 secondsself-confidence building platform. And um I think as I continue to build my
+29:0829 minutes, 8 secondscommunity, I'm really excited just to spend more time with with my customers and really understand
+29:1729 minutes, 17 secondslike what things I can build just to help them feel better in their skin. And so um I think just having that open feed the back loop really energizes me.
+29:2829 minutes, 28 secondsYeah, that's pretty great. Okay, that were all of my questions. That was pretty insightful. I think uh I hope you had fun answering them as well.
+29:3929 minutes, 39 secondsYeah. And um yeah, I think um this would be very useful to the people listening.
+29:4629 minutes, 46 secondsUm yeah, I think thank you Natalie so much for coming to the show and like sharing your insights about the app. Um
+29:5629 minutes, 56 secondsyeah, it was so it was so fun to share more about my journey. I think um it took a lot of grit and pushing
+30:0430 minutes, 4 secondsthrough times when I just wanted to, you know, veg out on my couch and watch TV, but
+30:1030 minutes, 10 secondsinstead I was debugging or QAing. And I think now that I'm on the other side, um
+30:1830 minutes, 18 secondsit's felt really worth it and just seeing the potential. So I I hope that if you've ever thought about building with AI, um just do it. Like literally
+30:2730 minutes, 27 secondsit just taking that couple extra minutes out of your day just to begin hinkering around can really open up some amazing doors.
+30:3730 minutes, 37 secondsYeah. And you're the only one building like you haven't hired anyone else, right? No, not yet.
+30:4430 minutes, 44 secondsWow. Solo founder. I think that's like an incredible thing because Yeah. Okay,
+30:5130 minutes, 51 secondscool. Thank you so much for watching and I'll see you in the next one. Thank you.
+30:5830 minutes, 58 secondsBye everyone. Thanks for your time. Yeah.
+

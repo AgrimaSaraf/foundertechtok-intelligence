@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FounderTechTok Intelligence</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #173f1d;
+            color: #f5f0e6;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        .page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 55px 24px 35px;
+        }
+
+        /* ==============================
+           BRAND
+        ============================== */
+
+        .brand {
+            text-align: center;
+        }
+
+        /*
+        Replace this with your real microphone
+        image later.
+
+        Example:
+        <img src="/static/microphone.png"
+             class="microphone"
+             alt="FounderTechTok microphone">
+        */
+
+        .microphone {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+            margin-bottom: 14px;
+        }
+
+        .microphone-placeholder {
+            font-size: 44px;
+            line-height: 1;
+            margin-bottom: 14px;
+            filter: grayscale(1) brightness(4);
+        }
+
+        .brand-title {
+            font-size: clamp(58px, 6vw, 88px);
+            line-height: 0.92;
+            font-weight: 700;
+            letter-spacing: -3px;
+        }
+
+        .script {
+            margin-top: 25px;
+            font-family: "Brush Script MT", "Segoe Script", cursive;
+            font-size: 30px;
+            line-height: 1.15;
+            font-style: italic;
+        }
+
+        /* ==============================
+           INTELLIGENCE PRODUCT
+        ============================== */
+
+        .intelligence {
+            margin-top: 30px;
+
+            /* CHANGE #1:
+               larger + stronger hierarchy
+            */
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 8px;
+
+            text-transform: uppercase;
+            color: rgba(245, 240, 230, 0.92);
+        }
+
+        .subtitle {
+            margin-top: 15px;
+            font-size: 19px;
+            color: rgba(245, 240, 230, 0.92);
+        }
+
+        /* ==============================
+           SEARCH PRODUCT AREA
+        ============================== */
+
+        .search-section {
+            width: min(940px, 92vw);
+
+            /*
+            CHANGE #2:
+            more breathing room between
+            brand/product identity and search
+            */
+            margin-top: 68px;
+        }
+
+        .search-box {
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            background: white;
+            border-radius: 18px;
+
+            /*
+            Taller search area
+            */
+            min-height: 76px;
+
+            padding: 9px 10px 9px 28px;
+
+            box-shadow:
+                0 14px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        #question {
+            flex: 1;
+            border: none;
+            outline: none;
+            background: transparent;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: #222;
+        }
+
+        #question::placeholder {
+            color: #777;
+        }
+
+        #askButton {
+            border: none;
+            cursor: pointer;
+
+            background: #244f28;
+            color: white;
+
+            min-width: 108px;
+            height: 54px;
+
+            border-radius: 14px;
+
+            font-size: 16px;
+            font-weight: 700;
+
+            transition:
+                transform 0.15s ease,
+                background 0.15s ease;
+        }
+
+        #askButton:hover {
+            background: #2d6133;
+            transform: translateY(-1px);
+        }
+
+        #askButton:disabled {
+            cursor: wait;
+            opacity: 0.65;
+            transform: none;
+        }
+
+        .powered {
+            margin-top: 17px;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(245, 240, 230, 0.72);
+        }
+
+        /* ==============================
+           RESPONSE
+        ============================== */
+
+        #response {
+            width: min(940px, 92vw);
+            margin-top: 35px;
+            display: none;
+        }
+
+        .answer-card {
+            background: rgba(255, 255, 255, 0.96);
+            color: #222;
+
+            border-radius: 18px;
+            padding: 30px;
+
+            box-shadow:
+                0 15px 45px rgba(0, 0, 0, 0.13);
+        }
+
+        .answer-label {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #777;
+            margin-bottom: 12px;
+        }
+
+        .answer-text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            line-height: 1.65;
+        }
+
+        .citations {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .citation {
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .error {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #8b2020;
+        }
+
+        /* ==============================
+           FOOTER
+        ============================== */
+
+        footer {
+            margin-top: auto;
+            padding-top: 70px;
+
+            font-size: 14px;
+            letter-spacing: 0.5px;
+
+            color: rgba(245, 240, 230, 0.42);
+        }
+
+        /* ==============================
+           MOBILE
+        ============================== */
+
+        @media (max-width: 650px) {
+
+            .page {
+                padding-top: 40px;
+            }
+
+            .brand-title {
+                font-size: 55px;
+            }
+
+            .script {
+                font-size: 25px;
+            }
+
+            .intelligence {
+                font-size: 16px;
+                letter-spacing: 6px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .search-section {
+                margin-top: 50px;
+            }
+
+            .search-box {
+                min-height: 70px;
+                padding-left: 20px;
+            }
+
+            #question {
+                font-size: 16px;
+            }
+
+            #askButton {
+                min-width: 82px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+<div class="page">
+
+    <!-- ==============================
+         FOUNDERTECHTOK BRAND
+    ============================== -->
+
+    <header class="brand">
+
+        <!--
+        TEMPORARY.
+        Replace with your actual white
+        microphone image when you have it.
+        -->
+        <div class="microphone-placeholder">🎙️</div>
+
+
+        <h1 class="brand-title">
+            Founder<br>
+            TechTok
+        </h1>
+
+
+        <div class="script">
+            podcast<br>
+            by Agrima
+        </div>
+
+
+        <div class="intelligence">
+            Intelligence
+        </div>
+
+
+        <p class="subtitle">
+            Ask questions across FounderTechTok conversations.
+        </p>
+
+    </header>
+
+
+    <!-- ==============================
+         SEARCH
+    ============================== -->
+
+    <main class="search-section">
+
+        <div class="search-box">
+
+            <input
+                id="question"
+                type="text"
+                placeholder="Ask FounderTechTok anything..."
+                autocomplete="off"
+            >
+
+            <button id="askButton">
+                Ask →
+            </button>
+
+        </div>
+
+
+        <div class="powered">
+            ✦ Powered by hybrid retrieval, reranking &amp; grounded generation.
+        </div>
+
+    </main>
+
+
+    <!-- ==============================
+         ANSWER
+    ============================== -->
+
+    <section id="response"></section>
+
+
+    <!-- ==============================
+         FOOTER
+    ============================== -->
+
+    <footer>
+        ✦ &nbsp; FounderTechTok Intelligence
+        &nbsp; · &nbsp;
+        Multi-Episode RAG &nbsp; ✦
+    </footer>
+
+</div>
+
+
+<script>
+
+    const questionInput =
+        document.getElementById("question");
+
+    const askButton =
+        document.getElementById("askButton");
+
+    const responseContainer =
+        document.getElementById("response");
+
+
+    async function askQuestion() {
+
+        const question =
+            questionInput.value.trim();
+
+
+        if (!question) {
+            return;
+        }
+
+
+        askButton.disabled = true;
+        askButton.textContent = "Searching...";
+
+
+        responseContainer.style.display =
+            "block";
+
+        responseContainer.innerHTML = `
+            <div class="answer-card">
+                <div class="answer-label">
+                    Searching FounderTechTok
+                </div>
+
+                <div class="answer-text">
+                    Searching across episodes...
+                </div>
+            </div>
+        `;
+
+
+        try {
+
+            const response = await fetch(
+                "/ask",
+                {
+                    method: "POST",
+
+                    headers: {
+                        "Content-Type":
+                            "application/json"
+                    },
+
+                    body: JSON.stringify({
+                        question: question
+                    })
+                }
+            );
+
+
+            const data =
+                await response.json();
+
+
+            if (!response.ok) {
+
+                throw new Error(
+                    data.detail ||
+                    "Request failed."
+                );
+
+            }
+
+
+            if (
+                data.status === "API_ERROR" ||
+                data.status === "GENERATION_ERROR"
+            ) {
+
+                responseContainer.innerHTML = `
+                    <div class="answer-card">
+
+                        <div class="answer-label">
+                            System unavailable
+                        </div>
+
+                        <div class="answer-text error">
+                            The answer-generation service is
+                            temporarily unavailable.
+                            Please try again shortly.
+                        </div>
+
+                    </div>
+                `;
+
+                return;
+            }
+
+
+            let citationsHTML = "";
+
+
+            if (
+                data.citations &&
+                data.citations.length > 0
+            ) {
+
+                citationsHTML = `
+                    <div class="citations">
+
+                        <div class="answer-label">
+                            Sources
+                        </div>
+
+                        ${data.citations.map(
+                            citation => {
+
+                                const episode =
+                                    citation.episode_id ||
+                                    citation.episode ||
+                                    "Episode";
+
+                                const timestamp =
+                                    citation.timestamp ||
+                                    (
+                                        citation.start_time &&
+                                        citation.end_time
+                                            ? `${citation.start_time}–${citation.end_time}`
+                                            : ""
+                                    );
+
+                                return `
+                                    <div class="citation">
+                                        ${episode}
+                                        ${timestamp
+                                            ? " · " + timestamp
+                                            : ""
+                                        }
+                                    </div>
+                                `;
+
+                            }
+                        ).join("")}
+
+                    </div>
+                `;
+            }
+
+
+            const answer =
+                data.answer ||
+                "I don't have enough evidence in the FounderTechTok archive to answer that.";
+
+
+            responseContainer.innerHTML = `
+                <div class="answer-card">
+
+                    <div class="answer-label">
+                        FounderTechTok Intelligence
+                    </div>
+
+                    <div class="answer-text">
+                        ${escapeHTML(answer)}
+                    </div>
+
+                    ${citationsHTML}
+
+                </div>
+            `;
+
+
+        } catch (error) {
+
+            responseContainer.innerHTML = `
+                <div class="answer-card">
+
+                    <div class="answer-label">
+                        Error
+                    </div>
+
+                    <div class="answer-text error">
+                        Something went wrong while
+                        searching FounderTechTok.
+                    </div>
+
+                </div>
+            `;
+
+            console.error(error);
+
+        } finally {
+
+            askButton.disabled = false;
+            askButton.textContent = "Ask →";
+
+        }
+
+    }
+
+
+    function escapeHTML(text) {
+
+        const div =
+            document.createElement("div");
+
+        div.textContent = text;
+
+        return div.innerHTML;
+
+    }
+
+
+    askButton.addEventListener(
+        "click",
+        askQuestion
+    );
+
+
+    questionInput.addEventListener(
+        "keydown",
+        function(event) {
+
+            if (event.key === "Enter") {
+                askQuestion();
+            }
+
+        }
+    );
+
+</script>
+
+</body>
+</html>

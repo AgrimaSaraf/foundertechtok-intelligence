@@ -201,3 +201,5 @@ sentence-transformers
 torch
 transformers
 numpy
+fastapi
+uvicorn

@@ -1,0 +1,387 @@
+[
+  {
+    "id": "q001",
+    "question": "How do salespeople build trust with customers?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_01",
+        "guest": "Khushy Aggarwal",
+        "start_time": "31:44",
+        "end_time": "32:01"
+      }
+    ]
+  },
+  {
+    "id": "q002",
+    "question": "How long did incentive calculations take before Khushy's system automated them?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_01",
+        "guest": "Khushy Aggarwal",
+        "start_time": "26:14",
+        "end_time": "26:35"
+      }
+    ]
+  },
+  {
+    "id": "q003",
+    "question": "What inefficient tools were sales teams using to calculate incentives?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_01",
+        "guest": "Khushy Aggarwal",
+        "start_time": "26:21",
+        "end_time": "26:46"
+      }
+    ]
+  },
+  {
+    "id": "q004",
+    "question": "What did Khushy learn about sales from frontline salespeople?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_01",
+        "guest": "Khushy Aggarwal",
+        "start_time": "31:38",
+        "end_time": "32:01"
+      }
+    ]
+  },
+  {
+    "id": "q005",
+    "question": "According to Ananya, what is business fundamentally about?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_02",
+        "guest": "Ananya Jain",
+        "start_time": "03:51",
+        "end_time": "04:33"
+      }
+    ]
+  },
+  {
+    "id": "q006",
+    "question": "Why did closing another six-figure deal feel inevitable to Ananya?",
+    "category": "hard",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_02",
+        "guest": "Ananya Jain",
+        "start_time": "06:43",
+        "end_time": "07:24"
+      }
+    ]
+  },
+  {
+    "id": "q007",
+    "question": "What kind of life does Ananya hope to live in ten years?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_02",
+        "guest": "Ananya Jain",
+        "start_time": "21:29",
+        "end_time": "21:52"
+      }
+    ]
+  },
+  {
+    "id": "q008",
+    "question": "Why does Ananya believe paranoia is useful for founders?",
+    "category": "hard",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_02",
+        "guest": "Ananya Jain",
+        "start_time": "23:54",
+        "end_time": "24:33"
+      }
+    ]
+  },
+  {
+    "id": "q009",
+    "question": "What product was Vedant's team building for the robotics industry?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_03",
+        "guest": "Vedant Nair",
+        "start_time": "16:51",
+        "end_time": "17:08"
+      }
+    ]
+  },
+  {
+    "id": "q010",
+    "question": "What mindset does Vedant's team use when approaching their work?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_03",
+        "guest": "Vedant Nair",
+        "start_time": "21:28",
+        "end_time": "21:50"
+      }
+    ]
+  },
+  {
+    "id": "q011",
+    "question": "How did Ayushi's parents influence her interest in healthcare access?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_04",
+        "guest": "Ayushi Sinha",
+        "start_time": "01:48",
+        "end_time": "02:28"
+      }
+    ]
+  },
+  {
+    "id": "q012",
+    "question": "What misconception about healthcare data does Ayushi think slows AI progress?",
+    "category": "hard",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_04",
+        "guest": "Ayushi Sinha",
+        "start_time": "06:10",
+        "end_time": "06:40"
+      }
+    ]
+  },
+  {
+    "id": "q013",
+    "question": "Who does Ayushi think should manage the healthcare-data labeling process, and why?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_04",
+        "guest": "Ayushi Sinha",
+        "start_time": "07:50",
+        "end_time": "08:14"
+      }
+    ]
+  },
+  {
+    "id": "q014",
+    "question": "How did Turmeric approach skeptical doctors when introducing AI?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_04",
+        "guest": "Ayushi Sinha",
+        "start_time": "11:35",
+        "end_time": "12:11"
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "question": "What are Alisha's three major professional or personal identities?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_05",
+        "guest": "Alisha Gupta",
+        "start_time": "03:12",
+        "end_time": "03:28"
+      }
+    ]
+  },
+  {
+    "id": "q016",
+    "question": "How did Alisha create loyalty within the Beauty and Balance community?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_05",
+        "guest": "Alisha Gupta",
+        "start_time": "10:54",
+        "end_time": "12:05"
+      }
+    ]
+  },
+  {
+    "id": "q017",
+    "question": "What does Alisha mean by realistically balancing different parts of life?",
+    "category": "hard",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_05",
+        "guest": "Alisha Gupta",
+        "start_time": "15:14",
+        "end_time": "15:32"
+      }
+    ]
+  },
+  {
+    "id": "q018",
+    "question": "How does Aashna compare product iteration in software and fashion?",
+    "category": "cross_domain",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_06",
+        "guest": "Aashna Mehta",
+        "start_time": "06:31",
+        "end_time": "07:03"
+      }
+    ]
+  },
+  {
+    "id": "q019",
+    "question": "How does Aashna differentiate her clothing brand from other Indian-inspired brands?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_06",
+        "guest": "Aashna Mehta",
+        "start_time": "14:10",
+        "end_time": "14:42"
+      }
+    ]
+  },
+  {
+    "id": "q020",
+    "question": "What would Aashna do differently if she restarted her production process?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_06",
+        "guest": "Aashna Mehta",
+        "start_time": "20:54",
+        "end_time": "21:55"
+      }
+    ]
+  },
+  {
+    "id": "q021",
+    "question": "What skincare habits contributed to the breakout discussed by Rucha?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_07",
+        "guest": "Rucha Dave",
+        "start_time": "06:45",
+        "end_time": "07:02"
+      }
+    ]
+  },
+  {
+    "id": "q022",
+    "question": "What did Natalie learn from testing Strika with users before launch?",
+    "category": "hard",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_08",
+        "guest": "Natalie Beaulieu",
+        "start_time": "03:52",
+        "end_time": "04:25"
+      }
+    ]
+  },
+  {
+    "id": "q023",
+    "question": "How did user feedback influence Strika's expansion beyond North America?",
+    "category": "paraphrased",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_08",
+        "guest": "Natalie Beaulieu",
+        "start_time": "17:52",
+        "end_time": "18:33"
+      }
+    ]
+  },
+  {
+    "id": "q024",
+    "question": "How does Fitin's two-sided marketplace work?",
+    "category": "direct",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_09",
+        "guest": "Shania Jain",
+        "start_time": "05:50",
+        "end_time": "06:19"
+      }
+    ]
+  },
+  {
+    "id": "q025",
+    "question": "Why does Shania believe AI cannot fully replace in-person fitness experiences?",
+    "category": "hard",
+    "should_answer": true,
+    "relevant_sources": [
+      {
+        "episode_id": "episode_09",
+        "guest": "Shania Jain",
+        "start_time": "18:04",
+        "end_time": "18:51"
+      }
+    ]
+  },
+  {
+    "id": "q026",
+    "question": "What did the guests say about nuclear fusion?",
+    "category": "unanswerable",
+    "should_answer": false,
+    "relevant_sources": []
+  },
+  {
+    "id": "q027",
+    "question": "What programming language did Khushy use to build My Incentives?",
+    "category": "unanswerable",
+    "should_answer": false,
+    "relevant_sources": []
+  },
+  {
+    "id": "q028",
+    "question": "How much venture capital did Ananya raise for Full Circle?",
+    "category": "unanswerable",
+    "should_answer": false,
+    "relevant_sources": []
+  },
+  {
+    "id": "q029",
+    "question": "What database technology does Fitin use in production?",
+    "category": "unanswerable",
+    "should_answer": false,
+    "relevant_sources": []
+  },
+  {
+    "id": "q030",
+    "question": "What accuracy benchmark did Turmeric's healthcare AI models achieve?",
+    "category": "unanswerable",
+    "should_answer": false,
+    "relevant_sources": []
+  }
+]
